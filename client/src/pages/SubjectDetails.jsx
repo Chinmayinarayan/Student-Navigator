@@ -874,9 +874,33 @@ const YT_RESOURCES = [
   {
     keys: ["multivariable calculus"],
     resources: [
-      { title: "MIT OCW – Multivariable Calculus", channel: "MIT OpenCourseWare", url: "https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" },
-      { title: "Khan Academy – Multivariable Calculus", channel: "Khan Academy", url: "https://www.youtube.com/@khanacademy/playlists" },
-      { title: "NPTEL – Multivariable Calculus", channel: "NPTEL", url: "https://nptel.ac.in/" },
+      {
+    "title": "MIT OpenCourseWare – Multivariable Calculus",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38"
+  },
+  {
+    "title": "Khan Academy – Multivariable Calculus",
+    "channel": "Khan Academy",
+    "url": "https://www.youtube.com/playlist?list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7"
+  },
+  {
+    "title": "Dr. Trefor Bazett",
+    "channel": "Dr. Trefor Bazett",
+    "url": "https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd"
+  },
+  {
+    "title": "Mathematics",
+    "channel": "Mathematics",
+    "url": "https://www.youtube.com/playlist?list=PLtKWB-wrvn4nA2h8TFxzWL2zy8O9th_fy"
+  },
+  {
+    "title": "NPTEL – Multivariable Calculus",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/111107108"
+  }
+    
+    
     ],
   },
   {
@@ -890,89 +914,354 @@ const YT_RESOURCES = [
   {
     keys: ["object oriented programming lab", "oop lab"],
     resources: [
-      { title: "freeCodeCamp – Java Programming Projects", channel: "freeCodeCamp", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Programming with Mosh – Java", channel: "Programming with Mosh", url: "https://www.youtube.com/@programmingwithmosh" },
-      { title: "Telusko Java Projects", channel: "Telusko", url: "https://www.youtube.com/@Telusko" },
+      {
+    "title": "freeCodeCamp – Java Programming Projects",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG"
+  },
+  {
+    "title": "Programming with Mosh – Java",
+    "channel": "Programming with Mosh",
+    "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+  },
+  {
+    "title": "Telusko Java Projects",
+    "channel": "Telusko",
+    "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5"
+  }
+    
+    
     ],
   },
   {
     keys: ["object oriented programming", "oop"],
     resources: [
-      { title: "Neso Academy – OOP", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Telusko – Java OOP", channel: "Telusko", url: "https://www.youtube.com/@Telusko" },
-      { title: "freeCodeCamp – Java Programming", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=A74TOX803D0" },
+      {
+    "title": "Apna College (Video 1)",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/watch?v=bSrm9RXwBaI&t=1s"
+  },
+  {
+    "title": "Apna College (Video 2)",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/watch?v=mlIUKyZIUUU&t=50s"
+  },
+  {
+    "title": "Neso Academy – Object Oriented Programming",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5"
+  },
+  {
+    "title": "Telusko – Java OOP",
+    "channel": "Telusko",
+    "url": "https://www.youtube.com/watch?v=qiSCMNBIP2g"
+  },
+  {
+    "title": "freeCodeCamp – Java Programming (Video 1)",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+  },
+  {
+    "title": "freeCodeCamp – Java Programming (Video 2)",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=wN0x9eZLix4"
+  },
+  {
+    "title": "Programming with Mosh",
+    "channel": "Programming with Mosh",
+    "url": "https://www.youtube.com/watch?v=PFmuCDHHpwk"
+  },
+  {
+    "title": "Kunal Kushwaha",
+    "channel": "Kunal Kushwaha",
+    "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk"
+  }
+    
+    
     ],
   },
   {
     keys: ["operating system"],
     resources: [
-      { title: "Gate Smashers – Operating System", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Operating System", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "NPTEL – Operating Systems", channel: "NPTEL", url: "https://nptel.ac.in/courses/106106144" },
+      {
+    "title": "Gate Smashers – Operating System",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+  },
+  {
+    "title": "Neso Academy – Operating System",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=yK1uBHPdp30"
+  },
+  {
+    "title": "CodeHelp - by Babbar",
+    "channel": "CodeHelp - by Babbar",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG"
+  },
+  {
+    "title": "NPTEL – Operating Systems",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106106144"
+  }
+    
+    
     ],
   },
   {
     keys: ["compiler design", "compiler"],
     resources: [
-      { title: "Gate Smashers – Compiler Design", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Compiler Design", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "NPTEL – Compiler Design", channel: "NPTEL", url: "https://nptel.ac.in/" },
+      {
+    "title": "Gate Smashers – Compiler Design",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc"
+  },
+  {
+    "title": "Neso Academy – Compiler Design",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q"
+  },
+  {
+    "title": "THE GATEHUB",
+    "channel": "THE GATEHUB",
+    "url": "https://www.youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr"
+  },
+  {
+    "title": "Sudhakar Atchala",
+    "channel": "Sudhakar Atchala",
+    "url": "https://www.youtube.com/playlist?list=PLXj4XH7LcRfC9pGMWuM6UWE3V4YZ9TZzM"
+  },
+  {
+    "title": "NPTEL – Compiler Design",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106104123"
+  }
+    
     ],
   },
   {
     keys: ["probability", "statistics"],
     resources: [
-      { title: "Khan Academy – Statistics and Probability", channel: "Khan Academy", url: "https://www.youtube.com/playlist?list=PL1328115D3D8A2566" },
-      { title: "StatQuest – Statistics Playlist", channel: "StatQuest", url: "https://www.youtube.com/@statquest/playlists" },
-      { title: "NPTEL – Probability and Statistics", channel: "NPTEL", url: "https://nptel.ac.in/" },
+      {
+    "title": "Dr.Gajendra Purohit",
+    "channel": "Dr.Gajendra Purohit",
+    "url": "https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8"
+  },
+  {
+    "title": "Gate Smashers",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFjZP4z1_3Kr3m3J5wu5Q8V"
+  },
+  {
+    "title": "Great Learning",
+    "channel": "Great Learning",
+    "url": "https://www.youtube.com/watch?v=Vfo5le26IhY"
+  },
+  {
+    "title": "Khan Academy – Statistics and Probability",
+    "channel": "Khan Academy",
+    "url": "https://www.youtube.com/playlist?list=PLC58778F28211FA19"
+  },
+  {
+    "title": "StatQuest – Statistics Playlist",
+    "channel": "StatQuest",
+    "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9"
+  },
+  {
+    "title": "NPTEL – Probability and Statistics",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/111105090"
+  }
+    
     ],
   },
   {
     keys: ["problem solving"],
     resources: [
-      { title: "freeCodeCamp – Programming Problem Solving", channel: "freeCodeCamp", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Abdul Bari – Algorithms", channel: "Abdul Bari", url: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" },
-      { title: "NeetCode – Problem Solving Patterns", channel: "NeetCode", url: "https://www.youtube.com/@NeetCode/playlists" },
+      {
+    "title": "freeCodeCamp – Programming Problem Solving (Video 1)",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=xJjxQjZTryI"
+  },
+  {
+    "title": "freeCodeCamp – Programming Problem Solving (Playlist)",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/playlist?list=PLUzvZMEoR0KvEthotRQR3qoJ5FJxkhvaP"
+  },
+  {
+    "title": "Abdul Bari – Algorithms",
+    "channel": "Abdul Bari",
+    "url": "https://www.youtube.com/playlist?list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr"
+  },
+  {
+    "title": "NeetCode – Problem Solving Patterns",
+    "channel": "NeetCode",
+    "url": "https://www.youtube.com/playlist?list=PLot-Xpze53leF0FeHz2X0aG3zd0mr1AW_"
+  }
+    
     ],
   },
   {
     keys: ["professional aptitude", "logical reasoning", "aptitude"],
     resources: [
-      { title: "Neso Academy – Aptitude and Reasoning", channel: "Neso Academy", url: "https://www.nesoacademy.org/ot/03-aptitude-and-reasoning" },
-      { title: "TalentSprint Aptitude Preparation", channel: "TalentSprint", url: "https://www.youtube.com/@TalentSprintAptitudePrep" },
-      { title: "IndiaBix", channel: "IndiaBix", url: "https://www.indiabix.com/" },
+      {
+    "title": "CareerRide (Playlist 1)",
+    "channel": "Career Ride",
+    "url": "https://www.youtube.com/playlist?list=PLpyc33gOcbVADMKqylI__O_O_RMeHTyNK"
+  },
+  {
+    "title": "CareerRide (Playlist 2)",
+    "channel": "Career Ride",
+    "url": "https://www.youtube.com/playlist?list=PLpyc33gOcbVC2wRtQXK8Gdt1VFjeVY4ea"
+  },
+  {
+    "title": "CareerVidz",
+    "channel": "CareerVidz",
+    "url": "https://www.youtube.com/playlist?list=PLCcteVWYyBtt14T7wwUvAPlhPm3SQVAsI"
+  },
+  {
+    "title": "Neso Academy – Aptitude and Reasoning",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhMP7gwIe2j0hb1PCvYn0RI"
+  },
+  {
+    "title": "TalentSprint Aptitude Preparation",
+    "channel": "TalentSprint",
+    "url": "https://www.youtube.com/playlist?list=PLffLKBjSzxT_0-jbwym7NyG6hpN7faov5"
+  },
+  {
+    "title": "IndiaBix",
+    "channel": "IndiaBix",
+    "url": "https://www.indiabix.com/"
+  }
+    
+    
     ],
   },
   {
     keys: ["single variable calculus", "calculus"],
     resources: [
-      { title: "3Blue1Brown – Essence of Calculus", channel: "3Blue1Brown", url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" },
-      { title: "MIT OCW – Single Variable Calculus", channel: "MIT OpenCourseWare", url: "https://www.youtube.com/playlist?list=PL590CCC2BC5AF3BC1" },
-      { title: "Khan Academy – Calculus", channel: "Khan Academy", url: "https://www.youtube.com/@khanacademy/playlists" },
+      {
+    "title": "3Blue1Brown – Essence of Calculus",
+    "channel": "3Blue1Brown",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+  },
+  {
+    "title": "MIT OpenCourseWare – Single Variable Calculus",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://www.youtube.com/playlist?list=PL590CCC2BC5AF3BC1"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9iw3yQWge_IjhXZlDgRGwyq"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=HfACrKJ_Y2w"
+  },
+  {
+    "title": "Khan Academy – Calculus",
+    "channel": "Khan Academy",
+    "url": "https://www.youtube.com/playlist?list=PL19E79A0638C8D449"
+  }
+    
+    
     ],
   },
   {
     keys: ["software engineering"],
     resources: [
-      { title: "Neso Academy – Software Engineering", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Software Engineering", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Software Engineering", channel: "NPTEL", url: "https://nptel.ac.in/" },
+      {
+    "title": "Gate Smashers – Software Engineering",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2"
+  },
+  {
+    "title": "CS & IT Tutorials by",
+    "channel": "CS & IT Tutorials by Vrushali",
+    "url": "https://www.youtube.com/playlist?list=PLQ-nEJNYlEV29CBLzIDxcogm6CEZjVad2"
+  },
+  {
+    "title": "KnowledgeGATE",
+    "channel": "Knowledge Gate",
+    "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesTrw7n8ouPsSLEcduRlENHr"
+  },
+  {
+    "title": "NPTEL – Software Engineering",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106105182"
+  }
+    
+    
     ],
   },
   {
     keys: ["web technologies", "web tech"],
     resources: [
-      { title: "freeCodeCamp – Web Development Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Traversy Media – Web Development", channel: "Traversy Media", url: "https://www.youtube.com/@TraversyMedia/playlists" },
-      { title: "The Net Ninja – Web Development", channel: "The Net Ninja", url: "https://www.youtube.com/@NetNinja/playlists" },
+      {
+    "title": "Apna College",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+  },
+  {
+    "title": "code With Harry",
+    "channel": "CodeWithHarry",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+  },
+  {
+    "title": "freeCodeCamp – Web Development Full Course",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+  },
+  {
+    "title": "Traversy Media – Web Development",
+    "channel": "Traversy Media",
+    "url": "https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8"
+  },
+  {
+    "title": "The Net Ninja – Web Development",
+    "channel": "The Net Ninja",
+    "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+  }
+    
     ],
   },
   {
     keys: ["wireless", "mobile networks"],
     resources: [
-      { title: "NPTEL – Wireless Communication", channel: "NPTEL", url: "https://nptel.ac.in/" },
-      { title: "Gate Smashers – Computer Networks / Wireless", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Wireless Communication", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "NPTEL – Wireless Communication",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/108106192"
+  },
+  {
+    "title": "Gate Smashers – Computer Networks/Wireless Networks",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_"
+  },
+  {
+    "title": "Neso Academy – Wireless Communication",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLy3WPoMBTDovzkMPUugkY"
+  },
+  {
+    "title": "Er. Manish Sachdeva",
+    "channel": "Er. Manish Sachdeva",
+    "url": "https://www.youtube.com/playlist?list=PLz1qUBU_8618W8rExBmaCOPmVmU2uxihD"
+  },
+  {
+    "title": "5 Minutes Engineering",
+    "channel": "5 Minutes Engineering",
+    "url": "https://www.youtube.com/playlist?list=PLYwpaL_SFmcAjqrKO-b9UMa2AaAlzZY7D"
+  }
+    
+    
     ],
   },
 ];

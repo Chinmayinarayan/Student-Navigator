@@ -992,9 +992,38 @@ const subjects = [
   {
     id: 31, name: "Multivariable Calculus", group: "Mathematics",
     resources: [
-      { title: "MIT OCW – Multivariable Calculus", channel: "MIT OpenCourseWare", description: "Partial derivatives, multiple integrals, and vector calculus.", url: "https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" },
-      { title: "Khan Academy – Multivariable Calculus", channel: "Khan Academy", description: "Step-by-step multivariable calculus tutorials.", url: "https://www.youtube.com/@khanacademy/playlists" },
-      { title: "NPTEL – Multivariable Calculus", channel: "NPTEL", description: "University-level multivariable calculus for engineers.", url: "https://nptel.ac.in/" },
+      {
+    "title": "MIT OpenCourseWare – Multivariable Calculus",
+    "channel": "MIT OpenCourseWare",
+    "description": "YouTube video tutorials for Multivariable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38"
+  },
+  {
+    "title": "Khan Academy – Multivariable Calculus",
+    "channel": "Khan Academy",
+    "description": "YouTube video tutorials for Multivariable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7"
+  },
+  {
+    "title": "Dr. Trefor Bazett",
+    "channel": "Dr. Trefor Bazett",
+    "description": "YouTube video tutorials for Multivariable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd"
+  },
+  {
+    "title": "Mathematics",
+    "channel": "Mathematics",
+    "description": "YouTube video tutorials for Multivariable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PLtKWB-wrvn4nA2h8TFxzWL2zy8O9th_fy"
+  },
+  {
+    "title": "NPTEL – Multivariable Calculus",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Multivariable Calculus.",
+    "url": "https://nptel.ac.in/courses/111107108"
+  }
+    
+    
     ],
   },
   {
@@ -1008,89 +1037,414 @@ const subjects = [
   {
     id: 33, name: "Object Oriented Programming", group: "Programming",
     resources: [
-      { title: "Neso Academy – OOP", channel: "Neso Academy", description: "OOP concepts: classes, objects, inheritance, and polymorphism.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Telusko – Java OOP", channel: "Telusko", description: "Java-based OOP with projects and coding examples.", url: "https://www.youtube.com/@Telusko" },
-      { title: "freeCodeCamp – Java Programming", channel: "freeCodeCamp", description: "Full Java programming course with OOP principles.", url: "https://www.youtube.com/watch?v=A74TOX803D0" },
+      {
+    "title": "Apna College (Video 1)",
+    "channel": "Apna College",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=bSrm9RXwBaI&t=1s"
+  },
+  {
+    "title": "Apna College (Video 2)",
+    "channel": "Apna College",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=mlIUKyZIUUU&t=50s"
+  },
+  {
+    "title": "Neso Academy – Object Oriented Programming",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5"
+  },
+  {
+    "title": "Telusko – Java OOP",
+    "channel": "Telusko",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=qiSCMNBIP2g"
+  },
+  {
+    "title": "freeCodeCamp – Java Programming (Video 1)",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+  },
+  {
+    "title": "freeCodeCamp – Java Programming (Video 2)",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=wN0x9eZLix4"
+  },
+  {
+    "title": "Programming with Mosh",
+    "channel": "Programming with Mosh",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/watch?v=PFmuCDHHpwk"
+  },
+  {
+    "title": "Kunal Kushwaha",
+    "channel": "Kunal Kushwaha",
+    "description": "YouTube video tutorials for Object Oriented Programming.",
+    "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk"
+  }
+    
+    
     ],
   },
   {
     id: 34, name: "Object Oriented Programming Lab", group: "Programming",
     resources: [
-      { title: "freeCodeCamp – Java Programming Projects", channel: "freeCodeCamp", description: "Java project-based learning for OOP lab practice.", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Programming with Mosh – Java", channel: "Programming with Mosh", description: "Practical Java programming and OOP implementation.", url: "https://www.youtube.com/@programmingwithmosh" },
-      { title: "Telusko Java Projects", channel: "Telusko", description: "Real-world Java projects to practice OOP concepts.", url: "https://www.youtube.com/@Telusko" },
+      {
+    "title": "freeCodeCamp – Java Programming Projects",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Object Oriented Programming Lab.",
+    "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG"
+  },
+  {
+    "title": "Programming with Mosh – Java",
+    "channel": "Programming with Mosh",
+    "description": "YouTube video tutorials for Object Oriented Programming Lab.",
+    "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+  },
+  {
+    "title": "Telusko Java Projects",
+    "channel": "Telusko",
+    "description": "YouTube video tutorials for Object Oriented Programming Lab.",
+    "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5"
+  }
+    
+    
     ],
   },
   {
     id: 35, name: "Operating System Principles and Programming", group: "Core CS",
     resources: [
-      { title: "Gate Smashers – Operating System", channel: "Gate Smashers", description: "Processes, threads, scheduling, memory management, and file systems.", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Operating System", channel: "Neso Academy", description: "Complete OS course for engineering students and GATE.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "NPTEL – Operating Systems", channel: "NPTEL", description: "IIT-level operating systems course.", url: "https://nptel.ac.in/courses/106106144" },
+      {
+    "title": "Gate Smashers – Operating System",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Operating System Principles and Programming.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+  },
+  {
+    "title": "Neso Academy – Operating System",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Operating System Principles and Programming.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Operating System Principles and Programming.",
+    "url": "https://www.youtube.com/watch?v=yK1uBHPdp30"
+  },
+  {
+    "title": "CodeHelp - by Babbar",
+    "channel": "CodeHelp - by Babbar",
+    "description": "YouTube video tutorials for Operating System Principles and Programming.",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG"
+  },
+  {
+    "title": "NPTEL – Operating Systems",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Operating System Principles and Programming.",
+    "url": "https://nptel.ac.in/courses/106106144"
+  }
+    
+    
     ],
   },
   {
     id: 36, name: "Principles of Compiler Design", group: "Core CS",
     resources: [
-      { title: "Gate Smashers – Compiler Design", channel: "Gate Smashers", description: "Lexical analysis, parsing, syntax tree, and code generation.", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Compiler Design", channel: "Neso Academy", description: "Compiler design concepts for university and GATE syllabus.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "NPTEL – Compiler Design", channel: "NPTEL", description: "University-level compiler design course from IIT.", url: "https://nptel.ac.in/" },
+      {
+    "title": "Gate Smashers – Compiler Design",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Principles of Compiler Design.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc"
+  },
+  {
+    "title": "Neso Academy – Compiler Design",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Principles of Compiler Design.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q"
+  },
+  {
+    "title": "THE GATEHUB",
+    "channel": "THE GATEHUB",
+    "description": "YouTube video tutorials for Principles of Compiler Design.",
+    "url": "https://www.youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr"
+  },
+  {
+    "title": "Sudhakar Atchala",
+    "channel": "Sudhakar Atchala",
+    "description": "YouTube video tutorials for Principles of Compiler Design.",
+    "url": "https://www.youtube.com/playlist?list=PLXj4XH7LcRfC9pGMWuM6UWE3V4YZ9TZzM"
+  },
+  {
+    "title": "NPTEL – Compiler Design",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Principles of Compiler Design.",
+    "url": "https://nptel.ac.in/courses/106104123"
+  }
+    
+    
     ],
   },
   {
     id: 37, name: "Probability and Statistics", group: "Mathematics",
     resources: [
-      { title: "Khan Academy – Statistics and Probability", channel: "Khan Academy", description: "Complete foundation in probability and statistics.", url: "https://www.youtube.com/playlist?list=PL1328115D3D8A2566" },
-      { title: "StatQuest – Statistics Playlist", channel: "StatQuest", description: "Best statistics explanations for ML preparation.", url: "https://www.youtube.com/@statquest/playlists" },
-      { title: "NPTEL – Probability and Statistics", channel: "NPTEL", description: "Engineering probability and statistics course.", url: "https://nptel.ac.in/" },
+      {
+    "title": "Dr.Gajendra Purohit",
+    "channel": "Dr.Gajendra Purohit",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8"
+  },
+  {
+    "title": "Gate Smashers",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFjZP4z1_3Kr3m3J5wu5Q8V"
+  },
+  {
+    "title": "Great Learning",
+    "channel": "Great Learning",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://www.youtube.com/watch?v=Vfo5le26IhY"
+  },
+  {
+    "title": "Khan Academy – Statistics and Probability",
+    "channel": "Khan Academy",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://www.youtube.com/playlist?list=PLC58778F28211FA19"
+  },
+  {
+    "title": "StatQuest – Statistics Playlist",
+    "channel": "StatQuest",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9"
+  },
+  {
+    "title": "NPTEL – Probability and Statistics",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Probability and Statistics.",
+    "url": "https://nptel.ac.in/courses/111105090"
+  }
+    
+    
     ],
   },
   {
     id: 38, name: "Problem Solving & Analysis", group: "Programming",
     resources: [
-      { title: "freeCodeCamp – Programming Problem Solving", channel: "freeCodeCamp", description: "Algorithmic thinking and coding problem solving.", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Abdul Bari – Algorithms", channel: "Abdul Bari", description: "Logical problem solving foundation through algorithms.", url: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" },
-      { title: "NeetCode – Problem Solving Patterns", channel: "NeetCode", description: "Interview problem solving patterns: sliding window, two pointers, etc.", url: "https://www.youtube.com/@NeetCode/playlists" },
+      {
+    "title": "freeCodeCamp – Programming Problem Solving (Video 1)",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Problem Solving & Analysis.",
+    "url": "https://www.youtube.com/watch?v=xJjxQjZTryI"
+  },
+  {
+    "title": "freeCodeCamp – Programming Problem Solving (Playlist)",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Problem Solving & Analysis.",
+    "url": "https://www.youtube.com/playlist?list=PLUzvZMEoR0KvEthotRQR3qoJ5FJxkhvaP"
+  },
+  {
+    "title": "Abdul Bari – Algorithms",
+    "channel": "Abdul Bari",
+    "description": "YouTube video tutorials for Problem Solving & Analysis.",
+    "url": "https://www.youtube.com/playlist?list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr"
+  },
+  {
+    "title": "NeetCode – Problem Solving Patterns",
+    "channel": "NeetCode",
+    "description": "YouTube video tutorials for Problem Solving & Analysis.",
+    "url": "https://www.youtube.com/playlist?list=PLot-Xpze53leF0FeHz2X0aG3zd0mr1AW_"
+  }
+    
+    
     ],
   },
   {
     id: 39, name: "Professional Aptitude & Logical Reasoning", group: "Aptitude",
     resources: [
-      { title: "Neso Academy – Aptitude and Reasoning", channel: "Neso Academy", description: "Aptitude and logical reasoning for placements.", url: "https://www.nesoacademy.org/ot/03-aptitude-and-reasoning" },
-      { title: "TalentSprint Aptitude Preparation", channel: "TalentSprint", description: "Company-specific aptitude preparation videos.", url: "https://www.youtube.com/@TalentSprintAptitudePrep" },
-      { title: "IndiaBix", channel: "IndiaBix", description: "Extensive placement aptitude practice with solutions.", url: "https://www.indiabix.com/" },
+      {
+    "title": "CareerRide (Playlist 1)",
+    "channel": "Career Ride",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.youtube.com/playlist?list=PLpyc33gOcbVADMKqylI__O_O_RMeHTyNK"
+  },
+  {
+    "title": "CareerRide (Playlist 2)",
+    "channel": "Career Ride",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.youtube.com/playlist?list=PLpyc33gOcbVC2wRtQXK8Gdt1VFjeVY4ea"
+  },
+  {
+    "title": "CareerVidz",
+    "channel": "CareerVidz",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.youtube.com/playlist?list=PLCcteVWYyBtt14T7wwUvAPlhPm3SQVAsI"
+  },
+  {
+    "title": "Neso Academy – Aptitude and Reasoning",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhMP7gwIe2j0hb1PCvYn0RI"
+  },
+  {
+    "title": "TalentSprint Aptitude Preparation",
+    "channel": "TalentSprint",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.youtube.com/playlist?list=PLffLKBjSzxT_0-jbwym7NyG6hpN7faov5"
+  },
+  {
+    "title": "IndiaBix",
+    "channel": "IndiaBix",
+    "description": "YouTube video tutorials for Professional Aptitude & Logical Reasoning.",
+    "url": "https://www.indiabix.com/"
+  }
+    
+    
     ],
   },
   {
     id: 40, name: "Single Variable Calculus", group: "Mathematics",
     resources: [
-      { title: "3Blue1Brown – Essence of Calculus", channel: "3Blue1Brown", description: "Best visual understanding of calculus fundamentals.", url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" },
-      { title: "MIT OCW – Single Variable Calculus", channel: "MIT OpenCourseWare", description: "MIT's single variable calculus university course.", url: "https://www.youtube.com/playlist?list=PL590CCC2BC5AF3BC1" },
-      { title: "Khan Academy – Calculus", channel: "Khan Academy", description: "Complete calculus from limits to integration.", url: "https://www.youtube.com/@khanacademy/playlists" },
+      {
+    "title": "3Blue1Brown – Essence of Calculus",
+    "channel": "3Blue1Brown",
+    "description": "YouTube video tutorials for Single Variable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+  },
+  {
+    "title": "MIT OpenCourseWare – Single Variable Calculus",
+    "channel": "MIT OpenCourseWare",
+    "description": "YouTube video tutorials for Single Variable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PL590CCC2BC5AF3BC1"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Single Variable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9iw3yQWge_IjhXZlDgRGwyq"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Single Variable Calculus.",
+    "url": "https://www.youtube.com/watch?v=HfACrKJ_Y2w"
+  },
+  {
+    "title": "Khan Academy – Calculus",
+    "channel": "Khan Academy",
+    "description": "YouTube video tutorials for Single Variable Calculus.",
+    "url": "https://www.youtube.com/playlist?list=PL19E79A0638C8D449"
+  }
+    
+    
     ],
   },
   {
     id: 41, name: "Software Engineering", group: "Core CS",
     resources: [
-      { title: "Neso Academy – Software Engineering", channel: "Neso Academy", description: "SDLC, Agile, testing, and software design principles.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Software Engineering", channel: "Gate Smashers", description: "Software engineering for university and GATE examinations.", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Software Engineering", channel: "NPTEL", description: "IIT-level software engineering course with industry practices.", url: "https://nptel.ac.in/" },
+      {
+    "title": "Gate Smashers – Software Engineering",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Software Engineering.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2"
+  },
+  {
+    "title": "CS & IT Tutorials by",
+    "channel": "CS & IT Tutorials by Vrushali",
+    "description": "YouTube video tutorials for Software Engineering.",
+    "url": "https://www.youtube.com/playlist?list=PLQ-nEJNYlEV29CBLzIDxcogm6CEZjVad2"
+  },
+  {
+    "title": "KnowledgeGATE",
+    "channel": "Knowledge Gate",
+    "description": "YouTube video tutorials for Software Engineering.",
+    "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesTrw7n8ouPsSLEcduRlENHr"
+  },
+  {
+    "title": "NPTEL – Software Engineering",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Software Engineering.",
+    "url": "https://nptel.ac.in/courses/106105182"
+  }
+    
+    
     ],
   },
   {
     id: 42, name: "Web Technologies Lab", group: "Programming",
     resources: [
-      { title: "freeCodeCamp – Web Development Full Course", channel: "freeCodeCamp", description: "HTML, CSS, JavaScript, and web development projects.", url: "https://www.youtube.com/@freecodecamp/playlists" },
-      { title: "Traversy Media – Web Development", channel: "Traversy Media", description: "Modern web development tutorials and project builds.", url: "https://www.youtube.com/@TraversyMedia/playlists" },
-      { title: "The Net Ninja – Web Development", channel: "The Net Ninja", description: "Structured web development courses from basics to frameworks.", url: "https://www.youtube.com/@NetNinja/playlists" },
+      {
+    "title": "Apna College",
+    "channel": "Apna College",
+    "description": "YouTube video tutorials for Web Technologies Lab.",
+    "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+  },
+  {
+    "title": "code With Harry",
+    "channel": "CodeWithHarry",
+    "description": "YouTube video tutorials for Web Technologies Lab.",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+  },
+  {
+    "title": "freeCodeCamp – Web Development Full Course",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Web Technologies Lab.",
+    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+  },
+  {
+    "title": "Traversy Media – Web Development",
+    "channel": "Traversy Media",
+    "description": "YouTube video tutorials for Web Technologies Lab.",
+    "url": "https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8"
+  },
+  {
+    "title": "The Net Ninja – Web Development",
+    "channel": "The Net Ninja",
+    "description": "YouTube video tutorials for Web Technologies Lab.",
+    "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+  }
+    
+    
     ],
   },
   {
     id: 43, name: "Wireless and Mobile Networks", group: "Core CS",
     resources: [
-      { title: "NPTEL – Wireless Communication", channel: "NPTEL", description: "Wireless communication fundamentals and mobile networking.", url: "https://nptel.ac.in/" },
-      { title: "Gate Smashers – Computer Networks / Wireless", channel: "Gate Smashers", description: "Wireless and mobile network concepts for GATE and university.", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – Wireless Communication", channel: "Neso Academy", description: "Wireless communication topics for engineering syllabus.", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "NPTEL – Wireless Communication",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Wireless and Mobile Networks.",
+    "url": "https://nptel.ac.in/courses/108106192"
+  },
+  {
+    "title": "Gate Smashers – Computer Networks/Wireless Networks",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Wireless and Mobile Networks.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_"
+  },
+  {
+    "title": "Neso Academy – Wireless Communication",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Wireless and Mobile Networks.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLy3WPoMBTDovzkMPUugkY"
+  },
+  {
+    "title": "Er. Manish Sachdeva",
+    "channel": "Er. Manish Sachdeva",
+    "description": "YouTube video tutorials for Wireless and Mobile Networks.",
+    "url": "https://www.youtube.com/playlist?list=PLz1qUBU_8618W8rExBmaCOPmVmU2uxihD"
+  },
+  {
+    "title": "5 Minutes Engineering",
+    "channel": "5 Minutes Engineering",
+    "description": "YouTube video tutorials for Wireless and Mobile Networks.",
+    "url": "https://www.youtube.com/playlist?list=PLYwpaL_SFmcAjqrKO-b9UMa2AaAlzZY7D"
+  }
+    
+    
     ],
   },
 ];
