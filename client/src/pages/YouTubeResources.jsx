@@ -686,81 +686,307 @@ const subjects = [
   {
     id: 21, name: "Discrete Mathematics", group: "Mathematics",
     resources: [
-      { title: "Neso Academy – Discrete Mathematics Playlist", channel: "Neso Academy", description: "Logic, sets, relations, functions, graph theory, and combinatorics.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Discrete Mathematics", channel: "Gate Smashers", description: "Discrete maths for university and GATE preparation.", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Discrete Mathematics", channel: "NPTEL", description: "University-level discrete mathematics course.", url: "https://nptel.ac.in/courses/111107058" },
+      {
+    "title": "Neso Academy – Discrete Mathematics Playlist",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Discrete Mathematics.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3"
+  },
+  {
+    "title": "Gate Smashers – Discrete Mathematics",
+    "channel": "Gate Smashers",
+    "description": "YouTube video tutorials for Discrete Mathematics.",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3"
+  },
+  {
+    "title": "Kimberly Brehm",
+    "channel": "Kimberly Brehm",
+    "description": "YouTube video tutorials for Discrete Mathematics.",
+    "url": "https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Discrete Mathematics.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9j_VG5CICyWK_a4M0-nwwxy"
+  },
+  {
+    "title": "NPTEL – Discrete Mathematics",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Discrete Mathematics.",
+    "url": "https://nptel.ac.in/courses/111107058"
+  }
+    
     ],
   },
   {
     id: 22, name: "Embedded Systems and IoT", group: "Electrical",
     resources: [
-      { title: "NPTEL – Embedded Systems", channel: "NPTEL", description: "Microcontrollers, embedded programming, and hardware interfacing.", url: "https://nptel.ac.in/courses/108102045" },
-      { title: "Great Learning – IoT Full Course", channel: "Great Learning", description: "Complete IoT course from sensors to cloud connectivity.", url: "https://www.youtube.com/@GreatLearningOfficial" },
-      { title: "freeCodeCamp – IoT Course", channel: "freeCodeCamp", description: "IoT fundamentals and project-based learning.", url: "https://www.youtube.com/@freecodecamp/playlists" },
+      {
+    "title": "NPTEL – Embedded Systems",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Embedded Systems and IoT.",
+    "url": "https://nptel.ac.in/courses/108102045"
+  },
+  {
+    "title": "Great Learning – IoT Full Course",
+    "channel": "Great Learning",
+    "description": "YouTube video tutorials for Embedded Systems and IoT.",
+    "url": "https://www.youtube.com/watch?v=T-S0_R_J3pU"
+  },
+  {
+    "title": "freeCodeCamp – IoT Course",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Embedded Systems and IoT.",
+    "url": "https://www.youtube.com/watch?v=eidD14dXW8s"
+  },
+  {
+    "title": "Simplilearn",
+    "channel": "Simplilearn",
+    "description": "YouTube video tutorials for Embedded Systems and IoT.",
+    "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUImmTXP_YC2j5qIGOV9NPLy"
+  },
+  {
+    "title": "edureka!",
+    "channel": "Edureka",
+    "description": "YouTube video tutorials for Embedded Systems and IoT.",
+    "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGccfBbP5tJWZ1hv5sIUWJl"
+  }
+    
     ],
   },
   {
     id: 23, name: "Engineering Chemistry", group: "Science",
     resources: [
-      { title: "NPTEL – Engineering Chemistry", channel: "NPTEL", description: "Water chemistry, electrochemistry, polymers, nanomaterials, and corrosion.", url: "https://nptel.ac.in/courses/104103019" },
-      { title: "Last Moment Tuitions – Engineering Chemistry", channel: "Last Moment Tuitions", description: "Quick and exam-focused engineering chemistry revision.", url: "https://www.youtube.com/@LastMomentTuitions" },
-      { title: "Neso Academy – Engineering Chemistry", channel: "Neso Academy", description: "Engineering chemistry topics for university syllabus.", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "NPTEL – Engineering Chemistry",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://nptel.ac.in/courses/122106028"
+  },
+  {
+    "title": "Last Moment Tuitions – Engineering Chemistry",
+    "channel": "Last Moment Tuitions",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://www.youtube.com/playlist?list=PL7IhposCM6bVt3xn0pU8ZjnATp9YsFXOt"
+  },
+  {
+    "title": "Education Point Online",
+    "channel": "Education Point Online",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"
+  },
+  {
+    "title": "Pradeep Giri Academy (Playlist 1)",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jAWUXENWkXVomQmmqsQiLH"
+  },
+  {
+    "title": "Pradeep Giri Academy (Playlist 2)",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jB7qJkp5qn35021QUBC8xP"
+  },
+  {
+    "title": "Chem Rankers",
+    "channel": "Chem Rankers",
+    "description": "YouTube video tutorials for Engineering Chemistry.",
+    "url": "https://www.youtube.com/playlist?list=PLW1Y7Rfg4m8Jhs-s_VfYWgWzwTqYUvxJb"
+  }
+    
     ],
   },
   {
     id: 24, name: "Engineering Exploration", group: "Science",
     resources: [
-      { title: "NPTEL – Engineering Design / Innovation", channel: "NPTEL", description: "Engineering design thinking, innovation, and problem solving.", url: "https://nptel.ac.in/" },
-      { title: "Stanford d.school – Design Thinking", channel: "Stanford d.school", description: "Human-centered design and engineering exploration resources.", url: "https://dschool.stanford.edu/resources" },
-      { title: "IDEO Design Thinking", channel: "IDEO U", description: "Practical innovation and design thinking for engineers.", url: "https://www.youtube.com/@IDEOU" },
+      {
+    "title": "Stanford d.school – Design Thinking",
+    "channel": "Stanford d.school",
+    "description": "YouTube video tutorials for Engineering Exploration.",
+    "url": "https://dschool.stanford.edu/resources"
+  },
+  {
+    "title": "IDEO Design Thinking",
+    "channel": "IDEO U",
+    "description": "YouTube video tutorials for Engineering Exploration.",
+    "url": "https://www.youtube.com/@ideoulearn"
+  }
+    
     ],
   },
   {
     id: 25, name: "Engineering Mechanics", group: "Mechanical",
     resources: [
-      { title: "NPTEL – Engineering Mechanics", channel: "NPTEL", description: "Force systems, equilibrium, friction, and dynamics.", url: "https://nptel.ac.in/courses/112106286" },
-      { title: "Neso Academy – Engineering Mechanics", channel: "Neso Academy", description: "Engineering mechanics for university and GATE syllabus.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Academy – Engineering Mechanics", channel: "Gate Academy Plus", description: "Mechanics course targeted for GATE mechanical aspirants.", url: "https://www.youtube.com/@GateAcademyPlus" },
+      {
+    "title": "NPTEL – Engineering Mechanics",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Engineering Mechanics.",
+    "url": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_MEUdn1izTMB2yZgP1NLfs"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Engineering Mechanics.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9hADhGPsZjSddwAC3BvJDnl"
+  },
+  {
+    "title": "GATE Wallah (English)",
+    "channel": "GATE Wallah",
+    "description": "YouTube video tutorials for Engineering Mechanics.",
+    "url": "https://www.youtube.com/playlist?list=PLPvaSRcEQh4lfyQYKBRuTiLekgVIw2jvC"
+  }
+    
     ],
   },
   {
     id: 26, name: "Engineering Physics", group: "Science",
     resources: [
-      { title: "NPTEL – Engineering Physics", channel: "NPTEL", description: "Quantum physics, optics, lasers, and semiconductors.", url: "https://nptel.ac.in/courses" },
-      { title: "Neso Academy – Engineering Physics", channel: "Neso Academy", description: "Engineering physics topics for first-year university syllabus.", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Physics Wallah – Engineering Physics", channel: "Physics Wallah", description: "Engaging and simplified engineering physics lectures.", url: "https://www.youtube.com/@PhysicsWallah" },
+      {
+    "title": "NPTEL – Engineering Physics",
+    "channel": "NPTEL",
+    "description": "YouTube video tutorials for Engineering Physics.",
+    "url": "https://nptel.ac.in/courses/122104016"
+  },
+  {
+    "title": "Neso Academy – Engineering Physics",
+    "channel": "Neso Academy",
+    "description": "YouTube video tutorials for Engineering Physics.",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhpTJllVgCkvwUWO2Gd6pVe"
+  },
+  {
+    "title": "EDVARA ENGINEERS",
+    "channel": "Edvara Engineers",
+    "description": "YouTube video tutorials for Engineering Physics.",
+    "url": "https://www.youtube.com/playlist?list=PLVbxzb9b13LAxBeM2d5D9Ep5VxtpYG1HO"
+  },
+  {
+    "title": "FADU ENGINEER",
+    "channel": "Fadu Engineer",
+    "description": "YouTube video tutorials for Engineering Physics.",
+    "url": "https://www.youtube.com/playlist?list=PLnU_6InKwomFPUn1k5np6NtnoU38TW2PT"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "description": "YouTube video tutorials for Engineering Physics.",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jLY7WzoVlmgzXjbsHLQEdb"
+  }
+    
     ],
   },
   {
     id: 27, name: "Exploratory Data Analysis", group: "Data",
     resources: [
-      { title: "Krish Naik – EDA Playlist", channel: "Krish Naik", description: "Data cleaning, visualization, and feature analysis walkthroughs.", url: "https://www.youtube.com/@krishnaik06/playlists" },
-      { title: "freeCodeCamp – Data Analysis with Python", channel: "freeCodeCamp", description: "Data analysis using Python, Pandas, NumPy, and Matplotlib.", url: "https://www.youtube.com/watch?v=r-uOLxNrNk8" },
-      { title: "Alex The Analyst – Data Analytics Playlist", channel: "Alex The Analyst", description: "Practical EDA and analytics projects using real datasets.", url: "https://www.youtube.com/@AlexTheAnalyst/playlists" },
+      {
+    "title": "Krish Naik – Exploratory Data Analysis Playlist",
+    "channel": "Krish Naik",
+    "description": "YouTube video tutorials for Exploratory Data Analysis.",
+    "url": "https://www.youtube.com/watch?v=fHFOANOHwh8"
+  },
+  {
+    "title": "freeCodeCamp – Data Analysis with Python",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Exploratory Data Analysis.",
+    "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblvI1i46ScbKV2jH1gdL7VQ"
+  },
+  {
+    "title": "Alex The Analyst – Data Analytics Playlist",
+    "channel": "Alex The Analyst",
+    "description": "YouTube video tutorials for Exploratory Data Analysis.",
+    "url": "https://www.youtube.com/watch?v=Liv6eeb1VfE"
+  },
+  {
+    "title": "edureka!",
+    "channel": "Edureka",
+    "description": "YouTube video tutorials for Exploratory Data Analysis.",
+    "url": "https://www.youtube.com/watch?v=-o3AxdVcUtQ&t=41s"
+  },
+  {
+    "title": "Rob Mulla",
+    "channel": "Rob Mulla",
+    "description": "YouTube video tutorials for Exploratory Data Analysis.",
+    "url": "https://www.youtube.com/watch?v=xi0vhXFPegw"
+  }
+    
     ],
   },
   {
     id: 28, name: "Generative AI", group: "AI / ML",
     resources: [
-      { title: "DeepLearning.AI – Generative AI Courses", channel: "DeepLearning.AI", description: "LLM basics, prompt engineering, and generative models.", url: "https://www.deeplearning.ai/short-courses/" },
-      { title: "Google Cloud – Generative AI Learning", channel: "Google Cloud Tech", description: "Generative AI on Google Cloud with Vertex AI and Gemini.", url: "https://www.youtube.com/@GoogleCloudTech" },
-      { title: "freeCodeCamp – Generative AI Courses", channel: "freeCodeCamp", description: "Free generative AI and LLM courses for beginners.", url: "https://www.youtube.com/@freecodecamp/playlists" },
+      {
+    "title": "DeepLearning.AI – Generative AI Courses",
+    "channel": "DeepLearning.AI",
+    "description": "YouTube video tutorials for Generative AI.",
+    "url": "https://www.deeplearning.ai/short-courses/"
+  },
+  {
+    "title": "Google Cloud – Generative AI Learning",
+    "channel": "Google Cloud Tech",
+    "description": "YouTube video tutorials for Generative AI.",
+    "url": "https://www.youtube.com/playlist?list=PLBgogxgQVM9sl-KnKywVEhkb3QtLHU4OK"
+  },
+  {
+    "title": "freeCodeCamp – Generative AI Courses",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Generative AI.",
+    "url": "https://www.youtube.com/watch?v=mEsleV16qdo"
+  }
+    
     ],
   },
   {
     id: 29, name: "Industry Readiness & Leadership Skills", group: "Soft Skills",
     resources: [
-      { title: "LinkedIn Learning – Leadership Skills", channel: "LinkedIn Learning", description: "Professional leadership skills for industry readiness.", url: "https://www.youtube.com/@LinkedInLearning" },
-      { title: "Google Career Certificates – Career Skills", channel: "Google Career Certificates", description: "Workplace skills and career readiness from Google.", url: "https://www.youtube.com/@GoogleCareerCertificates" },
-      { title: "Harvard Business Review – Leadership", channel: "Harvard Business Review", description: "Expert insights on management, leadership, and career growth.", url: "https://www.youtube.com/@HarvardBusinessReview" },
+      {
+    "title": "LinkedIn Learning – Leadership Skills",
+    "channel": "LinkedIn Learning",
+    "description": "YouTube video tutorials for Industry Readiness & Leadership Skills.",
+    "url": "https://www.youtube.com/playlist?list=PL26pr4T7OzVMIqLz61IxO1CAAjzSY1-mS"
+  },
+  {
+    "title": "Grow with Google",
+    "channel": "Grow with Google",
+    "description": "YouTube video tutorials for Industry Readiness & Leadership Skills.",
+    "url": "https://www.youtube.com/@growwithgoogle"
+  },
+  {
+    "title": "Harvard Business Review – Leadership",
+    "channel": "Harvard Business Review",
+    "description": "YouTube video tutorials for Industry Readiness & Leadership Skills.",
+    "url": "https://www.youtube.com/@harvardbusinessreview"
+  }
+    
     ],
   },
   {
     id: 30, name: "Linear Algebra", group: "Mathematics",
     resources: [
-      { title: "3Blue1Brown – Essence of Linear Algebra", channel: "3Blue1Brown", description: "Best visual understanding of vectors, matrices, and transformations.", url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" },
-      { title: "MIT OCW – Linear Algebra", channel: "MIT OpenCourseWare", description: "Gilbert Strang's legendary university-level linear algebra course.", url: "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" },
-      { title: "Khan Academy – Linear Algebra", channel: "Khan Academy", description: "Linear algebra fundamentals from scratch with exercises.", url: "https://www.youtube.com/@khanacademy/playlists" },
+      {
+    "title": "3Blue1Brown – Essence of Linear Algebra",
+    "channel": "3Blue1Brown",
+    "description": "YouTube video tutorials for Linear Algebra.",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "description": "YouTube video tutorials for Linear Algebra.",
+    "url": "https://www.youtube.com/watch?v=JnTa9XtvmfI"
+  },
+  {
+    "title": "MIT OpenCourseWare – Linear Algebra",
+    "channel": "MIT OpenCourseWare",
+    "description": "YouTube video tutorials for Linear Algebra.",
+    "url": "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8"
+  },
+  {
+    "title": "Khan Academy – Linear Algebra",
+    "channel": "Khan Academy",
+    "description": "YouTube video tutorials for Linear Algebra.",
+    "url": "https://www.youtube.com/playlist?list=PLFD0EB975BA0CC1E0"
+  }
+    
     ],
   },
   {

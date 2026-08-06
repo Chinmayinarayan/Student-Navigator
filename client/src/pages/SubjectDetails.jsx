@@ -609,81 +609,266 @@ const YT_RESOURCES = [
   {
     keys: ["discrete mathematics"],
     resources: [
-      { title: "Neso Academy – Discrete Mathematics Playlist", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Discrete Mathematics", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Discrete Mathematics", channel: "NPTEL", url: "https://nptel.ac.in/courses/111107058" },
+      {
+    "title": "Neso Academy – Discrete Mathematics Playlist",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3"
+  },
+  {
+    "title": "Gate Smashers – Discrete Mathematics",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3"
+  },
+  {
+    "title": "Kimberly Brehm",
+    "channel": "Kimberly Brehm",
+    "url": "https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9j_VG5CICyWK_a4M0-nwwxy"
+  },
+  {
+    "title": "NPTEL – Discrete Mathematics",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/111107058"
+  }
+    
     ],
   },
   {
     keys: ["embedded", "iot"],
     resources: [
-      { title: "NPTEL – Embedded Systems", channel: "NPTEL", url: "https://nptel.ac.in/courses/108102045" },
-      { title: "Great Learning – IoT Full Course", channel: "Great Learning", url: "https://www.youtube.com/@GreatLearningOfficial" },
-      { title: "freeCodeCamp – IoT Course", channel: "freeCodeCamp", url: "https://www.youtube.com/@freecodecamp/playlists" },
+      {
+    "title": "NPTEL – Embedded Systems",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/108102045"
+  },
+  {
+    "title": "Great Learning – IoT Full Course",
+    "channel": "Great Learning",
+    "url": "https://www.youtube.com/watch?v=T-S0_R_J3pU"
+  },
+  {
+    "title": "freeCodeCamp – IoT Course",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=eidD14dXW8s"
+  },
+  {
+    "title": "Simplilearn",
+    "channel": "Simplilearn",
+    "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUImmTXP_YC2j5qIGOV9NPLy"
+  },
+  {
+    "title": "edureka!",
+    "channel": "Edureka",
+    "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGccfBbP5tJWZ1hv5sIUWJl"
+  }
+    
     ],
   },
   {
     keys: ["engineering chemistry"],
     resources: [
-      { title: "NPTEL – Engineering Chemistry", channel: "NPTEL", url: "https://nptel.ac.in/courses/104103019" },
-      { title: "Last Moment Tuitions – Engineering Chemistry", channel: "Last Moment Tuitions", url: "https://www.youtube.com/@LastMomentTuitions" },
-      { title: "Neso Academy – Engineering Chemistry", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "NPTEL – Engineering Chemistry",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/122106028"
+  },
+  {
+    "title": "Last Moment Tuitions – Engineering Chemistry",
+    "channel": "Last Moment Tuitions",
+    "url": "https://www.youtube.com/playlist?list=PL7IhposCM6bVt3xn0pU8ZjnATp9YsFXOt"
+  },
+  {
+    "title": "Education Point Online",
+    "channel": "Education Point Online",
+    "url": "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"
+  },
+  {
+    "title": "Pradeep Giri Academy (Playlist 1)",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jAWUXENWkXVomQmmqsQiLH"
+  },
+  {
+    "title": "Pradeep Giri Academy (Playlist 2)",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jB7qJkp5qn35021QUBC8xP"
+  },
+  {
+    "title": "Chem Rankers",
+    "channel": "Chem Rankers",
+    "url": "https://www.youtube.com/playlist?list=PLW1Y7Rfg4m8Jhs-s_VfYWgWzwTqYUvxJb"
+  }
+    
     ],
   },
   {
     keys: ["engineering exploration"],
     resources: [
-      { title: "NPTEL – Engineering Design / Innovation", channel: "NPTEL", url: "https://nptel.ac.in/" },
-      { title: "Stanford d.school – Design Thinking", channel: "Stanford d.school", url: "https://dschool.stanford.edu/resources" },
-      { title: "IDEO Design Thinking", channel: "IDEO U", url: "https://www.youtube.com/@IDEOU" },
+      {
+    "title": "Stanford d.school – Design Thinking",
+    "channel": "Stanford d.school",
+    "url": "https://dschool.stanford.edu/resources"
+  },
+  {
+    "title": "IDEO Design Thinking",
+    "channel": "IDEO U",
+    "url": "https://www.youtube.com/@ideoulearn"
+  }
+    
     ],
   },
   {
     keys: ["engineering mechanics"],
     resources: [
-      { title: "NPTEL – Engineering Mechanics", channel: "NPTEL", url: "https://nptel.ac.in/courses/112106286" },
-      { title: "Neso Academy – Engineering Mechanics", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Academy – Engineering Mechanics", channel: "Gate Academy Plus", url: "https://www.youtube.com/@GateAcademyPlus" },
+      {
+    "title": "NPTEL – Engineering Mechanics",
+    "channel": "NPTEL",
+    "url": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_MEUdn1izTMB2yZgP1NLfs"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9hADhGPsZjSddwAC3BvJDnl"
+  },
+  {
+    "title": "GATE Wallah (English)",
+    "channel": "GATE Wallah",
+    "url": "https://www.youtube.com/playlist?list=PLPvaSRcEQh4lfyQYKBRuTiLekgVIw2jvC"
+  }
+    
     ],
   },
   {
     keys: ["engineering physics"],
     resources: [
-      { title: "NPTEL – Engineering Physics", channel: "NPTEL", url: "https://nptel.ac.in/courses" },
-      { title: "Neso Academy – Engineering Physics", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Physics Wallah – Engineering Physics", channel: "Physics Wallah", url: "https://www.youtube.com/@PhysicsWallah" },
+      {
+    "title": "NPTEL – Engineering Physics",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/122104016"
+  },
+  {
+    "title": "Neso Academy – Engineering Physics",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhpTJllVgCkvwUWO2Gd6pVe"
+  },
+  {
+    "title": "EDVARA ENGINEERS",
+    "channel": "Edvara Engineers",
+    "url": "https://www.youtube.com/playlist?list=PLVbxzb9b13LAxBeM2d5D9Ep5VxtpYG1HO"
+  },
+  {
+    "title": "FADU ENGINEER",
+    "channel": "Fadu Engineer",
+    "url": "https://www.youtube.com/playlist?list=PLnU_6InKwomFPUn1k5np6NtnoU38TW2PT"
+  },
+  {
+    "title": "Pradeep Giri Academy",
+    "channel": "Pradeep Giri Academy",
+    "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9jLY7WzoVlmgzXjbsHLQEdb"
+  }
+    
     ],
   },
   {
     keys: ["exploratory data analysis", "eda"],
     resources: [
-      { title: "Krish Naik – EDA Playlist", channel: "Krish Naik", url: "https://www.youtube.com/@krishnaik06/playlists" },
-      { title: "freeCodeCamp – Data Analysis with Python", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=r-uOLxNrNk8" },
-      { title: "Alex The Analyst – Data Analytics Playlist", channel: "Alex The Analyst", url: "https://www.youtube.com/@AlexTheAnalyst/playlists" },
+      {
+    "title": "Krish Naik – Exploratory Data Analysis Playlist",
+    "channel": "Krish Naik",
+    "url": "https://www.youtube.com/watch?v=fHFOANOHwh8"
+  },
+  {
+    "title": "freeCodeCamp – Data Analysis with Python",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblvI1i46ScbKV2jH1gdL7VQ"
+  },
+  {
+    "title": "Alex The Analyst – Data Analytics Playlist",
+    "channel": "Alex The Analyst",
+    "url": "https://www.youtube.com/watch?v=Liv6eeb1VfE"
+  },
+  {
+    "title": "edureka!",
+    "channel": "Edureka",
+    "url": "https://www.youtube.com/watch?v=-o3AxdVcUtQ&t=41s"
+  },
+  {
+    "title": "Rob Mulla",
+    "channel": "Rob Mulla",
+    "url": "https://www.youtube.com/watch?v=xi0vhXFPegw"
+  }
+    
     ],
   },
   {
     keys: ["generative ai"],
     resources: [
-      { title: "DeepLearning.AI – Generative AI Courses", channel: "DeepLearning.AI", url: "https://www.deeplearning.ai/short-courses/" },
-      { title: "Google Cloud – Generative AI Learning", channel: "Google Cloud Tech", url: "https://www.youtube.com/@GoogleCloudTech" },
-      { title: "freeCodeCamp – Generative AI Courses", channel: "freeCodeCamp", url: "https://www.youtube.com/@freecodecamp/playlists" },
+      {
+    "title": "DeepLearning.AI – Generative AI Courses",
+    "channel": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/short-courses/"
+  },
+  {
+    "title": "Google Cloud – Generative AI Learning",
+    "channel": "Google Cloud Tech",
+    "url": "https://www.youtube.com/playlist?list=PLBgogxgQVM9sl-KnKywVEhkb3QtLHU4OK"
+  },
+  {
+    "title": "freeCodeCamp – Generative AI Courses",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=mEsleV16qdo"
+  }
+    
     ],
   },
   {
     keys: ["industry readiness", "leadership"],
     resources: [
-      { title: "LinkedIn Learning – Leadership Skills", channel: "LinkedIn Learning", url: "https://www.youtube.com/@LinkedInLearning" },
-      { title: "Google Career Certificates – Career Skills", channel: "Google Career Certificates", url: "https://www.youtube.com/@GoogleCareerCertificates" },
-      { title: "Harvard Business Review – Leadership", channel: "Harvard Business Review", url: "https://www.youtube.com/@HarvardBusinessReview" },
+      {
+    "title": "LinkedIn Learning – Leadership Skills",
+    "channel": "LinkedIn Learning",
+    "url": "https://www.youtube.com/playlist?list=PL26pr4T7OzVMIqLz61IxO1CAAjzSY1-mS"
+  },
+  {
+    "title": "Grow with Google",
+    "channel": "Grow with Google",
+    "url": "https://www.youtube.com/@growwithgoogle"
+  },
+  {
+    "title": "Harvard Business Review – Leadership",
+    "channel": "Harvard Business Review",
+    "url": "https://www.youtube.com/@harvardbusinessreview"
+  }
+    
     ],
   },
   {
     keys: ["linear algebra"],
     resources: [
-      { title: "3Blue1Brown – Essence of Linear Algebra", channel: "3Blue1Brown", url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" },
-      { title: "MIT OCW – Linear Algebra", channel: "MIT OpenCourseWare", url: "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" },
-      { title: "Khan Academy – Linear Algebra", channel: "Khan Academy", url: "https://www.youtube.com/@khanacademy/playlists" },
+      {
+    "title": "3Blue1Brown – Essence of Linear Algebra",
+    "channel": "3Blue1Brown",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=JnTa9XtvmfI"
+  },
+  {
+    "title": "MIT OpenCourseWare – Linear Algebra",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8"
+  },
+  {
+    "title": "Khan Academy – Linear Algebra",
+    "channel": "Khan Academy",
+    "url": "https://www.youtube.com/playlist?list=PLFD0EB975BA0CC1E0"
+  }
+    
     ],
   },
   {
