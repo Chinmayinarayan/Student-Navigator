@@ -329,81 +329,281 @@ const YT_RESOURCES = [
   {
     keys: ["computer networks lab"],
     resources: [
-      { title: "Cisco Networking Academy", channel: "Cisco NetAcad", url: "https://www.netacad.com/" },
-      { title: "Practical Networking", channel: "Practical Networking", url: "https://www.youtube.com/@PracticalNetworking" },
-      { title: "Neso Academy – Computer Networks", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "Cisco Networking Academy",
+    "channel": "Cisco NetAcad",
+    "url": "https://www.netacad.com/cisco-packet-tracer"
+  },
+  {
+    "title": "Practical Networking",
+    "channel": "Practical Networking",
+    "url": "https://www.youtube.com/@PracticalNetworking"
+  },
+  {
+    "title": "Neso Academy – Computer Networks",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx"
+  }
+    
     ],
   },
   {
     keys: ["computer networks"],
     resources: [
-      { title: "Neso Academy – Computer Networks Playlist", channel: "Neso Academy", url: "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjX6qvY0G3r8zXxK9x8zZ8y" },
-      { title: "Gate Smashers – Computer Networks", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Computer Networks", channel: "NPTEL", url: "https://nptel.ac.in/courses/106105183" },
+      {
+    "title": "Neso Academy – Computer Networks Playlist",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx"
+  },
+  {
+    "title": "Gate Smashers – Computer Networks",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_"
+  },
+  {
+    "title": "FreeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+  },
+  {
+    "title": "Kunal Kushwaha",
+    "channel": "Kunal Kushwaha",
+    "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8"
+  },
+  {
+    "title": "NPTEL – Computer Networks",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106105183"
+  }
+    
     ],
   },
   {
     keys: ["computer organization", "computer architecture"],
     resources: [
-      { title: "Neso Academy – Computer Organization Playlist", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Computer Organization", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Computer Organization", channel: "NPTEL", url: "https://nptel.ac.in/courses/106103068" },
+      {
+    "title": "Neso Academy – Computer Organization Playlist",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q"
+  },
+  {
+    "title": "Gate Smashers – Computer Organization",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX"
+  },
+  {
+    "title": "NPTEL – Computer Organization",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106103068"
+  },
+  {
+    "title": "Sudhakar Atchala",
+    "channel": "Sudhakar Atchala",
+    "url": "https://www.youtube.com/playlist?list=PLXj4XH7LcRfDXDRzSLv1FfZ-SSA38SiC0"
+  },
+  {
+    "title": "KnowledgeGATE",
+    "channel": "Knowledge Gate",
+    "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesS4B30OmgxP7nrzq1UhiMiv"
+  }
+    
     ],
   },
   {
     keys: ["corporate communication"],
     resources: [
-      { title: "NPTEL – Soft Skills / Communication Skills", channel: "NPTEL", url: "https://nptel.ac.in/courses/109104031" },
-      { title: "English with Lucy – Communication Skills", channel: "English with Lucy", url: "https://www.youtube.com/@EnglishwithLucy" },
-      { title: "Toastmasters International – Communication Skills", channel: "Toastmasters International", url: "https://www.youtube.com/@ToastmastersInternational" },
+      {
+    "title": "NPTEL – Soft Skills / Communication Skills",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/109104031"
+  },
+  {
+    "title": "English with Lucy – Communication Skills",
+    "channel": "English with Lucy",
+    "url": "https://www.youtube.com/@EnglishwithLucy"
+  },
+  {
+    "title": "Toastmasters International – Communication Skills",
+    "channel": "Toastmasters International",
+    "url": "https://www.youtube.com/@toastmasters"
+  }
+    
     ],
   },
   {
     keys: ["cryptography", "network security"],
     resources: [
-      { title: "Neso Academy – Cryptography Playlist", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Cryptography & Network Security", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Cryptography and Network Security", channel: "NPTEL", url: "https://nptel.ac.in/courses/106105031" },
+      {
+    "title": "Neso Academy – Cryptography Playlist",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII"
+  },
+  {
+    "title": "Gate Smashers – Cryptography & Network Security",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFjkQbGj_yHeTEVPn422_z5"
+  },
+  {
+    "title": "simplilearn",
+    "channel": "Simplilearn",
+    "url": "https://www.youtube.com/watch?v=C7vmouDOJYM"
+  },
+  {
+    "title": "NPTEL – Cryptography and Network Security",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106105031"
+  }
+    
     ],
   },
   {
     keys: ["data structures"],
     resources: [
-      { title: "Abdul Bari – Data Structures & Algorithms", channel: "Abdul Bari", url: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" },
-      { title: "Striver – A2Z DSA Course", channel: "takeUforward", url: "https://www.youtube.com/@takeUforward/playlists" },
-      { title: "Neso Academy – Data Structures", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "Abdul Bari – Data Structures & Algorithms",
+    "channel": "Abdul Bari",
+    "url": "https://www.youtube.com/playlist?list=PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv"
+  },
+  {
+    "title": "Striver – A2Z DSA Course",
+    "channel": "takeUforward",
+    "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6nyAVArG1di-0dxBYIy9"
+  },
+  {
+    "title": "Neso Academy – Data Structures",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y"
+  },
+  {
+    "title": "freeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=8hly31xKli0&t=21s"
+  },
+  {
+    "title": "CodeWithHarry",
+    "channel": "CodeWithHarry",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+  },
+  {
+    "title": "Jenny's Lectures CS IT",
+    "channel": "Jenny's Lectures",
+    "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"
+  },
+  {
+    "title": "Apna College",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt"
+  },
+  {
+    "title": "GateSmashers",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEwaANNt3OqJPVIxwp2ebiT"
+  }
+    
     ],
   },
   {
     keys: ["database applications lab"],
     resources: [
-      { title: "SQLBolt – Interactive SQL Practice", channel: "SQLBolt", url: "https://sqlbolt.com/" },
-      { title: "freeCodeCamp – SQL Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=HXV3zeQKqGY" },
-      { title: "Oracle Database Tutorials", channel: "Oracle Learning", url: "https://www.youtube.com/@OracleLearning" },
+      {
+    "title": "SQLBolt – Interactive SQL Practice",
+    "channel": "SQLBolt",
+    "url": "https://sqlbolt.com/"
+  },
+  {
+    "title": "freeCodeCamp – SQL Full Course",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+  },
+  {
+    "title": "Great Learning",
+    "channel": "Great Learning",
+    "url": "https://www.youtube.com/watch?v=ObbNGhcxXJA&t=2s"
+  },
+  {
+    "title": "ApnaCollege",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/watch?v=hlGoQC332VM"
+  }
+    
     ],
   },
   {
     keys: ["database management"],
     resources: [
-      { title: "Gate Smashers – DBMS Playlist", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "Neso Academy – DBMS", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "NPTEL – Database Management Systems", channel: "NPTEL", url: "https://nptel.ac.in/courses/106106093" },
+      {
+    "title": "Gate Smashers – DBMS Playlist",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y"
+  },
+  {
+    "title": "Neso Academy – DBMS",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX"
+  },
+  {
+    "title": "NPTEL – Database Management Systems",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106106093"
+  },
+  {
+    "title": "Jenny's Lectures CS IT",
+    "channel": "Jenny's Lectures",
+    "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc"
+  },
+  {
+    "title": "KnowledgeGATE by Sanchit Sir",
+    "channel": "Knowledge Gate",
+    "url": "https://www.youtube.com/watch?v=YRnjGeQbsHQ"
+  }
+    
     ],
   },
   {
     keys: ["design thinking"],
     resources: [
-      { title: "Stanford d.school – Design Thinking", channel: "Stanford d.school", url: "https://dschool.stanford.edu/resources" },
-      { title: "IDEO Design Thinking", channel: "IDEO U", url: "https://www.youtube.com/@IDEOU" },
-      { title: "AJ&Smart – Design Thinking Process", channel: "AJ&Smart", url: "https://www.youtube.com/@AJSmart" },
+      {
+    "title": "Stanford d.school – Design Thinking",
+    "channel": "Stanford d.school",
+    "url": "https://dschool.stanford.edu/resources"
+  },
+  {
+    "title": "IDEO Design Thinking",
+    "channel": "IDEO U",
+    "url": "https://www.youtube.com/@ideoulearn"
+  },
+  {
+    "title": "AJ&Smart – Design Thinking Process",
+    "channel": "AJ&Smart",
+    "url": "https://www.youtube.com/@AJSmart"
+  }
+    
     ],
   },
   {
     keys: ["design and analysis"],
     resources: [
-      { title: "Abdul Bari – Algorithms", channel: "Abdul Bari", url: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" },
-      { title: "Gate Smashers – DAA", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Design and Analysis of Algorithms", channel: "NPTEL", url: "https://nptel.ac.in/courses/106101060" },
+      {
+    "title": "Abdul Bari – Algorithms",
+    "channel": "Abdul Bari",
+    "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+  },
+  {
+    "title": "Gate Smashers – DAA",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHcmS4i14bI0VrMbZTUvlTa"
+  },
+  {
+    "title": "NPTEL – Design and Analysis of Algorithms",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/106101060"
+  },
+  {
+    "title": "Neso Academy",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhoF3cPp0mgOZPuXeu84nAd"
+  }
+    
     ],
   },
   {
