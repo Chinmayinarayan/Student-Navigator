@@ -1,0 +1,570 @@
+Your project is a MERN Stack Application:
+
+Frontend: React + Tailwind CSS
+Backend: Node.js + Express.js
+Database: MongoDB Atlas
+Authentication: JWT
+API Communication: Axios
+
+The goal:
+
+A platform where students get subjects, resources, roadmaps, career guidance, tests, and AI-based recommendations.
+
+1. Project Structure
+
+Initially we created two separate applications:
+
+Career_platform
+
+│
+├── server        (Backend)
+│
+└── client        (Frontend)
+Why separate?
+
+Because frontend and backend have different responsibilities.
+
+Frontend:
+
+Responsible for:
+
+UI
+Buttons
+Pages
+User interaction
+
+Example:
+
+Login Page
+Dashboard
+Subjects Page
+Profile
+Backend:
+
+Responsible for:
+
+Business logic
+Authentication
+Database operations
+APIs
+
+Example:
+
+Register user
+Check password
+Fetch subjects
+Save progress
+BACKEND PART
+2. Created Node.js + Express Server
+
+We created:
+
+server/server.js
+
+Express is a Node.js framework used to create APIs.
+
+Example:
+
+Frontend asks:
+
+Give me all subjects
+
+Backend responds:
+
+{
+ "subjects":[
+   "DBMS",
+   "Operating System"
+ ]
+}
+
+This communication happens through APIs.
+
+3. Environment Variables (.env)
+
+We created:
+
+server/.env
+
+Example:
+
+PORT=5000
+
+MONGODB_URI=.....
+
+JWT_SECRET=.....
+Why?
+
+Sensitive information should not be written directly in code.
+
+Instead of:
+
+mongoose.connect("mongodb password")
+
+we use:
+
+mongoose.connect(process.env.MONGODB_URI)
+4. Connected MongoDB Atlas
+
+We connected your backend with MongoDB.
+
+Flow:
+
+React
+ |
+ |
+Express API
+ |
+ |
+MongoDB Atlas
+
+MongoDB stores:
+
+Users
+Subjects
+Questions
+Progress
+Career data
+5. Mongoose Setup
+
+We installed:
+
+mongoose
+
+Mongoose helps Node.js communicate with MongoDB.
+
+Example:
+
+MongoDB document:
+
+{
+"name":"DSA"
+}
+
+Mongoose model:
+
+Subject.find()
+6. Created Database Models
+
+Models define how data looks.
+
+Example:
+
+User Model
+User
+ |
+ |-- name
+ |-- email
+ |-- password
+ |-- branch
+ |-- skills
+ |-- careerGoals
+Subject Model
+Subject
+ |
+ |-- name
+ |-- description
+ |-- concepts
+ |-- resources
+ |-- roadmap
+ |-- questions
+
+Think of models as database blueprints.
+
+7. Authentication System
+
+We created:
+
+Register
+Login
+Logout
+Register Flow
+
+User enters:
+
+Name
+Email
+Password
+Skills
+Career Goal
+
+Frontend sends:
+
+POST /api/auth/register
+
+Backend:
+
+Checks if user exists
+Encrypts password
+Saves user
+
+Password encryption:
+
+Before:
+
+Chinmayi123
+
+After bcrypt:
+
+$2a$10$8sdhfj.....
+
+Why?
+
+Even database admins cannot see passwords.
+
+8. Login System
+
+Flow:
+
+User
+ |
+Login
+ |
+Backend checks email
+ |
+Compare password
+ |
+Generate JWT Token
+
+JWT token example:
+
+eyJhbGciOiJIUzI1Ni...
+
+This token proves:
+
+"this user is authenticated"
+
+9. JWT Authentication Middleware
+
+We created:
+
+authMiddleware.js
+
+Purpose:
+
+Protect private pages.
+
+Example:
+
+Without login:
+
+GET /dashboard
+
+Response:
+
+{
+message:"No token provided"
+}
+
+After login:
+
+Token attached
+|
+Access allowed
+10. Subject System
+
+We created APIs:
+
+GET /subjects
+
+GET /subjects/:id
+
+Purpose:
+
+Fetch subjects from database.
+
+Example:
+
+Database:
+
+Data Structures
+Database Management
+Operating System
+
+Frontend displays cards.
+
+11. Seed Database
+
+Instead of manually adding subjects in MongoDB, we created:
+
+seedDatabase.js
+
+It automatically inserts data.
+
+Example:
+
+Run:
+
+npm run seed
+
+Result:
+
+Subjects Seeded Successfully
+
+Database now contains:
+
+DSA
+DBMS
+OS
+12. Organized Subject Data
+
+Initially:
+
+seedDatabase.js
+   |
+   |--1000 lines
+
+Problem:
+Hard to maintain.
+
+So we changed:
+
+data
+ |
+ subjects
+ |
+ |--dsa.js
+ |--os.js
+ |--dbms.js
+
+This is a professional structure.
+
+FRONTEND PART
+13. Created React Application
+
+Using Vite:
+
+npm create vite client
+
+Created:
+
+client
+ |
+ |--src
+     |
+     pages
+     components
+14. React Router
+
+We created pages:
+
+/login
+
+/register
+
+/dashboard
+
+/subjects
+
+/subjects/:id
+
+/profile
+
+React Router allows navigation without refreshing the page.
+
+15. Login/Register Pages
+
+Created forms.
+
+Example:
+
+Login:
+
+Email
+Password
+Login button
+
+Data goes:
+
+React
+ |
+Axios
+ |
+Express API
+ |
+MongoDB
+16. Axios API Setup
+
+Created:
+
+services/api.js
+
+Instead of writing:
+
+axios.get("http://localhost:5000/api")
+
+everywhere:
+
+we created a common API connection.
+
+17. Subjects UI
+
+Created:
+
+Subjects.jsx
+
+It:
+
+Calls backend API
+Receives subjects
+Displays cards
+
+Flow:
+
+Database
+
+↓
+
+Express API
+
+↓
+
+Axios
+
+↓
+
+React State
+
+↓
+
+UI Cards
+18. Subject Details Page
+
+Created:
+
+SubjectDetails.jsx
+
+Shows:
+
+Concepts
+YouTube resources
+Textbooks
+Tools
+Roadmap
+Questions
+
+Example:
+
+DSA
+
+Beginner:
+Arrays
+
+Intermediate:
+Trees
+
+Advanced:
+Graphs
+19. Dashboard
+
+Created:
+
+Backend:
+
+/api/dashboard
+
+Frontend:
+
+Dashboard.jsx
+
+Shows:
+
+User information
+Subject count
+AI recommendation
+Career suggestions
+20. Sidebar Navigation
+
+Created:
+
+Sidebar.jsx
+
+Contains:
+
+Dashboard
+Subjects
+Careers
+Events
+Profile
+Logout
+
+Professional application layout.
+
+21. Protected Routes
+
+Created:
+
+ProtectedRoute.jsx
+
+Purpose:
+
+Stop unauthorized access.
+
+Before:
+
+Anyone could open:
+
+/dashboard
+
+Now:
+
+No token
+ |
+Redirect Login
+22. Profile Page
+
+Created:
+
+Profile.jsx
+
+Displays:
+
+Name
+Email
+Branch
+Skills
+Career Goals
+
+Connected with:
+
+GET /api/user/profile
+Current Status
+
+Your application currently has:
+
+✅ MERN setup
+✅ MongoDB connection
+✅ Authentication
+✅ JWT security
+✅ User registration/login
+✅ Subject database
+✅ Subject pages
+✅ Dashboard
+✅ Profile view
+✅ Sidebar navigation
+✅ Protected routes
+✅ Logout system
+
+What is NOT built yet?
+
+The exciting parts:
+
+User Features
+Profile editing
+Progress tracking
+Bookmarks
+Notes
+AI Features
+AI study planner
+Personalized roadmap
+Skill gap analysis
+Career recommendation engine
+Placement Features
+Resume builder
+Interview preparation
+Coding tracker
+Internship tracker
+Testing
+Mock tests
+Question bank
+Performance analytics
