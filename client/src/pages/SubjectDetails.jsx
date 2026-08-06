@@ -14,81 +14,316 @@ const YT_RESOURCES = [
   {
     keys: ["algorithm"],
     resources: [
-      { title: "Abdul Bari – Algorithms Playlist", channel: "Abdul Bari", url: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" },
-      { title: "MIT OCW – Introduction to Algorithms", channel: "MIT OpenCourseWare", url: "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPN7z2fQf0q4Q4qQqQq" },
-      { title: "Neso Academy – Design & Analysis of Algorithms", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
+      {
+    "title": "Abdul Bari – Algorithms Playlist",
+    "channel": "Abdul Bari",
+    "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+  },
+  {
+    "title": "MIT OpenCourseWare – Introduction to Algorithms",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
+  },
+  {
+    "title": "Gate Smashers",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHcmS4i14bI0VrMbZTUvlTa"
+  },
+  {
+    "title": "FreeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=8hly31xKli0&t=7s"
+  }
+    
     ],
   },
   {
     keys: ["applied physics lab", "physics lab"],
     resources: [
-      { title: "Virtual Labs (IIT) – Physics Experiments", channel: "Virtual Labs IIT", url: "https://www.vlab.co.in/participating-institute-iit-delhi" },
-      { title: "NPTEL – Engineering Physics", channel: "NPTEL", url: "https://www.youtube.com/@nptelhrd/search?query=engineering%20physics" },
-      { title: "Physics Practical Experiments", channel: "LabInstruments", url: "https://www.youtube.com/@LabInstruments" },
+      {
+    "title": "Virtual Labs (IIT)",
+    "channel": "IIT Delhi",
+    "url": "https://www.vlab.co.in/participating-institute-iit-delhi"
+  },
+  {
+    "title": "NPTEL – Engineering Physics",
+    "channel": "NPTEL",
+    "url": "https://www.youtube.com/playlist?list=PLajrVxcKRJ5f4a7cJ-MetbIdZ64_5Sci-"
+  },
+  {
+    "title": "Physics Practical Experiments",
+    "channel": "Practical Physics",
+    "url": "https://www.youtube.com/playlist?list=PL_u2iJUox0XoWRHV2lluPBqLam_psaA8u"
+  }
+    
     ],
   },
   {
     keys: ["arithmetical", "analytical reasoning"],
     resources: [
-      { title: "Neso Academy – Aptitude and Reasoning", channel: "Neso Academy", url: "https://www.nesoacademy.org/ot/03-aptitude-and-reasoning" },
-      { title: "IndiaBix Aptitude", channel: "IndiaBix", url: "https://www.indiabix.com/" },
-      { title: "TalentSprint Aptitude Preparation", channel: "TalentSprint", url: "https://www.youtube.com/@TalentSprintAptitudePrep" },
+      {
+    "title": "Neso Academy – Aptitude and Reasoning (Playlist 1)",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhMP7gwIe2j0hb1PCvYn0RI"
+  },
+  {
+    "title": "Neso Academy – Aptitude and Reasoning (Playlist 2)",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiUM_jYiNhhP9JrlWuHcNXF"
+  },
+  {
+    "title": "IndiaBix Aptitude",
+    "channel": "IndiaBix",
+    "url": "https://www.indiabix.com/"
+  },
+  {
+    "title": "NTS TEST MASTER",
+    "channel": "NTS Test Master",
+    "url": "https://www.youtube.com/playlist?list=PLc0F1Xt49RmZ3xWa3FYWmAqPgpjIbXFAo"
+  },
+  {
+    "title": "Career Ride",
+    "channel": "Career Ride",
+    "url": "https://www.youtube.com/playlist?list=PLpyc33gOcbVADMKqylI__O_O_RMeHTyNK"
+  },
+  {
+    "title": "TalentSprint Aptitude Preparation",
+    "channel": "TalentSprint",
+    "url": "https://www.youtube.com/@TalentSprintAptitudePrep"
+  }
+    
     ],
   },
   {
     keys: ["artificial intelligence", "machine learning"],
     resources: [
-      { title: "freeCodeCamp – Machine Learning with Python", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=7eh4d6sabA0" },
-      { title: "Krish Naik – Machine Learning Playlist", channel: "Krish Naik", url: "https://www.youtube.com/@krishnaik06/playlists" },
-      { title: "StatQuest – Machine Learning Playlist", channel: "StatQuest", url: "https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD1G8D1j2QKQ-" },
+      {
+    "title": "FreeCodeCamp",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=5NgNicANyqM"
+  },
+  {
+    "title": "Programming with mosh – Machine Learning with Python",
+    "channel": "Programming with Mosh",
+    "url": "https://www.youtube.com/watch?v=7eh4d6sabA0"
+  },
+  {
+    "title": "Krish Naik – Machine Learning Playlist",
+    "channel": "Krish Naik",
+    "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe"
+  },
+  {
+    "title": "StatQuest – Machine Learning Playlist",
+    "channel": "StatQuest",
+    "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF"
+  },
+  {
+    "title": "Apna College",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/watch?v=D1eL1EnxXXQ&t=2s"
+  }
+    
     ],
   },
   {
     keys: ["basic electrical engineering"],
     resources: [
-      { title: "Neso Academy – Basic Electrical Engineering", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Electrical Engineering Basics", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "NPTEL – Basic Electrical Technology", channel: "NPTEL", url: "https://nptel.ac.in/courses/108105053" },
+      {
+    "title": "Neso Academy – Basic Electrical Engineering",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLR-hMp7wem-bdVN1iEhsh"
+  },
+  {
+    "title": "Gate Smashers – Electrical Engineering Basics",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc"
+  },
+  {
+    "title": "Engineers ki Pathshala by Umesh Dhande",
+    "channel": "Engineers ki Pathshala",
+    "url": "https://www.youtube.com/playlist?list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc"
+  },
+  {
+    "title": "NPTEL – Basic Electrical Technology",
+    "channel": "NPTEL",
+    "url": "https://www.youtube.com/playlist?list=PL425060D3C78350E1"
+  },
+  {
+    "title": "The Engineering Mindset",
+    "channel": "The Engineering Mindset",
+    "url": "https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K"
+  }
+    
     ],
   },
   {
     keys: ["basic electronics"],
     resources: [
-      { title: "Neso Academy – Electronic Devices and Circuits", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "Gate Smashers – Digital Electronics", channel: "Gate Smashers", url: "https://www.youtube.com/@GateSmashers/playlists" },
-      { title: "All About Electronics", channel: "ALLABOUTELECTRONICS", url: "https://www.youtube.com/@ALLABOUTELECTRONICS" },
+      {
+    "title": "Neso Academy – Electronic Devices and Circuits",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiw-GZRqfnlVIBz9dxrqHJS"
+  },
+  {
+    "title": "Gautam Varde",
+    "channel": "Gautam Varde",
+    "url": "https://www.youtube.com/playlist?list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy"
+  },
+  {
+    "title": "Gate Smashers – Digital Electronics",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe"
+  },
+  {
+    "title": "All About Electronics",
+    "channel": "All About Electronics",
+    "url": "https://www.youtube.com/playlist?list=PLwjK_iyK4LLBC_so3odA64E2MLgIRKafl"
+  },
+  {
+    "title": "Core - Basic Electronics - Prof T.S.Natarajan nptelhrd",
+    "channel": "NPTEL",
+    "url": "https://www.youtube.com/playlist?list=PL7987F30C41A9ADCB"
+  }
+    
     ],
   },
   {
     keys: ["basic mechanical"],
     resources: [
-      { title: "NPTEL – Engineering Mechanics / Mechanical Basics", channel: "NPTEL", url: "https://nptel.ac.in/courses/112106286" },
-      { title: "Learn Engineering", channel: "Learn Engineering", url: "https://www.youtube.com/@LearnEngineering" },
-      { title: "Gate Academy – Mechanical Engineering", channel: "Gate Academy Plus", url: "https://www.youtube.com/@GateAcademyPlus" },
+      {
+    "title": "NPTEL – Engineering Mechanics / Mechanical Basics",
+    "channel": "NPTEL",
+    "url": "https://nptel.ac.in/courses/112106286"
+  },
+  {
+    "title": "Education Point Online",
+    "channel": "Education Point",
+    "url": "https://www.youtube.com/playlist?list=PLg2LVpcRrOF7L4FknzcfxrnMin-03WUHs"
+  },
+  {
+    "title": "Gate Academy – Mechanical Engineering",
+    "channel": "Gate Academy",
+    "url": "https://www.youtube.com/playlist?list=PLNyPK_sfNdSQVQgc9B4DP9qPVlYmAmTRE"
+  },
+  {
+    "title": "Gate Wallah",
+    "channel": "Gate Wallah",
+    "url": "https://www.youtube.com/playlist?list=PLPvaSRcEQh4lfyQYKBRuTiLekgVIw2jvC"
+  },
+  {
+    "title": "Gautam Varde",
+    "channel": "Gautam Varde",
+    "url": "https://www.youtube.com/playlist?list=PL3qvHcrYGy1vwJlwY2uLfEzqr3vM0Ye-O"
+  }
+    
     ],
   },
   {
     keys: ["big data"],
     resources: [
-      { title: "Simplilearn – Big Data Analytics Course", channel: "Simplilearn", url: "https://www.youtube.com/watch?v=1vbXmCrkT3Y" },
-      { title: "Great Learning – Big Data Full Course", channel: "Great Learning", url: "https://www.youtube.com/@GreatLearningOfficial" },
-      { title: "Edureka – Big Data Hadoop Playlist", channel: "Edureka", url: "https://www.youtube.com/@edurekaIN/playlists" },
+      {
+    "title": "edureka! (1)",
+    "channel": "Edureka",
+    "url": "https://www.youtube.com/watch?v=1vbXmCrkT3Y"
+  },
+  {
+    "title": "edureka! (2)",
+    "channel": "Edureka",
+    "url": "https://www.youtube.com/watch?v=1vbXmCrkT3Y&t=157s"
+  },
+  {
+    "title": "Gate Smashers",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El"
+  },
+  {
+    "title": "Simplilearn",
+    "channel": "Simplilearn",
+    "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUJqp1k-g5W1mo37urJQOdCZ"
+  },
+  {
+    "title": "WsCube Tech",
+    "channel": "WsCube Tech",
+    "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGdRs1sGqRrTE-EMraLclJga"
+  }
+    
     ],
   },
   {
     keys: ["c programming", "c language"],
     resources: [
-      { title: "Neso Academy – C Programming Playlist", channel: "Neso Academy", url: "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oRrqiRLLlsX3n8QK8XS" },
-      { title: "Jenny's Lectures – C Programming", channel: "Jenny's Lectures CS/IT", url: "https://www.youtube.com/@JennyslecturesCSIT/playlists" },
-      { title: "freeCodeCamp – C Programming Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=KJgsSFOSQv0" },
+      {
+    "title": "Neso Academy – C Programming Playlist",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR"
+  },
+  {
+    "title": "Jenny's Lectures CS/IT – C Programming",
+    "channel": "Jenny's Lectures",
+    "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S"
+  },
+  {
+    "title": "Apna College",
+    "channel": "Apna College",
+    "url": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1s"
+  },
+  {
+    "title": "CodeWithHarry",
+    "channel": "CodeWithHarry",
+    "url": "https://www.youtube.com/watch?v=aZb0iu4uGwA"
+  },
+  {
+    "title": "College Wallah",
+    "channel": "College Wallah",
+    "url": "https://www.youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt"
+  },
+  {
+    "title": "freeCodeCamp – C Programming Full Course",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0&t=8s"
+  },
+  {
+    "title": "Learn Coding",
+    "channel": "Learn Coding",
+    "url": "https://www.youtube.com/watch?v=VSEnzzjAm0c"
+  }
+    
     ],
   },
   {
     keys: ["cloud computing"],
     resources: [
-      { title: "freeCodeCamp – Cloud Computing Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=2LaAJq1lB1Q" },
-      { title: "Neso Academy – Cloud Computing", channel: "Neso Academy", url: "https://www.youtube.com/@nesoacademy/playlists" },
-      { title: "AWS Training – Cloud Practitioner", channel: "AWS Training", url: "https://www.youtube.com/@AWSTraining" },
+      {
+    "title": "freeCodeCamp – Cloud Computing Course",
+    "channel": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=NhDYbskXRgc&t=11s"
+  },
+  {
+    "title": "Neso Academy – Computer Networks",
+    "channel": "Neso Academy",
+    "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx"
+  },
+  {
+    "title": "AWS Training – Cloud Practitioner",
+    "channel": "AWS Training",
+    "url": "https://www.youtube.com/@AWSTraining"
+  },
+  {
+    "title": "Simplilearn",
+    "channel": "Simplilearn",
+    "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUIJ3o1tehvtux0_Ynf42CBN"
+  },
+  {
+    "title": "GateSmashers",
+    "channel": "Gate Smashers",
+    "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHRHVUtR-O52MsrdUSrzuy4"
+  },
+  {
+    "title": "edureka!",
+    "channel": "Edureka",
+    "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOFtZ5oAAeOgi_nH-txMcDMu"
+  }
+    
     ],
   },
   {
