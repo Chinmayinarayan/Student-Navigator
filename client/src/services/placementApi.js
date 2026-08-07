@@ -35,7 +35,7 @@ const COMPANY_FOCUS = {
 
 const IMPORTANCE_LEVELS = ["Low", "Medium", "High", "Very High"];
 
-function getImportanceForTopic(topicName, companyConfig) {
+function getImportanceForTopic(topicName, companyConfig, companyName) {
   const lower = topicName.toLowerCase();
   const isBoost = companyConfig.boostKeywords.some((k) => lower.includes(k));
   const isMatch = companyConfig.keywords.some((k) => lower.includes(k));
@@ -43,8 +43,15 @@ function getImportanceForTopic(topicName, companyConfig) {
   if (isBoost) return "Very High";
   if (isMatch) return "High";
 
-  // Fallback: use a stable deterministic value based on topic name length
-  const idx = topicName.length % IMPORTANCE_LEVELS.length;
+  // Fallback: use a stable deterministic value based on topic name and company name
+  // to ensure different companies show different importance levels for non-algo subjects
+  const combined = topicName + companyName;
+  let hash = 0;
+  for (let i = 0; i < combined.length; i++) {
+    hash = (hash << 5) - hash + combined.charCodeAt(i);
+    hash |= 0; // Convert to 32bit integer
+  }
+  const idx = Math.abs(hash) % IMPORTANCE_LEVELS.length;
   return IMPORTANCE_LEVELS[idx];
 }
 
@@ -60,7 +67,7 @@ export function generatePlacementData(topicNames) {
     companiesData[company] = {
       topics: topicNames.map((name) => ({
         name,
-        importance: getImportanceForTopic(name, config),
+        importance: getImportanceForTopic(name, config, company),
       })),
     };
   });
