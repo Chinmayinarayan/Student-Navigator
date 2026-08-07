@@ -18,7 +18,10 @@ function TopicQuestions() {
       try {
         const [topicData, progressRes] = await Promise.all([
           getTopicById(id),
-          api.get(`/questions/progress/${id}`)
+          api.get(`/questions/progress/${id}`).catch((err) => {
+            console.warn("Could not fetch theoretical questions progress, defaulting to false:", err);
+            return { data: { completed: false } };
+          })
         ]);
         if (!isMounted) return;
         setTopic(topicData);

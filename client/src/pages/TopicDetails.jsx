@@ -368,12 +368,12 @@ function TopicDetails() {
                   Access our specialized AI-generated theoretical questions grouped by weightage (2 Marks, 6 Marks, and 10 Marks) for university exams.
                 </p>
               </div>
-              <button
-                onClick={() => navigate(`/topics/${id}/questions`)}
-                className="shrink-0 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-indigo-500/10 hover:scale-[1.02]"
+              <Link
+                to={`/topics/${id}/questions`}
+                className="shrink-0 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-indigo-500/10 hover:scale-[1.02] text-center"
               >
                 Open Question Bank
-              </button>
+              </Link>
             </div>
           </section>
 
@@ -419,18 +419,18 @@ function TopicDetails() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 shrink-0">
-                <button
-                  onClick={() => navigate(`/quiz/${id}`)}
-                  className="rounded-2xl bg-white hover:bg-slate-100 text-slate-950 px-6 py-3 text-xs font-bold transition shadow-sm"
+                <Link
+                  to={`/quiz/${id}`}
+                  className="rounded-2xl bg-white hover:bg-slate-100 text-slate-950 px-6 py-3 text-xs font-bold transition shadow-sm text-center"
                 >
                   Start Quiz Now
-                </button>
-                <button
-                  onClick={() => navigate("/quiz-history")}
-                  className="rounded-2xl bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 text-xs font-bold transition"
+                </Link>
+                <Link
+                  to="/quiz-history"
+                  className="rounded-2xl bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 text-xs font-bold transition text-center"
                 >
                   View Quiz History
-                </button>
+                </Link>
               </div>
             </div>
           </section>
@@ -446,12 +446,12 @@ function TopicDetails() {
                   Test your coding skills with curated practice problems from LeetCode and GeeksforGeeks targeted for this specific topic.
                 </p>
               </div>
-              <button
-                onClick={() => navigate(`/topics/${id}/coding`)}
-                className="shrink-0 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-emerald-500/10 hover:scale-[1.02]"
+              <Link
+                to={`/topics/${id}/coding`}
+                className="shrink-0 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-emerald-500/10 hover:scale-[1.02] text-center"
               >
                 Start Coding Practice
-              </button>
+              </Link>
             </div>
           </section>
 
