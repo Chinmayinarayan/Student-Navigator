@@ -226,7 +226,25 @@ const SubjectPrerequisiteGraph = ({ subjectId }) => {
     );
   }
 
-  if (error || !data || !data.topics || data.topics.length === 0) return null;
+  if (error) {
+    return (
+      <div className="h-64 flex flex-col items-center justify-center bg-slate-950/20 border border-rose-500/20 rounded-3xl p-6 text-center space-y-2 animate-fadeIn">
+        <Compass className="h-8 w-8 text-rose-500 animate-pulse" />
+        <h3 className="text-sm font-extrabold text-white">Syllabus Roadmap Error</h3>
+        <p className="text-xs text-rose-400 max-w-md">{error}</p>
+      </div>
+    );
+  }
+
+  if (!data || !data.topics || data.topics.length === 0) {
+    return (
+      <div className="h-64 flex flex-col items-center justify-center bg-slate-950/20 border border-white/5 rounded-3xl p-6 text-center space-y-2 animate-fadeIn">
+        <Compass className="h-8 w-8 text-slate-500" />
+        <h3 className="text-sm font-extrabold text-slate-400">No Roadmap Data</h3>
+        <p className="text-xs text-slate-500">There are no modules populated for this subject in the database.</p>
+      </div>
+    );
+  }
 
   return (
     <section className="bg-slate-950/40 border border-white/5 rounded-3xl p-6 shadow-md space-y-6">
