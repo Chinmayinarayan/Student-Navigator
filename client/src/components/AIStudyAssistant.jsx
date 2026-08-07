@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import {
   Bot, Send, Copy, RotateCcw, Trash2, Zap, ChevronDown,
-  Code2, X, BookOpen, Video, Sparkles, BookMarked, Clock,
+  Code2, X, Sparkles, BookMarked, Clock,
 } from "lucide-react";
 import { chatWithAssistant } from "../services/assistantApi";
 import { saveAINote } from "../services/aiNotesApi";
@@ -380,9 +380,6 @@ const AIStudyAssistant = ({ subject, topic, resources = {} }) => {
   };
 
   const hasMessages = messages.length > 0;
-  const topicVideos = (resources?.videos || []).slice(0, 3);
-  const topicBooks  = (resources?.books || []).slice(0, 2);
-  const hasResources = topicVideos.length > 0 || topicBooks.length > 0;
 
   return (
     <>
@@ -642,32 +639,6 @@ const AIStudyAssistant = ({ subject, topic, resources = {} }) => {
                 </div>
               </div>
 
-              {/* Related Resources */}
-              {hasResources && (
-                <div className="pt-2 border-t border-white/5 space-y-2">
-                  <p className="text-[9px] font-bold text-slate-700 uppercase tracking-widest flex items-center gap-1">
-                    <BookOpen className="h-2.5 w-2.5 text-cyan-600" />Related Learning Resources
-                  </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {topicVideos.map((vid, i) => (
-                      <a key={i} href={vid.url} target="_blank" rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 rounded-xl border border-rose-500/20 bg-rose-500/5 hover:bg-rose-500/15 px-2.5 py-1.5 text-[10px] font-semibold text-rose-400 hover:text-rose-300 transition max-w-[180px]"
-                      >
-                        <Video className="h-3 w-3 shrink-0" />
-                        <span className="truncate">{vid.title || vid.channel || "Watch Video"}</span>
-                      </a>
-                    ))}
-                    {topicBooks.map((book, i) => (
-                      <a key={i} href={book.url || "#"} target="_blank" rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 rounded-xl border border-cyan-500/20 bg-cyan-500/5 hover:bg-cyan-500/15 px-2.5 py-1.5 text-[10px] font-semibold text-cyan-400 hover:text-cyan-300 transition max-w-[180px]"
-                      >
-                        <BookOpen className="h-3 w-3 shrink-0" />
-                        <span className="truncate">{book.title || "Open Book"}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )}
 
             </div>
           </div>
