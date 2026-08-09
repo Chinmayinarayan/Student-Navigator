@@ -219,6 +219,13 @@ For dimensional measurements, plot Measured Diameter vs. Trial Number to evaluat
 
 ---
 
+# Recommended Coding Challenges
+- **Mean of Array After Removing Some Elements**: https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
+- **Average Salary Excluding the Minimum and Maximum Salary**: https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+- **Running Sum of 1d Array**: https://leetcode.com/problems/running-sum-of-1d-array/
+
+---
+
 # MODULE 2: LASER EXPERIMENTS
 
 ## 1. Introduction
@@ -427,6 +434,12 @@ Plot $\sin \theta_m$ vs order $m$. Slope $= \lambda N \implies \lambda = \frac{\
 
 ---
 
+# Recommended Coding Challenges
+- **Pow(x, n)**: https://leetcode.com/problems/powx-n/
+- **Sqrt(x)**: https://leetcode.com/problems/sqrtx/
+
+---
+
 # MODULE 3: INTERFERENCE AND DIFFRACTION EXPERIMENTS
 
 ## 1. Introduction
@@ -632,6 +645,13 @@ Graph of $D_n^2$ (y-axis) vs Ring Number $n$ (x-axis) yields a straight line pas
 
 ---
 
+# Recommended Coding Challenges
+- **Running Sum of 1d Array**: https://leetcode.com/problems/running-sum-of-1d-array/
+- **Find Pivot Index**: https://leetcode.com/problems/find-pivot-index/
+- **Maximum Subarray**: https://leetcode.com/problems/maximum-subarray/
+
+---
+
 # MODULE 4: FIBER OPTICS EXPERIMENTS
 
 ## 1. Introduction
@@ -826,6 +846,12 @@ Plot Spot Diameter $W$ (y-axis) vs Screen Distance $D$ (x-axis). Slope $= 2 \tan
 
 # Practice
 - Practice problems included in revision section.
+
+---
+
+# Recommended Coding Challenges
+- **Maximum Average Subarray I**: https://leetcode.com/problems/maximum-average-subarray-i/
+- **Maximum Product Subarray**: https://leetcode.com/problems/maximum-product-subarray/
 
 ---
 
@@ -1032,6 +1058,13 @@ Graph of $\log_{10} I_0$ (y-axis) vs $1/T$ (x-axis) forms a straight line with n
 
 ---
 
+# Recommended Coding Challenges
+- **Pow(x, n)**: https://leetcode.com/problems/powx-n/
+- **Sqrt(x)**: https://leetcode.com/problems/sqrtx/
+- **Valid Perfect Square**: https://leetcode.com/problems/valid-perfect-square/
+
+---
+
 # MODULE 6: MAGNETIC EXPERIMENTS
 
 ## 1. Introduction
@@ -1224,6 +1257,13 @@ Sketch hysteresis loop showing $B$ vs $H$ axes, marking $B_s, B_r, H_c$.
 
 # Practice
 - Full practice set listed in Master Review Sheet.
+
+---
+
+# Recommended Coding Challenges
+- **K Closest Points to Origin**: https://leetcode.com/problems/k-closest-points-to-origin/
+- **Valid Boomerang**: https://leetcode.com/problems/valid-boomerang/
+- **Check If It Is a Straight Line**: https://leetcode.com/problems/check-if-it-is-a-straight-line/
 
 ---
 
@@ -1429,6 +1469,11 @@ Plot Micrometer Reading $d_N$ (mm) vs Peak Number $N$. Slope $= \lambda / 2$.
 
 ---
 
+# Recommended Coding Challenges
+*No coding challenges necessary.*
+
+---
+
 # MODULE 8: MODERN PHYSICS EXPERIMENTS
 
 ## 1. Introduction
@@ -1631,6 +1676,12 @@ $$m = \frac{h c}{e} \implies h = \frac{e \cdot m}{c}$$
 
 # Practice
 - Included in final review sheet.
+
+---
+
+# Recommended Coding Challenges
+- **Random Pick with Weight**: https://leetcode.com/problems/random-pick-with-weight/
+- **Generate Random Point in a Circle**: https://leetcode.com/problems/generate-random-point-in-a-circle/
 
 ---
 
@@ -1842,6 +1893,18 @@ Graph layout guidelines:
 
 # Practice
 - Full summary synthesis provided below.
+
+---
+
+# Recommended Coding Challenges
+- **Mean of Array After Removing Some Elements**: https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
+- **Average Salary Excluding the Minimum and Maximum Salary**: https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+- **Running Sum of 1d Array**: https://leetcode.com/problems/running-sum-of-1d-array/
+- **Find Pivot Index**: https://leetcode.com/problems/find-pivot-index/
+- **Maximum Average Subarray I**: https://leetcode.com/problems/maximum-average-subarray-i/
+- **Third Maximum Number**: https://leetcode.com/problems/third-maximum-number/
+- **Contains Duplicate**: https://leetcode.com/problems/contains-duplicate/
+- **Majority Element**: https://leetcode.com/problems/majority-element/
 
 ---
 

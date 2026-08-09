@@ -1,85 +1,91 @@
+import { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import ProtectedRoute from "./components/ProtectedRoute";
 
+// ── Always-eager (tiny, critical-path pages) ─────────────────────────────────
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import Subjects from "./pages/Subjects";
-import SubjectDetails from "./pages/SubjectDetails";
-import Careers from "./pages/Careers";
-import Events from "./pages/Events";
-import Profile from "./pages/Profile";
-import NotFound from "./pages/NotFound";
-import Recommendations from "./pages/Recommendations";
-import CareerDetails from "./pages/CareerDetails";
-import ProtectedRoute from "./components/ProtectedRoute";
-import TopicDetails from "./pages/TopicDetails";
-import TopicQuestions from "./pages/TopicQuestions";
-import TopicCoding from "./pages/TopicCoding";
-import Tests from "./pages/Tests";
-import TakeTest from "./pages/TakeTest";
-import TestResult from "./pages/TestResult";
-import QuizPage from "./pages/QuizPage";
-import QuizResult from "./pages/QuizResult";
-import QuizHistory from "./pages/QuizHistory";
-import AnalyticsDashboard from "./pages/AnalyticsDashboard";
-import Achievements from "./pages/Achievements";
-import RoadmapPage from "./pages/RoadmapPage";
-import SubjectQuestions from "./pages/SubjectQuestions";
-import YouTubeResources from "./pages/YouTubeResources";
-import Layout from "./components/Layout";
-import DashboardLayout from "./components/DashboardLayout";
+
+// ── Lazy-loaded routes (loaded only when navigated to) ───────────────────────
+const Dashboard        = lazy(() => import("./pages/Dashboard"));
+const Subjects         = lazy(() => import("./pages/Subjects"));
+const SubjectDetails   = lazy(() => import("./pages/SubjectDetails"));
+const SubjectQuestions = lazy(() => import("./pages/SubjectQuestions"));
+const TopicDetails     = lazy(() => import("./pages/TopicDetails"));
+const TopicQuestions   = lazy(() => import("./pages/TopicQuestions"));
+const TopicCoding      = lazy(() => import("./pages/TopicCoding"));
+const Careers          = lazy(() => import("./pages/Careers"));
+const CareerDetails    = lazy(() => import("./pages/CareerDetails"));
+const RoadmapPage      = lazy(() => import("./pages/RoadmapPage"));
+const Recommendations  = lazy(() => import("./pages/Recommendations"));
+const Events           = lazy(() => import("./pages/Events"));
+const Profile          = lazy(() => import("./pages/Profile"));
+const Tests            = lazy(() => import("./pages/Tests"));
+const TakeTest         = lazy(() => import("./pages/TakeTest"));
+const TestResult       = lazy(() => import("./pages/TestResult"));
+const QuizPage         = lazy(() => import("./pages/QuizPage"));
+const QuizResult       = lazy(() => import("./pages/QuizResult"));
+const QuizHistory      = lazy(() => import("./pages/QuizHistory"));
+const AnalyticsDashboard = lazy(() => import("./pages/AnalyticsDashboard"));
+const Achievements     = lazy(() => import("./pages/Achievements"));
+const YouTubeResources = lazy(() => import("./pages/YouTubeResources"));
+const NotFound         = lazy(() => import("./pages/NotFound"));
+
+// Minimal inline fallback — no extra component needed
+const PageLoader = () => (
+  <div className="flex min-h-[60vh] items-center justify-center">
+    <div className="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl px-10 py-8 text-center max-w-xs">
+      <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-cyan-400 mx-auto" />
+      <p className="mt-4 text-sm font-semibold text-slate-400">Loading...</p>
+    </div>
+  </div>
+);
 
 function App() {
   return (
-    <Routes>
-      {/* Public Routes */}
-      <Route path="/" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+    <Suspense fallback={<PageLoader />}>
+      <Routes>
+        {/* Public Routes */}
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
-      {/* Standalone Protected Dashboard Portal */}
-      <Route
-        path="/dashboard"
-        element={
-          <ProtectedRoute>
-            <DashboardLayout />
-          </ProtectedRoute>
-        }
-      />
+        {/* Protected Layout Routes */}
+        <Route
+          element={
+            <ProtectedRoute>
+              <Layout />
+            </ProtectedRoute>
+          }
+        >
+          <Route path="/dashboard"               element={<Suspense fallback={<PageLoader />}><Dashboard /></Suspense>} />
+          <Route path="/subjects"                element={<Suspense fallback={<PageLoader />}><Subjects /></Suspense>} />
+          <Route path="/subjects/:id"            element={<Suspense fallback={<PageLoader />}><SubjectDetails /></Suspense>} />
+          <Route path="/subjects/:id/questions"  element={<Suspense fallback={<PageLoader />}><SubjectQuestions /></Suspense>} />
+          <Route path="/topics/:id"              element={<Suspense fallback={<PageLoader />}><TopicDetails /></Suspense>} />
+          <Route path="/topics/:id/questions"    element={<Suspense fallback={<PageLoader />}><TopicQuestions /></Suspense>} />
+          <Route path="/topics/:id/coding"       element={<Suspense fallback={<PageLoader />}><TopicCoding /></Suspense>} />
+          <Route path="/careers"                 element={<Suspense fallback={<PageLoader />}><Careers /></Suspense>} />
+          <Route path="/careers/:id"             element={<Suspense fallback={<PageLoader />}><CareerDetails /></Suspense>} />
+          <Route path="/roadmap/:careerId"       element={<Suspense fallback={<PageLoader />}><RoadmapPage /></Suspense>} />
+          <Route path="/recommendations"         element={<Suspense fallback={<PageLoader />}><Recommendations /></Suspense>} />
+          <Route path="/events"                  element={<Suspense fallback={<PageLoader />}><Events /></Suspense>} />
+          <Route path="/profile"                 element={<Suspense fallback={<PageLoader />}><Profile /></Suspense>} />
+          <Route path="/tests"                   element={<Suspense fallback={<PageLoader />}><Tests /></Suspense>} />
+          <Route path="/tests/:id"               element={<Suspense fallback={<PageLoader />}><TakeTest /></Suspense>} />
+          <Route path="/tests/result/:id"        element={<Suspense fallback={<PageLoader />}><TestResult /></Suspense>} />
+          <Route path="/quiz/:topicId"           element={<Suspense fallback={<PageLoader />}><QuizPage /></Suspense>} />
+          <Route path="/quiz-result/:id"         element={<Suspense fallback={<PageLoader />}><QuizResult /></Suspense>} />
+          <Route path="/quiz-history"            element={<Suspense fallback={<PageLoader />}><QuizHistory /></Suspense>} />
+          <Route path="/analytics"               element={<Suspense fallback={<PageLoader />}><AnalyticsDashboard /></Suspense>} />
+          <Route path="/achievements"            element={<Suspense fallback={<PageLoader />}><Achievements /></Suspense>} />
+          <Route path="/youtube-resources"       element={<Suspense fallback={<PageLoader />}><YouTubeResources /></Suspense>} />
+        </Route>
 
-      {/* Protected Layout Routes */}
-      <Route
-        element={
-          <ProtectedRoute>
-            <Layout />
-          </ProtectedRoute>
-        }
-      >
-        <Route path="/subjects" element={<Subjects />} />
-        <Route path="/subjects/:id" element={<SubjectDetails />} />
-        <Route path="/subjects/:id/questions" element={<SubjectQuestions />} />
-        <Route path="/topics/:id" element={<TopicDetails />} />
-        <Route path="/topics/:id/questions" element={<TopicQuestions />} />
-        <Route path="/topics/:id/coding" element={<TopicCoding />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/careers/:id" element={<CareerDetails />} />
-        <Route path="/roadmap/:careerId" element={<RoadmapPage />} />
-        <Route path="/recommendations" element={<Recommendations />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/tests" element={<Tests />} />
-        <Route path="/tests/:id" element={<TakeTest />} />
-        <Route path="/tests/result/:id" element={<TestResult />} />
-        <Route path="/quiz/:topicId" element={<QuizPage />} />
-        <Route path="/quiz-result/:id" element={<QuizResult />} />
-        <Route path="/quiz-history" element={<QuizHistory />} />
-        <Route path="/analytics" element={<AnalyticsDashboard />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/youtube-resources" element={<YouTubeResources />} />
-      </Route>
-
-      {/* Fallback Route */}
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+        {/* Fallback */}
+        <Route path="*" element={<Suspense fallback={null}><NotFound /></Suspense>} />
+      </Routes>
+    </Suspense>
   );
 }
 

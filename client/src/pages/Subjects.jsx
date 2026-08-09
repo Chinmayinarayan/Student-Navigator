@@ -10,28 +10,33 @@ function Subjects() {
 
   useEffect(() => {
     let isMounted = true;
-    const fetchData = async () => {
+
+    // Step 1 — fetch subjects and render immediately
+    const fetchSubjects = async () => {
       try {
-        const [subjectsRes, progressRes] = await Promise.all([
-          api.get("/subjects"),
-          api.get("/progress")
-        ]);
-        if (isMounted) {
-          setSubjects(subjectsRes.data.subjects || []);
-          setProgressMap(progressRes.data.progress || {});
-        }
+        const res = await api.get("/subjects");
+        if (isMounted) setSubjects(res.data.subjects || []);
       } catch (error) {
-        console.error("Error fetching subjects and progress:", error);
+        console.error("Error fetching subjects:", error);
       } finally {
-        if (isMounted) {
-          setLoading(false);
-        }
+        if (isMounted) setLoading(false);
       }
     };
-    fetchData();
-    return () => {
-      isMounted = false;
+
+    // Step 2 — fetch progress in background, fills in progress bars when ready
+    const fetchProgress = async () => {
+      try {
+        const res = await api.get("/progress");
+        if (isMounted) setProgressMap(res.data.progress || {});
+      } catch {
+        // non-critical — progress bars just stay at 0
+      }
     };
+
+    fetchSubjects();
+    fetchProgress(); // runs independently
+
+    return () => { isMounted = false; };
   }, []);
 
   const getIcon = (name) => {

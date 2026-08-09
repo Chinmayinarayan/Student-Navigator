@@ -22,6 +22,7 @@ function TopicDetails() {
 
   // Dynamic pillar progress fetched from API endpoints
   const [theoryDone, setTheoryDone] = useState(false);
+  const [codingProblems, setCodingProblems] = useState([]);
   const [codingScorePct, setCodingScorePct] = useState(0);
   const [quizScorePct, setQuizScorePct] = useState(0);
 
@@ -42,13 +43,18 @@ function TopicDetails() {
     const fetchCodingProgress = async () => {
       try {
         const problems = await getCodingProblems(id);
-        if (!isMounted || !problems || problems.length === 0) return;
-        const progressResults = await Promise.all(
-          problems.map((p) => getCodingProblemProgress(p._id).catch(() => false))
-        );
-        const solvedCount = progressResults.filter(Boolean).length;
-        const pct = Math.round((solvedCount / problems.length) * 100);
-        if (isMounted) setCodingScorePct(pct);
+        if (!isMounted) return;
+        if (problems && problems.length > 0) {
+          setCodingProblems(problems);
+          const progressResults = await Promise.all(
+            problems.map((p) => getCodingProblemProgress(p._id).catch(() => false))
+          );
+          const solvedCount = progressResults.filter(Boolean).length;
+          const pct = Math.round((solvedCount / problems.length) * 100);
+          if (isMounted) setCodingScorePct(pct);
+        } else {
+          setCodingProblems([]);
+        }
       } catch (err) {
         // Fallback
       }
@@ -85,17 +91,29 @@ function TopicDetails() {
     };
   }, [id]);
 
-  // Pillar scores (3 pillars):
+  const NON_CODING_SUBJECTS = [
+    "Corporate Communication",
+    "Design Thinking for Social Innovation",
+    "Engineering Exploration",
+    "Industry Readiness & Leadership Skills"
+  ];
+
+  const subjectName = topic?.subject?.name || "Subject";
+  const isNonCodingSubject = NON_CODING_SUBJECTS.some(
+    (s) => s.toLowerCase() === subjectName.toLowerCase()
+  );
+
+  // Pillar scores:
   const theoryScore = completed || theoryDone ? 100 : 0;
   const codingScore = completed ? 100 : codingScorePct;
   const quizScore = completed ? (quizScorePct || 100) : quizScorePct;
 
-  // Overall Weighted Placement Readiness Score % (Theory 25%, Coding 40%, Quiz 35%)
-  const overallReadiness = Math.round(
-    theoryScore * 0.25 +
-    codingScore * 0.40 +
-    quizScore * 0.35
-  );
+  // Overall Weighted Placement Readiness Score %
+  // For non-coding subjects: Theory 50%, Quiz 50%
+  // For technical/coding subjects: Theory 25%, Coding 40%, Quiz 35%
+  const overallReadiness = isNonCodingSubject
+    ? Math.round(theoryScore * 0.50 + quizScore * 0.50)
+    : Math.round(theoryScore * 0.25 + codingScore * 0.40 + quizScore * 0.35);
 
   const getReadinessLevel = (score) => {
     if (score >= 80) return { label: "High Placement Fit", color: "text-emerald-400", bg: "bg-emerald-500/10 border-emerald-500/20" };
@@ -174,11 +192,10 @@ function TopicDetails() {
     );
   }
 
-  const subjectName = topic.subject?.name || "Subject";
-  const subjectId = topic.subject?._id || "";
-  const isAlgoSubject = subjectName.toLowerCase().includes("algorithm") || 
-                        subjectName.toLowerCase().includes("data structure") || 
-                        subjectName.toLowerCase().includes("data structures");
+    const subjectId = topic.subject?._id || "";
+    const isAlgoSubject = subjectName.toLowerCase().includes("algorithm") || 
+                          subjectName.toLowerCase().includes("data structure") || 
+                          subjectName.toLowerCase().includes("data structures");
 
   return (
     <div className="space-y-8 animate-fadeIn">
@@ -295,13 +312,13 @@ function TopicDetails() {
               </div>
             </div>
 
-            {/* 4 Pillars Percentage Breakdown */}
-            <div className="grid gap-4 md:grid-cols-2">
+            {/* Percentage Breakdown */}
+            <div className={`grid gap-4 ${isNonCodingSubject ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
               {/* Pillar 1: Theory Questions */}
               <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
                 <div className="flex justify-between items-center text-xs">
                   <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
-                    ❓ Theory Marking (25% Wt)
+                    ❓ Theory Marking ({isNonCodingSubject ? "50%" : "25%"} Wt)
                   </span>
                   <span className={`font-black ${theoryScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{theoryScore}%</span>
                 </div>
@@ -316,30 +333,32 @@ function TopicDetails() {
                 </div>
               </div>
 
-              {/* Pillar 2: Coding Practice */}
-              <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
-                <div className="flex justify-between items-center text-xs">
-                  <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
-                    💻 Coding Practice (40% Wt)
-                  </span>
-                  <span className={`font-black ${codingScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{codingScore}%</span>
+              {/* Pillar 2: Coding Practice (Only for technical/coding subjects) */}
+              {!isNonCodingSubject && (
+                <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
+                      💻 Coding Practice (40% Wt)
+                    </span>
+                    <span className={`font-black ${codingScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{codingScore}%</span>
+                  </div>
+                  <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+                    <div className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-500" style={{ width: `${codingScore}%` }}></div>
+                  </div>
+                  <div className="flex justify-between items-center text-[10px] pt-0.5">
+                    <span className={codingScore > 0 ? "text-emerald-400 font-extrabold" : "text-slate-500 font-semibold"}>
+                      {codingScore > 0 ? `✓ ${codingScore}% Problems Solved` : "○ Pending Coding Practice"}
+                    </span>
+                    <span className="text-slate-500">LeetCode / GFG</span>
+                  </div>
                 </div>
-                <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-500" style={{ width: `${codingScore}%` }}></div>
-                </div>
-                <div className="flex justify-between items-center text-[10px] pt-0.5">
-                  <span className={codingScore > 0 ? "text-emerald-400 font-extrabold" : "text-slate-500 font-semibold"}>
-                    {codingScore > 0 ? `✓ ${codingScore}% Problems Solved` : "○ Pending Coding Practice"}
-                  </span>
-                  <span className="text-slate-500">LeetCode / GFG</span>
-                </div>
-              </div>
+              )}
 
               {/* Pillar 3: Concept Check Quiz */}
               <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
                 <div className="flex justify-between items-center text-xs">
                   <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
-                    🏆 Concept Quiz (35% Wt)
+                    🏆 Concept Quiz ({isNonCodingSubject ? "50%" : "35%"} Wt)
                   </span>
                   <span className={`font-black ${quizScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{quizScore}%</span>
                 </div>
@@ -377,34 +396,7 @@ function TopicDetails() {
             </div>
           </section>
 
-          {/* 4. Interactive Libraries */}
-          {topic.practiceLinks && topic.practiceLinks.length > 0 && !isAlgoSubject && (
-            <section className="bg-slate-950/40 border border-white/5 rounded-3xl p-6 shadow-md space-y-4">
-              <h2 className="text-lg font-extrabold text-white flex items-center gap-2 border-b border-white/5 pb-3">
-                <span>🔗</span> Interactive Libraries
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {topic.practiceLinks.map((link, idx) => (
-                  <a
-                    key={idx}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-emerald-500/30 hover:bg-emerald-500/5 transition group"
-                  >
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-bold text-slate-300 group-hover:text-emerald-400 transition leading-snug break-words">
-                        {link.title}
-                      </span>
-                    </div>
-                    <span className="text-emerald-500 text-sm ml-2 font-bold font-sans">Visit ↗</span>
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* 5. Concept Assessment */}
+          {/* 4. Concept Assessment */}
           <section className="bg-gradient-to-br from-slate-900 to-slate-950 border border-white/5 text-white rounded-3xl p-6 shadow-md">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div className="space-y-1">
@@ -435,27 +427,41 @@ function TopicDetails() {
             </div>
           </section>
 
-          {/* 6. Coding Challenges */}
-          <section className="bg-gradient-to-br from-emerald-950/20 to-slate-950/40 border border-emerald-500/10 rounded-3xl p-6 shadow-md">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <div className="space-y-1">
-                <h2 className="text-lg font-extrabold text-white flex items-center gap-2">
-                  <span>💻</span> Coding Challenges
-                </h2>
-                <p className="text-xs text-slate-400 leading-relaxed max-w-2xl">
-                  Test your coding skills with curated practice problems from LeetCode and GeeksforGeeks targeted for this specific topic.
-                </p>
+          {/* 5. Coding Challenges / Non-Coding Info */}
+          {isNonCodingSubject ? (
+            <section className="bg-slate-950/40 border border-white/5 rounded-3xl p-6 shadow-md">
+              <div className="flex items-center gap-3.5">
+                <span className="text-2xl">📘</span>
+                <div>
+                  <h2 className="text-sm font-bold text-white">Theoretical & Practical Focus</h2>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Coding is not applicable for this topic as it focuses on soft skills, communication, design thinking, leadership, and conceptual understanding.
+                  </p>
+                </div>
               </div>
-              <Link
-                to={`/topics/${id}/coding`}
-                className="shrink-0 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-emerald-500/10 hover:scale-[1.02] text-center"
-              >
-                Start Coding Practice
-              </Link>
-            </div>
-          </section>
+            </section>
+          ) : (
+            <section className="bg-gradient-to-br from-emerald-950/20 to-slate-950/40 border border-emerald-500/10 rounded-3xl p-6 shadow-md">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div className="space-y-1">
+                  <h2 className="text-lg font-extrabold text-white flex items-center gap-2">
+                    <span>💻</span> Coding Challenges
+                  </h2>
+                  <p className="text-xs text-slate-400 leading-relaxed max-w-2xl">
+                    Test your coding skills with curated practice problems from LeetCode and GeeksforGeeks targeted for this specific topic.
+                  </p>
+                </div>
+                <Link
+                  to={`/topics/${id}/coding`}
+                  className="shrink-0 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 text-xs font-bold transition shadow-md shadow-emerald-500/10 hover:scale-[1.02] text-center"
+                >
+                  Start Coding Practice
+                </Link>
+              </div>
+            </section>
+          )}
 
-          {/* 7. AI Study Assistant */}
+          {/* 6. AI Study Assistant */}
           <AIStudyAssistant
             subject={subjectName}
             topic={topic.title}

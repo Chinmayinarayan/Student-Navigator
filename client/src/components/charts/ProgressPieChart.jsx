@@ -21,23 +21,22 @@ function ProgressPieChart({ completed, total }) {
     },
   ];
 
-  const COLORS = ["#22c55e", "#e5e7eb"];
+  const COLORS = ["#06b6d4", "#1e293b"];
 
   return (
-    <div className="bg-white rounded-2xl shadow border p-6">
-
-      <h2 className="text-xl font-bold mb-5">
-        Topic Completion
+    <div className="bg-slate-950/40 border border-white/5 rounded-3xl shadow-xl p-6 backdrop-blur-xl">
+      <h2 className="text-base font-bold text-white mb-4">
+        Topic Completion Ratio
       </h2>
 
-      <ResponsiveContainer width="100%" height={320}>
+      <ResponsiveContainer width="100%" height={300}>
         <PieChart>
-
           <Pie
             data={data}
             dataKey="value"
-            innerRadius={70}
-            outerRadius={110}
+            innerRadius={65}
+            outerRadius={100}
+            strokeWidth={0}
           >
             {data.map((entry, index) => (
               <Cell
@@ -46,13 +45,17 @@ function ProgressPieChart({ completed, total }) {
               />
             ))}
           </Pie>
-
-          <Tooltip />
-          <Legend />
-
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "#0f172a",
+              borderColor: "#334155",
+              borderRadius: "12px",
+              color: "#f8fafc",
+            }}
+          />
+          <Legend wrapperStyle={{ color: "#94a3b8" }} />
         </PieChart>
       </ResponsiveContainer>
-
     </div>
   );
 }

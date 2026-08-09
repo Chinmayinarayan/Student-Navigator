@@ -335,6 +335,14 @@ Search these titles directly on YouTube for verified results:
 
 ---
 
+## Recommended Coding Challenges
+- **Reverse Integer**: https://leetcode.com/problems/reverse-integer/
+- **Palindrome Number**: https://leetcode.com/problems/palindrome-number/
+- **Number of 1 Bits**: https://leetcode.com/problems/number-of-1-bits/
+- **Power of Two**: https://leetcode.com/problems/power-of-two/
+
+---
+
 ## Practice Set — Module 1 (20 MCQs)
 
 **1.** What is the unit digit of 7^256?
@@ -729,6 +737,14 @@ TRICKS: (n5)²=n(n+1)|25 | ×11: insert adjacent sums
 
 ---
 
+## Recommended Coding Challenges
+- **Add Two Integers**: https://leetcode.com/problems/add-two-integers/
+- **Multiply Strings**: https://leetcode.com/problems/multiply-strings/
+- **Divide Two Integers**: https://leetcode.com/problems/divide-two-integers/
+- **Add Digits**: https://leetcode.com/problems/add-digits/
+
+---
+
 ## Practice Set — Module 2 (20 MCQs)
 
 **1.** 8 + 4 ÷ 2 × 3 − 1 = ?
@@ -1094,6 +1110,11 @@ PARTNERSHIP:
 | GFG Mixture & Alligation | https://www.geeksforgeeks.org/alligation-and-mixture-aptitude/ |
 | CareerRide Ratio | https://careerride.com/Aptitude-Ratio-Proportion.aspx |
 | Placement Prep Concepts | https://www.placementpreparation.io/quantitative-aptitude/ratio-and-proportion/concepts/ |
+
+---
+
+## Recommended Coding Challenges
+*No coding challenges necessary.*
 
 ---
 
@@ -1502,6 +1523,11 @@ KEY FRACTIONS: 1/6=16.67% | 1/7=14.28% | 1/8=12.5%
 | GFG Profit & Loss | https://www.geeksforgeeks.org/aptitude/profit-and-loss/ |
 | CareerRide Percentage | https://careerride.com/Aptitude-Percentage.aspx |
 | Placement Prep | https://www.placementpreparation.io/quantitative-aptitude/percentage/concepts/ |
+
+---
+
+## Recommended Coding Challenges
+*No coding challenges necessary.*
 
 ---
 
@@ -1914,6 +1940,13 @@ WRONG ENTRY: Corrected avg = (n×old avg ± correction) / n
 
 ---
 
+## Recommended Coding Challenges
+- **Mean of Array After Removing Some Elements**: https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
+- **Average Salary Excluding the Minimum and Maximum Salary**: https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+- **Maximum Average Subarray I**: https://leetcode.com/problems/maximum-average-subarray-i/
+
+---
+
 ## Practice Set — Module 5 (20 MCQs)
 
 **1.** Average of first 10 multiples of 3?
@@ -2323,6 +2356,11 @@ MIDWAY: Work left after k days = 1 − k×(combined rate)
 | GFG Pipes & Cisterns | https://www.geeksforgeeks.org/aptitude/pipes-and-cisterns/ |
 | CareerRide Time & Work | https://careerride.com/Aptitude-Time-Work.aspx |
 | Placement Prep | https://www.placementpreparation.io/quantitative-aptitude/time-and-work/concepts/ |
+
+---
+
+## Recommended Coding Challenges
+*No coding challenges necessary.*
 
 ---
 
@@ -2769,6 +2807,12 @@ CIRCULAR (same dir): Time = Track / |S₁−S₂|
 
 ---
 
+## Recommended Coding Challenges
+- **Minimum Time to Complete Trips**: https://leetcode.com/problems/minimum-time-to-complete-trips/
+- **Car Fleet**: https://leetcode.com/problems/car-fleet/
+
+---
+
 ## Practice Set — Module 7 (20 MCQs)
 
 **1.** A car travels 360 km in 6 hours. Speed in m/s?
@@ -3187,6 +3231,11 @@ R = (Y−X)×100 / (X×(m−n))
 | CareerRide SI | https://careerride.com/Aptitude-Simple-Interest.aspx |
 | Placement Prep | https://www.placementpreparation.io/quantitative-aptitude/simple-interest/concepts/ |
 | Khan Academy Interest | https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-fractions-decimals/cc-7th-percent-word-problems/a/simple-interest |
+
+---
+
+## Recommended Coding Challenges
+*No coding challenges necessary.*
 
 ---
 
@@ -3643,6 +3692,14 @@ KEY FACTORIALS: 5!=120 | 6!=720 | 7!=5040 | 8!=40320
 
 ---
 
+## Recommended Coding Challenges
+- **Solve the Equation**: https://leetcode.com/problems/solve-the-equation/
+- **Evaluate Reverse Polish Notation**: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+- **Basic Calculator**: https://leetcode.com/problems/basic-calculator/
+- **Basic Calculator II**: https://leetcode.com/problems/basic-calculator-ii/
+
+---
+
 ## Practice Set — Module 9 (20 MCQs)
 
 **1.** 15th term of AP 3, 8, 13, 18, …?
@@ -4081,6 +4138,13 @@ All+All=All | All+No=No | Some+All=Some | Some+Some=Nothing definite
 | IndiaBix Syllogisms | https://www.indiabix.com/logical-reasoning/syllogism/ |
 | GFG Logical Reasoning | https://www.geeksforgeeks.org/logical-reasoning/ |
 | CareerRide Reasoning | https://careerride.com/Aptitude-Logical-Reasoning.aspx |
+
+---
+
+## Recommended Coding Challenges
+- **Valid Parentheses**: https://leetcode.com/problems/valid-parentheses/
+- **Is Subsequence**: https://leetcode.com/problems/is-subsequence/
+- **Word Pattern**: https://leetcode.com/problems/word-pattern/
 
 ---
 
@@ -4555,6 +4619,14 @@ PUZZLES: List all constraints → grid/table → definite first → eliminate.
 
 ---
 
+## Recommended Coding Challenges
+- **Two Sum**: https://leetcode.com/problems/two-sum/
+- **3Sum**: https://leetcode.com/problems/3sum/
+- **Group Anagrams**: https://leetcode.com/problems/group-anagrams/
+- **Isomorphic Strings**: https://leetcode.com/problems/isomorphic-strings/
+
+---
+
 ## Practice Set — Module 11 (20 MCQs)
 
 **1.** Angle between hands at 3:00?
@@ -4984,6 +5056,15 @@ SPEED: Use fractions — 1/3≈33% | 1/4=25% | 1/5=20%
 
 ---
 
+## Recommended Coding Challenges
+- **Running Sum of 1d Array**: https://leetcode.com/problems/running-sum-of-1d-array/
+- **Find Pivot Index**: https://leetcode.com/problems/find-pivot-index/
+- **Maximum Subarray**: https://leetcode.com/problems/maximum-subarray/
+- **Maximum Average Subarray I**: https://leetcode.com/problems/maximum-average-subarray-i/
+- **Contains Duplicate**: https://leetcode.com/problems/contains-duplicate/
+
+---
+
 ## Practice Set — Module 12 (20 MCQs based on embedded data)
 
 *Use the following data for Q1–Q5:*
@@ -5356,6 +5437,16 @@ TIME RULE: >2.5 min on one question → guess and move on
 | GFG Aptitude Topics | https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/ |
 | IndiaBix Mixed Practice | https://www.indiabix.com/aptitude/questions-and-answers/ |
 | Placement Prep Guide | https://www.placementpreparation.io/blog/aptitude-preparation-guide/ |
+
+---
+
+## Recommended Coding Challenges
+- **Two Sum**: https://leetcode.com/problems/two-sum/
+- **Best Time to Buy and Sell Stock**: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- **Binary Search**: https://leetcode.com/problems/binary-search/
+- **Maximum Subarray**: https://leetcode.com/problems/maximum-subarray/
+- **Contains Duplicate**: https://leetcode.com/problems/contains-duplicate/
+- **Climbing Stairs**: https://leetcode.com/problems/climbing-stairs/
 
 ---
 
@@ -5805,6 +5896,16 @@ AFTER TEST:
 | Deloitte | FACE Prep Deloitte | https://faceprep.in/deloitte/ |
 | Amazon | GFG Amazon | https://www.geeksforgeeks.org/amazon-interview-preparation/ |
 | Freshers World | All Papers | https://placement.freshersworld.com/ |
+
+---
+
+## Recommended Coding Challenges
+- **Two Sum**: https://leetcode.com/problems/two-sum/
+- **Best Time to Buy and Sell Stock**: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- **Binary Search**: https://leetcode.com/problems/binary-search/
+- **Valid Parentheses**: https://leetcode.com/problems/valid-parentheses/
+- **Maximum Subarray**: https://leetcode.com/problems/maximum-subarray/
+- **Climbing Stairs**: https://leetcode.com/problems/climbing-stairs/
 
 ---
 

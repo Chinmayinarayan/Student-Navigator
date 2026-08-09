@@ -3,96 +3,70 @@ function StrongWeakSubjects({
   weakestSubject,
 }) {
   return (
-    <div className="grid lg:grid-cols-2 gap-8">
-
+    <div className="grid lg:grid-cols-2 gap-6">
       {/* Strongest */}
-
-      <div className="bg-white rounded-2xl shadow border p-6">
-
-        <h2 className="text-2xl font-bold text-green-600 mb-5">
-          🏆 Strongest Subject
+      <div className="bg-slate-950/40 border border-white/5 rounded-3xl shadow-xl p-6 backdrop-blur-xl">
+        <h2 className="text-base font-bold text-emerald-400 mb-3 flex items-center gap-2">
+          <span>🏆</span> Strongest Subject
         </h2>
 
         {strongestSubject ? (
-          <>
-            <h3 className="text-xl font-semibold">
+          <div className="space-y-3">
+            <h3 className="text-lg font-bold text-white">
               {strongestSubject.subject}
             </h3>
-
-            <p className="mt-2 text-gray-600">
-              Completed {strongestSubject.completed} of{" "}
-              {strongestSubject.total} topics
+            <p className="text-xs text-slate-400">
+              Completed {strongestSubject.completed} of {strongestSubject.total} topics
             </p>
 
-            <div className="mt-5">
-
-              <div className="w-full h-4 bg-gray-200 rounded-full">
-
+            <div className="space-y-1.5 pt-2">
+              <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
                 <div
-                  className="h-4 bg-green-600 rounded-full"
-                  style={{
-                    width: `${strongestSubject.percentage}%`,
-                  }}
+                  className="h-full bg-emerald-500 rounded-full transition-all duration-700"
+                  style={{ width: `${strongestSubject.percentage}%` }}
                 />
-
               </div>
-
-              <p className="mt-2 font-bold text-green-600">
-                {strongestSubject.percentage}%
+              <p className="text-xs font-bold text-emerald-400 text-right">
+                {strongestSubject.percentage}% Complete
               </p>
-
             </div>
-          </>
+          </div>
         ) : (
-          <p>No data available.</p>
+          <p className="text-xs text-slate-500 italic">No subject data calculated yet.</p>
         )}
-
       </div>
 
       {/* Weakest */}
-
-      <div className="bg-white rounded-2xl shadow border p-6">
-
-        <h2 className="text-2xl font-bold text-red-600 mb-5">
-          ⚠ Weakest Subject
+      <div className="bg-slate-950/40 border border-white/5 rounded-3xl shadow-xl p-6 backdrop-blur-xl">
+        <h2 className="text-base font-bold text-amber-400 mb-3 flex items-center gap-2">
+          <span>⚠️</span> Subject Needing Focus
         </h2>
 
         {weakestSubject ? (
-          <>
-            <h3 className="text-xl font-semibold">
+          <div className="space-y-3">
+            <h3 className="text-lg font-bold text-white">
               {weakestSubject.subject}
             </h3>
-
-            <p className="mt-2 text-gray-600">
-              Completed {weakestSubject.completed} of{" "}
-              {weakestSubject.total} topics
+            <p className="text-xs text-slate-400">
+              Completed {weakestSubject.completed} of {weakestSubject.total} topics
             </p>
 
-            <div className="mt-5">
-
-              <div className="w-full h-4 bg-gray-200 rounded-full">
-
+            <div className="space-y-1.5 pt-2">
+              <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
                 <div
-                  className="h-4 bg-red-500 rounded-full"
-                  style={{
-                    width: `${weakestSubject.percentage}%`,
-                  }}
+                  className="h-full bg-amber-500 rounded-full transition-all duration-700"
+                  style={{ width: `${weakestSubject.percentage}%` }}
                 />
-
               </div>
-
-              <p className="mt-2 font-bold text-red-600">
-                {weakestSubject.percentage}%
+              <p className="text-xs font-bold text-amber-400 text-right">
+                {weakestSubject.percentage}% Complete
               </p>
-
             </div>
-          </>
+          </div>
         ) : (
-          <p>No data available.</p>
+          <p className="text-xs text-slate-500 italic">No subject data calculated yet.</p>
         )}
-
       </div>
-
     </div>
   );
 }
