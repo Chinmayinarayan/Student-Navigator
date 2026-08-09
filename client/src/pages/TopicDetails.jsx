@@ -91,17 +91,8 @@ function TopicDetails() {
     };
   }, [id]);
 
-  const NON_CODING_SUBJECTS = [
-    "Corporate Communication",
-    "Design Thinking for Social Innovation",
-    "Engineering Exploration",
-    "Industry Readiness & Leadership Skills"
-  ];
-
   const subjectName = topic?.subject?.name || "Subject";
-  const isNonCodingSubject = NON_CODING_SUBJECTS.some(
-    (s) => s.toLowerCase() === subjectName.toLowerCase()
-  );
+  const hasCodingProblems = codingProblems && codingProblems.length > 0;
 
   // Pillar scores:
   const theoryScore = completed || theoryDone ? 100 : 0;
@@ -109,9 +100,9 @@ function TopicDetails() {
   const quizScore = completed ? (quizScorePct || 100) : quizScorePct;
 
   // Overall Weighted Placement Readiness Score %
-  // For non-coding subjects: Theory 50%, Quiz 50%
-  // For technical/coding subjects: Theory 25%, Coding 40%, Quiz 35%
-  const overallReadiness = isNonCodingSubject
+  // When coding problems are NOT present for this topic: Theory 50%, Quiz 50%
+  // When coding problems ARE present: Theory 25%, Coding 40%, Quiz 35%
+  const overallReadiness = !hasCodingProblems
     ? Math.round(theoryScore * 0.50 + quizScore * 0.50)
     : Math.round(theoryScore * 0.25 + codingScore * 0.40 + quizScore * 0.35);
 
@@ -307,18 +298,20 @@ function TopicDetails() {
                 <div className="space-y-0.5">
                   <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Topic Score</span>
                   <span className={`text-xs font-extrabold ${levelInfo.color}`}>{overallReadiness} / 100</span>
-                  <span className="text-[9px] text-slate-500 block">3 Pillars Weighted</span>
+                  <span className="text-[9px] text-slate-500 block">
+                    {hasCodingProblems ? "3 Pillars Weighted" : "2 Pillars (Theory + Quiz)"}
+                  </span>
                 </div>
               </div>
             </div>
 
             {/* Percentage Breakdown */}
-            <div className={`grid gap-4 ${isNonCodingSubject ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
+            <div className={`grid gap-4 ${!hasCodingProblems ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
               {/* Pillar 1: Theory Questions */}
               <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
                 <div className="flex justify-between items-center text-xs">
                   <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
-                    ❓ Theory Marking ({isNonCodingSubject ? "50%" : "25%"} Wt)
+                    ❓ Theory Marking ({hasCodingProblems ? "25%" : "50%"} Wt)
                   </span>
                   <span className={`font-black ${theoryScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{theoryScore}%</span>
                 </div>
@@ -333,8 +326,8 @@ function TopicDetails() {
                 </div>
               </div>
 
-              {/* Pillar 2: Coding Practice (Only for technical/coding subjects) */}
-              {!isNonCodingSubject && (
+              {/* Pillar 2: Coding Practice (Only rendered when coding problems exist) */}
+              {hasCodingProblems && (
                 <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
                   <div className="flex justify-between items-center text-xs">
                     <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
@@ -349,7 +342,7 @@ function TopicDetails() {
                     <span className={codingScore > 0 ? "text-emerald-400 font-extrabold" : "text-slate-500 font-semibold"}>
                       {codingScore > 0 ? `✓ ${codingScore}% Problems Solved` : "○ Pending Coding Practice"}
                     </span>
-                    <span className="text-slate-500">LeetCode / GFG</span>
+                    <span className="text-slate-500">LeetCode / GFG / Practice</span>
                   </div>
                 </div>
               )}
@@ -358,7 +351,7 @@ function TopicDetails() {
               <div className="bg-slate-900/60 border border-white/5 rounded-2xl p-4 space-y-3">
                 <div className="flex justify-between items-center text-xs">
                   <span className="font-extrabold text-slate-200 flex items-center gap-1.5">
-                    🏆 Concept Quiz ({isNonCodingSubject ? "50%" : "35%"} Wt)
+                    🏆 Concept Quiz ({hasCodingProblems ? "35%" : "50%"} Wt)
                   </span>
                   <span className={`font-black ${quizScore > 0 ? "text-emerald-400" : "text-slate-500"}`}>{quizScore}%</span>
                 </div>
@@ -427,15 +420,15 @@ function TopicDetails() {
             </div>
           </section>
 
-          {/* 5. Coding Challenges / Non-Coding Info */}
-          {isNonCodingSubject ? (
+          {/* 5. Coding Challenges / Theoretical Notice */}
+          {!hasCodingProblems ? (
             <section className="bg-slate-950/40 border border-white/5 rounded-3xl p-6 shadow-md">
               <div className="flex items-center gap-3.5">
                 <span className="text-2xl">📘</span>
                 <div>
-                  <h2 className="text-sm font-bold text-white">Theoretical & Practical Focus</h2>
+                  <h2 className="text-sm font-bold text-white">Theoretical & Conceptual Module</h2>
                   <p className="text-xs text-slate-400 mt-0.5">
-                    Coding is not applicable for this topic as it focuses on soft skills, communication, design thinking, leadership, and conceptual understanding.
+                    Coding practice is not applicable for this topic as it focuses on conceptual, analytical, and theoretical mastery.
                   </p>
                 </div>
               </div>
@@ -448,7 +441,7 @@ function TopicDetails() {
                     <span>💻</span> Coding Challenges
                   </h2>
                   <p className="text-xs text-slate-400 leading-relaxed max-w-2xl">
-                    Test your coding skills with curated practice problems from LeetCode and GeeksforGeeks targeted for this specific topic.
+                    Test your coding skills with curated practice problems from LeetCode, GeeksforGeeks, and practical lab assignments targeted for this specific topic.
                   </p>
                 </div>
                 <Link
