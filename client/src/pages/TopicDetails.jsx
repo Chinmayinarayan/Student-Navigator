@@ -66,16 +66,25 @@ function TopicDetails() {
         // First get the quiz for this topic to know its _id
         const quizRes = await api.get(`/quizzes/topic/${id}`);
         const quizId = quizRes.data?.quiz?._id;
-        if (!quizId || !isMounted) return;
 
-        // Then check if user has submitted that quiz
+        // Then check user's submitted quiz results
         const results = await getMyQuizResults();
-        if (!isMounted || !results) return;
-        const attempted = results.find(
-          (r) => r.quiz?._id === quizId || r.quiz === quizId
+        if (!isMounted || !results || results.length === 0) return;
+
+        // Find attempts matching this topic or quiz
+        const topicAttempts = results.filter(
+          (r) =>
+            (r.topic && (r.topic._id === id || r.topic === id)) ||
+            (quizId && (r.quiz?._id === quizId || r.quiz === quizId))
         );
-        if (attempted && isMounted) {
-          setQuizScorePct(100);
+
+        if (topicAttempts.length > 0 && isMounted) {
+          // Use the latest or best quiz score percentage
+          const latestAttempt = topicAttempts[0];
+          const pct = latestAttempt.percentage !== undefined
+            ? latestAttempt.percentage
+            : Math.round((latestAttempt.score / (latestAttempt.totalMarks || 10)) * 100);
+          setQuizScorePct(pct);
         }
       } catch (err) {
         // Fallback
@@ -97,7 +106,7 @@ function TopicDetails() {
   // Pillar scores:
   const theoryScore = completed || theoryDone ? 100 : 0;
   const codingScore = completed ? 100 : codingScorePct;
-  const quizScore = completed ? (quizScorePct || 100) : quizScorePct;
+  const quizScore = quizScorePct;
 
   // Overall Weighted Placement Readiness Score %
   // When coding problems are NOT present for this topic: Theory 50%, Quiz 50%
