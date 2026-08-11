@@ -10,6 +10,9 @@ function Profile() {
     degree: "",
     branch: "",
     year: "",
+    cgpa: "",
+    state: "",
+    familyIncome: "",
     skills: "",
     interests: "",
     careerGoals: "",
@@ -33,6 +36,9 @@ function Profile() {
           degree: userData.degree || "",
           branch: userData.branch || "",
           year: userData.year || "",
+          cgpa: userData.cgpa !== null && userData.cgpa !== undefined ? userData.cgpa : "",
+          state: userData.state || "",
+          familyIncome: userData.familyIncome !== null && userData.familyIncome !== undefined ? userData.familyIncome : "",
           skills: (userData.skills || []).join(", "),
           interests: (userData.interests || []).join(", "),
           careerGoals: userData.careerGoals || "",
@@ -70,6 +76,9 @@ function Profile() {
         degree: form.degree,
         branch: form.branch,
         year: form.year,
+        cgpa: form.cgpa === "" ? null : Number(form.cgpa),
+        state: form.state,
+        familyIncome: form.familyIncome === "" ? null : Number(form.familyIncome),
         skills: parseList(form.skills),
         interests: parseList(form.interests),
         careerGoals: form.careerGoals,
@@ -84,6 +93,9 @@ function Profile() {
         degree: updatedUser.degree || "",
         branch: updatedUser.branch || "",
         year: updatedUser.year || "",
+        cgpa: updatedUser.cgpa !== null && updatedUser.cgpa !== undefined ? updatedUser.cgpa : "",
+        state: updatedUser.state || "",
+        familyIncome: updatedUser.familyIncome !== null && updatedUser.familyIncome !== undefined ? updatedUser.familyIncome : "",
         skills: (updatedUser.skills || []).join(", "),
         interests: (updatedUser.interests || []).join(", "),
         careerGoals: updatedUser.careerGoals || "",
@@ -183,9 +195,25 @@ function Profile() {
 
             <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
               <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">
+                Academic CGPA / Score
+              </span>
+              <p className="text-sm font-bold text-cyan-400 mt-1">
+                {user.cgpa !== null && user.cgpa !== undefined ? `${user.cgpa} CGPA` : "Not Added"}
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
+              <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">
+                State / Resident Region
+              </span>
+              <p className="text-sm font-bold text-white mt-1">{user.state || "Not Added"}</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
+              <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">
                 Target Career Goal
               </span>
-              <p className="text-sm font-bold text-cyan-400 mt-1">{user.careerGoals || "Not Added"}</p>
+              <p className="text-sm font-bold text-indigo-300 mt-1">{user.careerGoals || "Not Added"}</p>
             </div>
 
             <div className="bg-white/5 border border-white/5 rounded-2xl p-4 sm:col-span-2">
@@ -276,6 +304,50 @@ function Profile() {
                   name="year"
                   value={form.year}
                   onChange={handleChange}
+                  className="w-full mt-1.5 px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-cyan-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Current CGPA (e.g. 8.5)
+                </label>
+                <input
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  max="10"
+                  name="cgpa"
+                  value={form.cgpa}
+                  onChange={handleChange}
+                  placeholder="e.g. 8.5"
+                  className="w-full mt-1.5 px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-cyan-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400">
+                  State / Region (e.g. Karnataka)
+                </label>
+                <input
+                  name="state"
+                  value={form.state}
+                  onChange={handleChange}
+                  placeholder="e.g. Karnataka, Maharashtra, etc."
+                  className="w-full mt-1.5 px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-cyan-500"
+                />
+              </div>
+
+              <div className="sm:col-span-2">
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Annual Family Income (₹, Optional - for Need-Based Scholarships)
+                </label>
+                <input
+                  type="number"
+                  name="familyIncome"
+                  value={form.familyIncome}
+                  onChange={handleChange}
+                  placeholder="e.g. 350000"
                   className="w-full mt-1.5 px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-cyan-500"
                 />
               </div>

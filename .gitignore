@@ -23,3 +23,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Scratch / temporary scripts
+scratch/
+

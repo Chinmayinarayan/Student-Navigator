@@ -12,24 +12,31 @@ function Login() {
     password: "",
   });
 
+  const [loading, setLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
   const handleChange = (e) => {
     setForm({
       ...form,
       [e.target.name]: e.target.value,
     });
+    if (errorMessage) setErrorMessage("");
   };
 
   const loginUser = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setErrorMessage("");
 
     try {
       const res = await api.post("/auth/login", form);
       localStorage.setItem("token", res.data.token);
       setUser(res.data.user);
-      alert("Login Successful!");
       navigate("/dashboard");
     } catch (error) {
-      alert(error.response?.data?.message || "Login Failed");
+      setErrorMessage(error.response?.data?.message || "Invalid email or password. Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -49,23 +56,24 @@ function Login() {
               <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-500 flex items-center justify-center text-white font-bold shadow-lg shadow-cyan-500/20">
                 <span>🚀</span>
               </div>
-              <span className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-400">AI Student Development Platform</span>
+              <span className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">Student Development Platform</span>
             </div>
             
-            <h1 className="text-3xl font-black sm:text-4xl leading-tight text-white pt-6">
-              Unlock your future with guided learning.
+            <h1 className="text-3xl font-black sm:text-4xl leading-tight text-white pt-4">
+              Empower your academic journey and career growth.
             </h1>
             <p className="max-w-md text-sm text-slate-400 leading-relaxed">
-              Learn smarter with tailored subjects, development insights, and progress tracking designed for ambitious students.
+              Master your engineering curriculum with structured subjects, hands-on coding practice, roadmap milestones, and career readiness tools.
             </p>
           </div>
 
           <div className="mt-8 rounded-2xl border border-white/5 bg-white/5 p-5 backdrop-blur">
-            <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Why students love it</p>
-            <ul className="mt-3 space-y-2 text-xs text-slate-300 font-semibold">
-              <li className="flex items-center gap-2"><span>🎯</span> Personalized recommendations</li>
-              <li className="flex items-center gap-2"><span>📈</span> Clear progress visibility</li>
-              <li className="flex items-center gap-2"><span>💼</span> Development-focused learning paths</li>
+            <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Key Platform Features</p>
+            <ul className="mt-3 space-y-2.5 text-xs text-slate-300 font-semibold">
+              <li className="flex items-center gap-2"><span>📚</span> Comprehensive Subject Curriculums & Resources</li>
+              <li className="flex items-center gap-2"><span>💻</span> Hands-on Coding Practice & Problem Solving</li>
+              <li className="flex items-center gap-2"><span>🗺️</span> Structured Learning Roadmaps & Progress Tracking</li>
+              <li className="flex items-center gap-2"><span>💼</span> Placement Readiness, Quizzes & Career Pathways</li>
             </ul>
           </div>
         </div>
@@ -73,15 +81,22 @@ function Login() {
         {/* Right Form panel */}
         <div className="p-8 sm:p-10 lg:p-12 flex flex-col justify-center">
           <h2 className="text-2xl font-black text-white">Welcome back</h2>
-          <p className="mt-1.5 text-xs text-slate-400 font-semibold">Sign in to continue your journey.</p>
+          <p className="mt-1.5 text-xs text-slate-400 font-semibold">Sign in to access your student dashboard and courses.</p>
 
-          <form onSubmit={loginUser} className="mt-8 space-y-5">
+          {errorMessage && (
+            <div className="mt-4 rounded-xl bg-rose-500/10 border border-rose-500/20 p-3 text-xs font-semibold text-rose-400">
+              {errorMessage}
+            </div>
+          )}
+
+          <form onSubmit={loginUser} className="mt-6 space-y-5">
             <div className="space-y-1.5">
               <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Email Address</label>
               <input
                 type="email"
                 name="email"
-                placeholder="Enter your email address"
+                value={form.email}
+                placeholder="Enter your registered email address"
                 required
                 className="w-full rounded-2xl border border-white/5 bg-white/5 px-4 py-3 outline-none text-slate-100 placeholder-slate-500 transition focus:border-cyan-500 focus:bg-white/10 text-xs font-semibold"
                 onChange={handleChange}
@@ -93,6 +108,7 @@ function Login() {
               <input
                 type="password"
                 name="password"
+                value={form.password}
                 placeholder="Enter your password"
                 required
                 className="w-full rounded-2xl border border-white/5 bg-white/5 px-4 py-3 outline-none text-slate-100 placeholder-slate-500 transition focus:border-cyan-500 focus:bg-white/10 text-xs font-semibold"
@@ -100,8 +116,12 @@ function Login() {
               />
             </div>
 
-            <button className="w-full rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-3.5 font-bold text-white shadow-lg shadow-cyan-500/20 transition hover:opacity-95 text-xs uppercase tracking-wider">
-              Login
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-3.5 font-bold text-white shadow-lg shadow-cyan-500/20 transition hover:opacity-95 text-xs uppercase tracking-wider disabled:opacity-50"
+            >
+              {loading ? "Signing in..." : "Login"}
             </button>
           </form>
 

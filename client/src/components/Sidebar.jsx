@@ -7,11 +7,11 @@ import {
   Trophy,
   Sparkles,
   FileText,
-  CheckSquare,
   Calendar,
   Sliders,
   LogOut,
-  X
+  X,
+  GraduationCap
 } from "lucide-react";
 
 function Sidebar({ onClose }) {
@@ -24,13 +24,13 @@ function Sidebar({ onClose }) {
 
   const links = [
     { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
+    { name: "💰 Scholarships", path: "/scholarships", icon: GraduationCap },
     { name: "My Subjects", path: "/subjects", icon: BookOpen },
     { name: "Career Paths", path: "/careers", icon: Milestone },
     { name: "Analytics", path: "/analytics", icon: TrendingUp },
     { name: "Achievements", path: "/achievements", icon: Trophy },
     { name: "Recommendations", path: "/recommendations", icon: Sparkles },
     { name: "Placement Tests", path: "/tests", icon: FileText },
-    { name: "Quiz History", path: "/quiz-history", icon: CheckSquare },
     { name: "Campus Events", path: "/events", icon: Calendar },
     { name: "Profile & Settings", path: "/profile", icon: Sliders }
   ];

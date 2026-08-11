@@ -20,6 +20,8 @@ const CareerDetails    = lazy(() => import("./pages/CareerDetails"));
 const RoadmapPage      = lazy(() => import("./pages/RoadmapPage"));
 const Recommendations  = lazy(() => import("./pages/Recommendations"));
 const Events           = lazy(() => import("./pages/Events"));
+const Scholarships     = lazy(() => import("./pages/Scholarships"));
+const ScholarshipDetails = lazy(() => import("./pages/ScholarshipDetails"));
 const Profile          = lazy(() => import("./pages/Profile"));
 const Tests            = lazy(() => import("./pages/Tests"));
 const TakeTest         = lazy(() => import("./pages/TakeTest"));
@@ -70,6 +72,8 @@ function App() {
           <Route path="/roadmap/:careerId"       element={<Suspense fallback={<PageLoader />}><RoadmapPage /></Suspense>} />
           <Route path="/recommendations"         element={<Suspense fallback={<PageLoader />}><Recommendations /></Suspense>} />
           <Route path="/events"                  element={<Suspense fallback={<PageLoader />}><Events /></Suspense>} />
+          <Route path="/scholarships"            element={<Suspense fallback={<PageLoader />}><Scholarships /></Suspense>} />
+          <Route path="/scholarships/:id"        element={<Suspense fallback={<PageLoader />}><ScholarshipDetails /></Suspense>} />
           <Route path="/profile"                 element={<Suspense fallback={<PageLoader />}><Profile /></Suspense>} />
           <Route path="/tests"                   element={<Suspense fallback={<PageLoader />}><Tests /></Suspense>} />
           <Route path="/tests/:id"               element={<Suspense fallback={<PageLoader />}><TakeTest /></Suspense>} />
