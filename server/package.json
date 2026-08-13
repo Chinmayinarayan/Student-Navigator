@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "AI Career Navigation Platform Backend",
+  "description": "Student Navigator — Academic Planning, Career Guidance & Placement Preparation Platform Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -213,3 +213,117 @@ flowchart TD
 
 5. **Access the Application:**
    Open your browser and navigate to `http://localhost:5173`.
+   > **Note:** If port 5173 is already in use on your machine, Vite automatically picks the next available port (e.g. 5174). The terminal output will show the exact URL.
+
+---
+
+## Project Structure
+
+```
+Student-Navigator/
+├── client/                      # React 19 + Vite frontend
+│   ├── public/                  # Static assets
+│   └── src/
+│       ├── components/          # Reusable UI components
+│       │   ├── AIStudyAssistant.jsx
+│       │   ├── CareerReadinessCard.jsx
+│       │   ├── SubjectPrerequisiteGraph.jsx
+│       │   ├── TopicPrerequisiteGraph.jsx
+│       │   └── ...              # Layout, Sidebar, Quiz, Topic cards etc.
+│       ├── pages/               # Route-level page components
+│       │   ├── Dashboard.jsx
+│       │   ├── Subjects.jsx
+│       │   ├── TopicDetails.jsx
+│       │   ├── Careers.jsx
+│       │   ├── Scholarships.jsx
+│       │   ├── AnalyticsDashboard.jsx
+│       │   ├── Tests.jsx
+│       │   └── ...
+│       ├── services/            # Axios API client modules (one per domain)
+│       ├── context/             # React auth context
+│       └── main.jsx
+│
+├── server/                      # Node.js + Express backend
+│   ├── controllers/             # Route handler logic (23 controllers)
+│   ├── routes/                  # Express route definitions (23 route files)
+│   ├── models/                  # Mongoose schemas (21 models)
+│   ├── services/                # Business logic services
+│   │   ├── careerReadinessService.js   # Deterministic readiness scoring
+│   │   ├── recommendationService.js    # Heuristic career matching
+│   │   ├── roadmapGeneratorService.js  # Career roadmap generation
+│   │   ├── quizGeneratorService.js
+│   │   └── achievementService.js
+│   ├── middleware/              # Auth, error handling, rate limiting
+│   ├── config/                  # Database connection
+│   ├── utils/                   # JWT generation, email utilities
+│   ├── seed/                    # Database seeder scripts
+│   ├── test/                    # Jest test suites
+│   │   ├── auth.test.js         # Authentication & registration tests
+│   │   ├── businessLogic.test.js # Career readiness, quiz scoring tests
+│   │   ├── securityAndRbac.test.js # JWT, IDOR, RBAC, path traversal tests
+│   │   └── quizSystemTest.js
+│   ├── app.js                   # Express application setup
+│   └── server.js                # Entry point
+│
+├── docs/
+│   └── screenshots/             # Application screenshots (12 screens)
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml               # GitHub Actions CI (Jest test suite)
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Running Tests
+
+The backend includes a Jest test suite covering authentication, core business logic, and security/access-control:
+
+```bash
+cd server
+npm test
+```
+
+**Test suites included:**
+
+| Suite | Coverage |
+|-------|----------|
+| `auth.test.js` | Registration validation, login, duplicate email rejection |
+| `businessLogic.test.js` | Career Readiness Score calculation, scholarship matching, quiz scoring |
+| `securityAndRbac.test.js` | JWT validation, IDOR prevention, admin RBAC, path traversal blocking, AI prompt validation |
+| `quizSystemTest.js` | Quiz generation and answer evaluation |
+
+> Tests run in isolation (`--runInBand --forceExit`) and require a test MongoDB instance or mocked connections depending on suite configuration.
+
+---
+
+## Troubleshooting
+
+| Problem | Likely Cause | Fix |
+|---------|-------------|-----|
+| `MongoServerError: connect ECONNREFUSED` | Invalid `MONGODB_URI` or network issue | Verify Atlas URI includes credentials and correct cluster name |
+| `JsonWebTokenError: invalid signature` | Mismatched `JWT_SECRET` | Ensure `server/.env` has a consistent, strong JWT secret |
+| Backend starts but returns 500 on all routes | Missing `.env` variables | Check all required env vars are set in `server/.env` |
+| Frontend shows blank page / no data | Backend not running or CORS mismatch | Confirm backend is running on port 5000; check `CLIENT_URL` in `.env` |
+| Port 5173 already in use | Another process using the port | Vite will auto-assign the next free port (usually 5174); check terminal output |
+| `GROQ_API_KEY` errors | Missing or invalid Groq key | Obtain a free key from [console.groq.com](https://console.groq.com); the platform works without it except for the AI Study Assistant |
+| Database is empty after setup | Seeder not run | Run `npm run seed` from the `server/` directory |
+
+---
+
+## License
+
+This project does not currently have a formal open-source license. All rights are reserved by the author. If you wish to use, fork, or build upon this project, please contact the repository owner.
+
+---
+
+## Contributing
+
+This is a personal academic and portfolio project. If you spot a bug or have a suggestion, feel free to open an issue on [GitHub](https://github.com/Chinmayinarayan/Student-Navigator/issues).
+
+---
+
+*Student Navigator — Built for engineering students preparing for placements, internships, and academic excellence.*

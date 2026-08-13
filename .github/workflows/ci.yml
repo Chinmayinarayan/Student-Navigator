@@ -1,0 +1,51 @@
+name: CI — Student Navigator Backend Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    name: Run Backend Test Suite
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+
+      - name: Install server dependencies
+        working-directory: server
+        run: npm ci
+
+      - name: Run Jest test suite
+        working-directory: server
+        env:
+          # Tests run against a mock/test environment — no real DB or external API
+          NODE_ENV: test
+          PORT: 5001
+          JWT_SECRET: test_jwt_secret_for_ci_only
+          MONGODB_URI: mongodb://localhost:27017/student_navigator_test
+          GROQ_API_KEY: test_key_for_ci_only
+          CLIENT_URL: http://localhost:5173
+        run: npm test
+
+      - name: Upload test results (if available)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jest-results-node-${{ matrix.node-version }}
+          path: server/jest-results.xml
+          if-no-files-found: ignore
