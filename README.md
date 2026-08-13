@@ -1,5 +1,7 @@
 # Student Navigator
 
+[![CI — Student Navigator Validation](https://github.com/Chinmayinarayan/Student-Navigator/actions/workflows/ci.yml/badge.svg)](https://github.com/Chinmayinarayan/Student-Navigator/actions/workflows/ci.yml)
+
 Student Navigator is a professional, student-centric academic planning, learning management, career guidance, and placement-preparation platform built on the MERN stack. Designed to assist engineering and science students, the platform acts as a comprehensive curriculum roadmap builder, academic performance tracker, and opportunity explorer. It helps students navigate their university syllabus, practice coding challenges, attempt timed tests and quizzes, track their career readiness, discover scholarships and hackathons, and utilize a context-restricted AI study assistant as a supporting tool for conceptual clarification.
 
 ## Overview

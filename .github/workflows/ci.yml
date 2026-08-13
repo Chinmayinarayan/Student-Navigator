@@ -1,4 +1,4 @@
-name: CI — Student Navigator Backend Tests
+name: CI — Student Navigator Validation
 
 on:
   push:
@@ -7,9 +7,15 @@ on:
     branches: [master]
 
 jobs:
-  test:
+  backend-tests:
     name: Run Backend Test Suite
     runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:6.0
+        ports:
+          - 27017:27017
 
     strategy:
       matrix:
@@ -33,7 +39,6 @@ jobs:
       - name: Run Jest test suite
         working-directory: server
         env:
-          # Tests run against a mock/test environment — no real DB or external API
           NODE_ENV: test
           PORT: 5001
           JWT_SECRET: test_jwt_secret_for_ci_only
@@ -42,10 +47,29 @@ jobs:
           CLIENT_URL: http://localhost:5173
         run: npm test
 
-      - name: Upload test results (if available)
-        if: always()
-        uses: actions/upload-artifact@v4
+  frontend-build:
+    name: Validate Frontend Build
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
-          name: jest-results-node-${{ matrix.node-version }}
-          path: server/jest-results.xml
-          if-no-files-found: ignore
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+
+      - name: Install client dependencies
+        working-directory: client
+        run: npm ci
+
+      - name: Verify frontend production build
+        working-directory: client
+        run: npm run build
