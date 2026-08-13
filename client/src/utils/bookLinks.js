@@ -2,7 +2,8 @@ export const getDirectBookPdfUrl = (book) => {
   if (!book) return "#";
   if (book.url) {
     if (book.url.startsWith("file://")) {
-      return `http://localhost:5000/api/local-file?path=${encodeURIComponent(book.url)}`;
+      const serverBase = (import.meta.env?.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/api\/?$/, "") : "http://localhost:5000");
+      return `${serverBase}/api/local-file?path=${encodeURIComponent(book.url)}`;
     }
     return book.url;
   }

@@ -66,6 +66,13 @@ function Scholarships() {
   const [showFiltersDrawer, setShowFiltersDrawer] = useState(false);
   const [expandedMatchId, setExpandedMatchId] = useState(null);
 
+  const showToast = (msg) => {
+    setToastMessage(msg);
+    setTimeout(() => {
+      setToastMessage((prev) => (prev === msg ? null : prev));
+    }, 4000);
+  };
+
   // Fetch scholarships & summary
   const fetchData = async () => {
     try {
@@ -123,13 +130,6 @@ function Scholarships() {
     }, 350);
     return () => clearTimeout(handler);
   }, [searchTerm]);
-
-  const showToast = (msg) => {
-    setToastMessage(msg);
-    setTimeout(() => {
-      setToastMessage((prev) => (prev === msg ? null : prev));
-    }, 4000);
-  };
 
   // Toggle Save
   const handleToggleSave = async (scholarshipId, e) => {

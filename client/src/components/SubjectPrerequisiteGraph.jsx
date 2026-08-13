@@ -202,20 +202,37 @@ const SubjectPrerequisiteGraph = ({ subjectId }) => {
     [navigate]
   );
 
+  const handleStartRecommendedPath = () => {
+    if (!data || !data.topics || data.topics.length === 0) return;
+    const nextTopic = data.topics.find((t) => !t.completed) || data.topics[0];
+    if (nextTopic && nextTopic.id) {
+      navigate(`/topics/${nextTopic.id}`);
+    }
+  };
+
   const generateSchedule = () => {
-    if (!data || !data.topics) return;
+    if (!data || !data.topics || data.topics.length === 0) return;
     const seq = [];
     let day = 1;
+    let nextFocusTopic = null;
 
     data.topics.forEach((t) => {
+      if (!t.completed && !nextFocusTopic) {
+        nextFocusTopic = t;
+      }
       seq.push({
+        id: t.id,
         day: day++,
         title: t.title,
         status: t.completed ? "Completed" : "Pending",
       });
     });
 
-    setSchedule(seq);
+    if (!nextFocusTopic) {
+      nextFocusTopic = data.topics[0];
+    }
+
+    setSchedule({ list: seq, targetTopic: nextFocusTopic });
   };
 
   if (loading) {
@@ -260,12 +277,12 @@ const SubjectPrerequisiteGraph = ({ subjectId }) => {
           </p>
         </div>
 
-        {/* Start button */}
+        {/* Action button */}
         <button
-          onClick={generateSchedule}
-          className="shrink-0 rounded-2xl bg-cyan-600 hover:bg-cyan-500 text-white px-5 py-2.5 text-xs font-bold transition flex items-center gap-1.5 shadow-md shadow-cyan-500/10 hover:scale-[1.02]"
+          onClick={handleStartRecommendedPath}
+          className="shrink-0 rounded-2xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white px-5 py-2.5 text-xs font-bold transition flex items-center gap-1.5 shadow-lg shadow-cyan-500/20 hover:scale-[1.02] cursor-pointer"
         >
-          <Calendar className="h-4 w-4" />
+          <Play className="h-3.5 w-3.5 fill-current" />
           🚀 Start Recommended Path
         </button>
       </div>
@@ -335,26 +352,38 @@ const SubjectPrerequisiteGraph = ({ subjectId }) => {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-fadeIn">
           <div className="w-full max-w-md rounded-3xl bg-slate-900 border border-white/10 shadow-2xl p-6 space-y-4">
             <div className="flex items-center justify-between border-b border-white/5 pb-3">
-              <h3 className="text-sm font-extrabold text-white flex items-center gap-2">
-                <Sparkles className="h-4.5 w-4.5 text-cyan-400 animate-pulse" />
-                Subject Study Schedule
-              </h3>
+              <div className="space-y-0.5">
+                <h3 className="text-sm font-extrabold text-white flex items-center gap-2">
+                  <Sparkles className="h-4.5 w-4.5 text-cyan-400 animate-pulse" />
+                  Subject Study Schedule
+                </h3>
+                <p className="text-[11px] text-slate-400">Click any topic to jump directly into learning</p>
+              </div>
               <button
                 onClick={() => setSchedule(null)}
-                className="text-slate-500 hover:text-white rounded-xl p-1 hover:bg-white/5 transition"
+                className="text-slate-500 hover:text-white rounded-xl p-1 hover:bg-white/5 transition cursor-pointer"
               >
                 <X className="h-4.5 w-4.5" />
               </button>
             </div>
 
-            <div className="space-y-3 max-h-[320px] overflow-y-auto pr-1">
-              {schedule.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-3 p-3 rounded-2xl bg-white/[0.03] border border-white/5">
-                  <span className="shrink-0 flex items-center justify-center h-9 w-9 rounded-xl bg-cyan-500/10 text-cyan-400 text-xs font-black">
+            <div className="space-y-2.5 max-h-[320px] overflow-y-auto pr-1">
+              {schedule.list?.map((item, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => {
+                    setSchedule(null);
+                    if (item.id) navigate(`/topics/${item.id}`);
+                  }}
+                  className="flex items-center gap-3 p-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/40 hover:bg-cyan-500/10 transition cursor-pointer group"
+                >
+                  <span className="shrink-0 flex items-center justify-center h-9 w-9 rounded-xl bg-cyan-500/10 text-cyan-400 text-xs font-black group-hover:bg-cyan-500 group-hover:text-slate-950 transition">
                     #{item.day}
                   </span>
                   <div className="min-w-0 flex-1">
-                    <p className="text-xs font-bold text-white leading-tight truncate">{item.title}</p>
+                    <p className="text-xs font-bold text-white leading-tight truncate group-hover:text-cyan-300 transition">
+                      {item.title}
+                    </p>
                   </div>
                   <span
                     className={`rounded-full px-2 py-0.5 text-[8px] font-black uppercase tracking-wider ${
@@ -365,16 +394,30 @@ const SubjectPrerequisiteGraph = ({ subjectId }) => {
                   >
                     {item.status}
                   </span>
+                  <ArrowRight className="h-3.5 w-3.5 text-slate-600 group-hover:text-cyan-400 group-hover:translate-x-0.5 transition" />
                 </div>
               ))}
             </div>
 
-            <div className="flex justify-end pt-2 border-t border-white/5">
+            <div className="flex items-center justify-between pt-2 border-t border-white/5">
               <button
                 onClick={() => setSchedule(null)}
-                className="rounded-xl px-5 py-2.5 text-xs font-bold bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center gap-1.5"
+                className="text-xs font-medium text-slate-400 hover:text-white px-3 py-2 transition cursor-pointer"
               >
-                <Play className="h-3.5 w-3.5 fill-current" /> Let's Start Study
+                Close
+              </button>
+              <button
+                onClick={() => {
+                  const targetId = schedule.targetTopic?.id || data?.topics[0]?.id;
+                  setSchedule(null);
+                  if (targetId) navigate(`/topics/${targetId}`);
+                }}
+                className="rounded-xl px-5 py-2.5 text-xs font-bold bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center gap-1.5 shadow-lg shadow-cyan-600/30 cursor-pointer"
+              >
+                <Play className="h-3.5 w-3.5 fill-current" />
+                {schedule.targetTopic?.status === "Pending"
+                  ? `Start Next: ${schedule.targetTopic.title.slice(0, 20)}...`
+                  : "Start Study"}
               </button>
             </div>
           </div>

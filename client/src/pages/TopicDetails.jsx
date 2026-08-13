@@ -164,7 +164,7 @@ function TopicDetails() {
       const data = await toggleTopicCompletion(id);
       setCompleted(data.progress.completed);
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
 

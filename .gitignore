@@ -27,3 +27,19 @@ Thumbs.db
 # Scratch / temporary scripts
 scratch/
 
+
+# Frontend environment variables
+client/.env
+client/.env.local
+client/.env.development
+client/.env.development.local
+client/.env.production
+client/.env.production.local
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Local deployment safety backup
+server/.git-deployment-backup/

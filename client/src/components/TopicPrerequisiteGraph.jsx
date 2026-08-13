@@ -185,33 +185,74 @@ const TopicPrerequisiteGraph = ({ topicId }) => {
     [navigate]
   );
 
+  const handleStartRecommendedPath = () => {
+    if (!data) return;
+    // If there are incomplete prerequisites, go to the first incomplete prerequisite
+    const firstIncompletePrereq = (data.prerequisites || []).find((p) => !p.completed);
+    if (firstIncompletePrereq && firstIncompletePrereq.id) {
+      navigate(`/topics/${firstIncompletePrereq.id}`);
+      return;
+    }
+    // If current topic has next topic, or start current
+    if (topicId) {
+      navigate(`/topics/${topicId}`);
+    }
+  };
+
   // Generate learning sequence schedule
   const generateSchedule = () => {
     if (!data) return;
     const seq = [];
     let day = 1;
+    let targetTopic = null;
 
     // First list incomplete prerequisites
-    const incomplete = data.prerequisites.filter((p) => !p.completed);
+    const incomplete = (data.prerequisites || []).filter((p) => !p.completed);
     incomplete.forEach((p) => {
-      seq.push({ day: day++, title: p.name, desc: "Required Prerequisite (Incomplete)", badge: "Incomplete" });
+      if (!targetTopic) targetTopic = { id: p.id, title: p.name };
+      seq.push({
+        id: p.id,
+        day: day++,
+        title: p.name,
+        desc: "Required Prerequisite (Incomplete)",
+        badge: "Incomplete",
+      });
     });
 
     // Then list completed prerequisites
-    const completed = data.prerequisites.filter((p) => p.completed);
+    const completed = (data.prerequisites || []).filter((p) => p.completed);
     completed.forEach((p) => {
-      seq.push({ day: day++, title: p.name, desc: "Required Prerequisite (Completed)", badge: "Completed" });
+      seq.push({
+        id: p.id,
+        day: day++,
+        title: p.name,
+        desc: "Required Prerequisite (Completed)",
+        badge: "Completed",
+      });
     });
 
     // Current Topic
-    seq.push({ day: day++, title: data.topic, desc: "Current Focus Topic", badge: "Current" });
-
-    // Next Topics
-    data.nextTopics.forEach((n) => {
-      seq.push({ day: day++, title: n.name, desc: "Recommended Next Steps", badge: "Next" });
+    if (!targetTopic) targetTopic = { id: topicId, title: data.topic };
+    seq.push({
+      id: topicId,
+      day: day++,
+      title: data.topic,
+      desc: "Current Focus Topic",
+      badge: "Current",
     });
 
-    setSchedule(seq);
+    // Next Topics
+    (data.nextTopics || []).forEach((n) => {
+      seq.push({
+        id: n.id,
+        day: day++,
+        title: n.name,
+        desc: "Recommended Next Steps",
+        badge: "Next",
+      });
+    });
+
+    setSchedule({ list: seq, targetTopic });
   };
 
   if (loading) {
@@ -240,12 +281,12 @@ const TopicPrerequisiteGraph = ({ topicId }) => {
           </p>
         </div>
 
-        {/* Start button */}
+        {/* Action button */}
         <button
-          onClick={generateSchedule}
-          className="shrink-0 rounded-2xl bg-cyan-600 hover:bg-cyan-500 text-white px-5 py-2.5 text-xs font-bold transition flex items-center gap-1.5 shadow-md shadow-cyan-500/10 hover:scale-[1.02]"
+          onClick={handleStartRecommendedPath}
+          className="shrink-0 rounded-2xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white px-5 py-2.5 text-xs font-bold transition flex items-center gap-1.5 shadow-lg shadow-cyan-500/20 hover:scale-[1.02] cursor-pointer"
         >
-          <Calendar className="h-4 w-4" />
+          <Play className="h-3.5 w-3.5 fill-current" />
           🚀 Start Recommended Path
         </button>
       </div>
@@ -280,7 +321,11 @@ const TopicPrerequisiteGraph = ({ topicId }) => {
             {hasPrereqs ? (
               <div className="space-y-2.5">
                 {data.prerequisites.map((p) => (
-                  <div key={p.id} className="space-y-1">
+                  <div
+                    key={p.id}
+                    onClick={() => navigate(`/topics/${p.id}`)}
+                    className="space-y-1 p-2 rounded-xl bg-white/[0.02] hover:bg-white/[0.06] transition cursor-pointer border border-transparent hover:border-white/5"
+                  >
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-300 font-semibold flex items-center gap-1.5">
                         {p.completed ? (
@@ -355,27 +400,39 @@ const TopicPrerequisiteGraph = ({ topicId }) => {
           <div className="w-full max-w-md rounded-3xl bg-slate-900 border border-white/10 shadow-2xl p-6 space-y-4">
             {/* Modal Header */}
             <div className="flex items-center justify-between border-b border-white/5 pb-3">
-              <h3 className="text-sm font-extrabold text-white flex items-center gap-2">
-                <Sparkles className="h-4.5 w-4.5 text-cyan-400 animate-pulse" />
-                Learning Sequence Generator
-              </h3>
+              <div className="space-y-0.5">
+                <h3 className="text-sm font-extrabold text-white flex items-center gap-2">
+                  <Sparkles className="h-4.5 w-4.5 text-cyan-400 animate-pulse" />
+                  Recommended Learning Path
+                </h3>
+                <p className="text-[11px] text-slate-400">Click any step to open that topic directly</p>
+              </div>
               <button
                 onClick={() => setSchedule(null)}
-                className="text-slate-500 hover:text-white rounded-xl p-1 hover:bg-white/5 transition"
+                className="text-slate-500 hover:text-white rounded-xl p-1 hover:bg-white/5 transition cursor-pointer"
               >
                 <X className="h-4.5 w-4.5" />
               </button>
             </div>
 
             {/* Schedule List */}
-            <div className="space-y-3 max-h-[300px] overflow-y-auto pr-1">
-              {schedule.map((item, idx) => (
-                <div key={idx} className="flex items-start gap-3 p-3 rounded-2xl bg-white/[0.03] border border-white/5">
-                  <span className="shrink-0 flex items-center justify-center h-10 w-10 rounded-xl bg-cyan-500/10 text-cyan-400 text-xs font-black">
+            <div className="space-y-2.5 max-h-[300px] overflow-y-auto pr-1">
+              {schedule.list?.map((item, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => {
+                    setSchedule(null);
+                    if (item.id) navigate(`/topics/${item.id}`);
+                  }}
+                  className="flex items-start gap-3 p-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/40 hover:bg-cyan-500/10 transition cursor-pointer group"
+                >
+                  <span className="shrink-0 flex items-center justify-center h-10 w-10 rounded-xl bg-cyan-500/10 text-cyan-400 text-xs font-black group-hover:bg-cyan-500 group-hover:text-slate-950 transition">
                     Day {item.day}
                   </span>
                   <div className="min-w-0 flex-1 space-y-0.5">
-                    <p className="text-xs font-bold text-white leading-tight truncate">{item.title}</p>
+                    <p className="text-xs font-bold text-white leading-tight truncate group-hover:text-cyan-300 transition">
+                      {item.title}
+                    </p>
                     <p className="text-[10px] text-slate-500">{item.desc}</p>
                   </div>
                   <span
@@ -391,17 +448,31 @@ const TopicPrerequisiteGraph = ({ topicId }) => {
                   >
                     {item.badge}
                   </span>
+                  <ArrowRight className="h-3.5 w-3.5 text-slate-600 group-hover:text-cyan-400 group-hover:translate-x-0.5 transition shrink-0 mt-1" />
                 </div>
               ))}
             </div>
 
             {/* Actions */}
-            <div className="flex justify-end pt-2 border-t border-white/5">
+            <div className="flex items-center justify-between pt-2 border-t border-white/5">
               <button
                 onClick={() => setSchedule(null)}
-                className="rounded-xl px-5 py-2.5 text-xs font-bold bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center gap-1"
+                className="text-xs font-medium text-slate-400 hover:text-white px-3 py-2 transition cursor-pointer"
               >
-                Let's Do It <ArrowRight className="h-3.5 w-3.5" />
+                Close
+              </button>
+              <button
+                onClick={() => {
+                  const targetId = schedule.targetTopic?.id || topicId;
+                  setSchedule(null);
+                  if (targetId) navigate(`/topics/${targetId}`);
+                }}
+                className="rounded-xl px-5 py-2.5 text-xs font-bold bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center gap-1.5 shadow-lg shadow-cyan-600/30 cursor-pointer"
+              >
+                <Play className="h-3.5 w-3.5 fill-current" />
+                {schedule.targetTopic?.title
+                  ? `Start: ${schedule.targetTopic.title.slice(0, 20)}...`
+                  : "Let's Do It"}
               </button>
             </div>
           </div>

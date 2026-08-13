@@ -57,7 +57,7 @@ function AssignmentCard({ assignment }) {
 
       alert("Assignment submitted successfully.");
     } catch (error) {
-      console.log(error);
+      console.error(error);
       alert("Submission failed.");
     }
   };

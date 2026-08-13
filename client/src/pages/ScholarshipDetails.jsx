@@ -36,7 +36,12 @@ function ScholarshipDetails() {
   const [statusUpdateValue, setStatusUpdateValue] = useState("");
   const [statusNotes, setStatusNotes] = useState("");
   const [statusUpdating, setStatusUpdating] = useState(false);
-  const [reminderDays, setReminderDays] = useState(null);
+  const showToast = (msg) => {
+    setToastMessage(msg);
+    setTimeout(() => {
+      setToastMessage((prev) => (prev === msg ? null : prev));
+    }, 4000);
+  };
 
   const fetchScholarship = async () => {
     try {
@@ -60,13 +65,6 @@ function ScholarshipDetails() {
   useEffect(() => {
     fetchScholarship();
   }, [id]);
-
-  const showToast = (msg) => {
-    setToastMessage(msg);
-    setTimeout(() => {
-      setToastMessage((prev) => (prev === msg ? null : prev));
-    }, 4000);
-  };
 
   // Toggle Save
   const handleToggleSave = async () => {

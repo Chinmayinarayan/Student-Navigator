@@ -88,7 +88,7 @@ function TakeTest() {
       const data = await submitTest(id, answers, timeTaken);
       navigate(`/tests/result/${data.result._id}`);
     } catch (error) {
-      console.log(error);
+      console.error(error);
     } finally {
       setSubmitting(false);
     }

@@ -1,0 +1,1975 @@
+# Coding Challenge Links Inventory
+
+Total Subjects Audited: 42 | Total Coding Challenges: 1323
+
+
+## 1. Algorithms (93 Challenges)
+- **Module 1: Introduction to Algorithms** (5 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [GeeksforGeeks] [Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) `Easy`
+  - [HackerRank] [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) `Easy`
+- **Module 2: Complexity Analysis Basics** (5 problems)
+  - [GeeksforGeeks] [Understanding Time Complexity](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/) `Easy`
+  - [GeeksforGeeks] [Analysis of Algorithms (Big O)](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/) `Easy`
+  - [LeetCode] [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) `Easy`
+  - [LeetCode] [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+  - [HackerRank] [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) `Easy`
+- **Module 3: Searching Algorithms** (8 problems)
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search Insert Position](https://leetcode.com/problems/search-insert-position/) `Easy`
+  - [LeetCode] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) `Medium`
+  - [LeetCode] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Medium`
+  - [LeetCode] [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) `Medium`
+  - [GeeksforGeeks] [Binary Search](https://www.geeksforgeeks.org/problems/binary-search-1587115620/1) `Easy`
+  - [GeeksforGeeks] [First and Last Occurrences of X](https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1) `Easy`
+  - [HackerRank] [Tutorial Intro](https://www.hackerrank.com/challenges/tutorial-intro/problem) `Easy`
+- **Module 4: Sorting Algorithms** (8 problems)
+  - [LeetCode] [Sort Colors](https://leetcode.com/problems/sort-colors/) `Medium`
+  - [LeetCode] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) `Easy`
+  - [LeetCode] [Largest Number](https://leetcode.com/problems/largest-number/) `Medium`
+  - [LeetCode] [Sort an Array](https://leetcode.com/problems/sort-an-array/) `Medium`
+  - [GeeksforGeeks] [Quick Sort](https://www.geeksforgeeks.org/problems/quick-sort/1) `Medium`
+  - [GeeksforGeeks] [Merge Sort](https://www.geeksforgeeks.org/problems/merge-sort/1) `Medium`
+  - [GeeksforGeeks] [Insertion Sort](https://www.geeksforgeeks.org/problems/insertion-sort/1) `Easy`
+  - [HackerRank] [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem) `Easy`
+- **Module 5: Recursion Algorithms** (6 problems)
+  - [LeetCode] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) `Easy`
+  - [LeetCode] [Pow(x, n)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+  - [LeetCode] [Reverse String](https://leetcode.com/problems/reverse-string/) `Easy`
+  - [LeetCode] [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) `Medium`
+  - [GeeksforGeeks] [Tower of Hanoi](https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) `Medium`
+- **Module 6: Divide and Conquer Algorithms** (5 problems)
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) `Medium`
+  - [LeetCode] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) `Hard`
+  - [GeeksforGeeks] [Merge Sort](https://www.geeksforgeeks.org/problems/merge-sort/1) `Medium`
+- **Module 7: Graph Algorithms** (9 problems)
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+  - [LeetCode] [Course Schedule](https://leetcode.com/problems/course-schedule/) `Medium`
+  - [LeetCode] [Clone Graph](https://leetcode.com/problems/clone-graph/) `Medium`
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) `Medium`
+  - [LeetCode] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) `Medium`
+  - [LeetCode] [Redundant Connection](https://leetcode.com/problems/redundant-connection/) `Medium`
+  - [GeeksforGeeks] [BFS Traversal of Graph](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) `Easy`
+  - [GeeksforGeeks] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) `Easy`
+- **Module 8: Tree Algorithms** (8 problems)
+  - [LeetCode] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) `Easy`
+  - [LeetCode] [Same Tree](https://leetcode.com/problems/same-tree/) `Easy`
+  - [LeetCode] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) `Easy`
+  - [LeetCode] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) `Medium`
+  - [LeetCode] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) `Medium`
+  - [LeetCode] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) `Medium`
+  - [LeetCode] [Path Sum](https://leetcode.com/problems/path-sum/) `Easy`
+  - [GeeksforGeeks] [Level Order Traversal](https://www.geeksforgeeks.org/problems/level-order-traversal/1) `Easy`
+- **Module 9: Greedy Algorithms** (6 problems)
+  - [LeetCode] [Assign Cookies](https://leetcode.com/problems/assign-cookies/) `Easy`
+  - [LeetCode] [Jump Game](https://leetcode.com/problems/jump-game/) `Medium`
+  - [LeetCode] [Gas Station](https://leetcode.com/problems/gas-station/) `Medium`
+  - [LeetCode] [Task Scheduler](https://leetcode.com/problems/task-scheduler/) `Medium`
+  - [LeetCode] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) `Medium`
+  - [GeeksforGeeks] [Activity Selection](https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1) `Easy`
+- **Module 10: Dynamic Programming Basics** (9 problems)
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+  - [LeetCode] [House Robber](https://leetcode.com/problems/house-robber/) `Medium`
+  - [LeetCode] [Coin Change](https://leetcode.com/problems/coin-change/) `Medium`
+  - [LeetCode] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Medium`
+  - [LeetCode] [Unique Paths](https://leetcode.com/problems/unique-paths/) `Medium`
+  - [LeetCode] [Edit Distance](https://leetcode.com/problems/edit-distance/) `Hard`
+  - [LeetCode] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) `Medium`
+  - [LeetCode] [Decode Ways](https://leetcode.com/problems/decode-ways/) `Medium`
+  - [GeeksforGeeks] [0-1 Knapsack Problem](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) `Medium`
+- **Module 11: String Algorithms** (8 problems)
+  - [LeetCode] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) `Easy`
+  - [LeetCode] [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) `Easy`
+  - [LeetCode] [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) `Easy`
+  - [LeetCode] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) `Medium`
+  - [LeetCode] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) `Medium`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) `Hard`
+  - [GeeksforGeeks] [KMP Algorithm for Pattern Searching](https://www.geeksforgeeks.org/problems/kmp-algorithm-for-pattern-searching/1) `Medium`
+- **Module 12: Hashing Algorithms** (7 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Medium`
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+  - [LeetCode] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) `Medium`
+  - [GeeksforGeeks] [Frequency of Array Elements](https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1) `Easy`
+- **Module 13: Backtracking Algorithms** (9 problems)
+  - [LeetCode] [Subsets](https://leetcode.com/problems/subsets/) `Medium`
+  - [LeetCode] [Permutations](https://leetcode.com/problems/permutations/) `Medium`
+  - [LeetCode] [Combination Sum](https://leetcode.com/problems/combination-sum/) `Medium`
+  - [LeetCode] [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) `Medium`
+  - [LeetCode] [N-Queens](https://leetcode.com/problems/n-queens/) `Hard`
+  - [LeetCode] [Word Search](https://leetcode.com/problems/word-search/) `Medium`
+  - [LeetCode] [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) `Medium`
+  - [LeetCode] [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) `Medium`
+  - [GeeksforGeeks] [Rat in a Maze Problem](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1) `Medium`
+
+## 2. Applied Physics Lab (26 Challenges)
+- **Module 1: Measurement Techniques** (3 problems)
+  - [LeetCode] [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) `Easy`
+  - [LeetCode] [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) `Easy`
+  - [LeetCode] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+- **Module 2: Laser Experiments** (2 problems)
+  - [LeetCode] [Pow(x, n)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Sqrt(x)](https://leetcode.com/problems/sqrtx/) `Easy`
+- **Module 3: Interference and Diffraction Experiments** (3 problems)
+  - [LeetCode] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+- **Module 4: Fiber Optics Experiments** (2 problems)
+  - [LeetCode] [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) `Easy`
+  - [LeetCode] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Medium`
+- **Module 5: Semiconductor Experiments** (3 problems)
+  - [LeetCode] [Pow(x, n)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Sqrt(x)](https://leetcode.com/problems/sqrtx/) `Easy`
+  - [LeetCode] [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) `Easy`
+- **Module 6: Magnetic Experiments** (3 problems)
+  - [LeetCode] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) `Medium`
+  - [LeetCode] [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/) `Easy`
+  - [LeetCode] [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) `Easy`
+- **Module 7: Ultrasonic Experiments** — *No coding challenges*
+- **Module 8: Modern Physics Experiments** (2 problems)
+  - [LeetCode] [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) `Medium`
+  - [LeetCode] [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/) `Medium`
+- **Module 9: Experimental Data Analysis** (8 problems)
+  - [LeetCode] [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) `Easy`
+  - [LeetCode] [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) `Easy`
+  - [LeetCode] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [LeetCode] [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) `Easy`
+  - [LeetCode] [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+
+## 3. Arithmetical Thinking & Analytical Reasoning (46 Challenges)
+- **Module 1: Number System** (5 problems)
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Palindrome Number](https://leetcode.com/problems/palindrome-number/) `Easy`
+  - [LeetCode] [Reverse Integer](https://leetcode.com/problems/reverse-integer/) `Medium`
+  - [LeetCode] [Count Special Integers](https://leetcode.com/problems/count-special-integers/) `Hard`
+  - [CodeChef] [CodeChef Number Theory Practice (GCD, Primes)](https://www.codechef.com/practice/number-theory) `Easy`
+- **Module 2: Arithmetic Operations** (4 problems)
+  - [LeetCode] [Plus One](https://leetcode.com/problems/plus-one/) `Easy`
+  - [LeetCode] [Add Digits](https://leetcode.com/problems/add-digits/) `Easy`
+  - [LeetCode] [Happy Number](https://leetcode.com/problems/happy-number/) `Easy`
+  - [LeetCode] [Sqrt(x) (Integer Square Root)](https://leetcode.com/problems/sqrtx/) `Easy`
+- **Module 3: Ratio and Proportion** — *No coding challenges*
+- **Module 4: Percentage and Applications** — *No coding challenges*
+- **Module 5: Average and Statistics Basics** (3 problems)
+  - [LeetCode] [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) `Easy`
+  - [LeetCode] [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) `Easy`
+  - [LeetCode] [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) `Easy`
+- **Module 6: Time and Work** — *No coding challenges*
+- **Module 7: Time, Speed and Distance** (3 problems)
+  - [HackerRank] [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) `Easy`
+  - [HackerRank] [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) `Medium`
+  - [HackerRank] [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words/problem) `Medium`
+- **Module 8: Simple and Compound Interest** — *No coding challenges*
+- **Module 9: Algebraic Thinking** (4 problems)
+  - [LeetCode] [Solve the Equation](https://leetcode.com/problems/solve-the-equation/) `Medium`
+  - [LeetCode] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) `Medium`
+  - [LeetCode] [Basic Calculator](https://leetcode.com/problems/basic-calculator/) `Hard`
+  - [LeetCode] [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) `Medium`
+- **Module 10: Logical Reasoning Basics** (5 problems)
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+  - [HackerRank] [Coding Friends](https://www.hackerrank.com/challenges/coding-friends/problem) `Medium`
+- **Module 11: Analytical Reasoning** (4 problems)
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search Insert Position](https://leetcode.com/problems/search-insert-position/) `Easy`
+  - [LeetCode] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) `Medium`
+  - [HackerRank] [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) `Medium`
+- **Module 12: Data Interpretation** (5 problems)
+  - [LeetCode] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+- **Module 13: Problem Solving Techniques** (7 problems)
+  - [LeetCode] [3Sum](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [Maximum Subarray (Kadane's Algorithm)](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Medium`
+  - [LeetCode] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Medium`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+  - [LeetCode] [Coin Change](https://leetcode.com/problems/coin-change/) `Medium`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+- **Module 14: Placement Aptitude Preparation** (6 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+
+## 4. Artificial Intelligence and Machine Learning (21 Challenges)
+- **Module 1: Introduction to Artificial Intelligence** — *No coding challenges*
+- **Module 2: Mathematics Foundations for AI** — *No coding challenges*
+- **Module 3: Python for Artificial Intelligence** (4 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+- **Module 4: Introduction to Machine Learning** — *No coding challenges*
+- **Module 5: Data Preprocessing** (4 problems)
+  - [LeetCode] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) `Easy`
+  - [LeetCode] [Move Zeroes](https://leetcode.com/problems/move-zeroes/) `Easy`
+  - [LeetCode] [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) `Easy`
+  - [LeetCode] [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) `Easy`
+- **Module 6: Supervised Learning Algorithms** — *No coding challenges*
+- **Module 7: Unsupervised Learning Algorithms** — *No coding challenges*
+- **Module 8: Reinforcement Learning** — *No coding challenges*
+- **Module 9: Deep Learning Fundamentals** — *No coding challenges*
+- **Module 10: Neural Network Architectures** — *No coding challenges*
+- **Module 11: Computer Vision** (4 problems)
+  - [LeetCode] [Image Smoother](https://leetcode.com/problems/image-smoother/) `Easy`
+  - [LeetCode] [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) `Easy`
+  - [LeetCode] [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) `Easy`
+  - [LeetCode] [Rotate Image](https://leetcode.com/problems/rotate-image/) `Medium`
+- **Module 12: Natural Language Processing** (5 problems)
+  - [LeetCode] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) `Medium`
+  - [LeetCode] [Word Pattern](https://leetcode.com/problems/word-pattern/) `Easy`
+  - [LeetCode] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) `Medium`
+- **Module 13: Generative AI Basics** — *No coding challenges*
+- **Module 14: Machine Learning Model Evaluation** — *No coding challenges*
+- **Module 15: AI Tools and Frameworks** — *No coding challenges*
+- **Module 16: AI Project Development** (4 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Design HashMap](https://leetcode.com/problems/design-hashmap/) `Easy`
+  - [LeetCode] [Design HashSet](https://leetcode.com/problems/design-hashset/) `Easy`
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+
+## 5. Basic Electrical Engineering (15 Challenges)
+- **Module 1: Introduction to Electrical Engineering** — *No coding challenges*
+- **Module 2: Basic Circuit Concepts** — *No coding challenges*
+- **Module 3: Ohm's Law and Circuit Laws** — *No coding challenges*
+- **Module 4: DC Circuit Analysis** (2 problems)
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+- **Module 5: Electrical Measuring Instruments** — *No coding challenges*
+- **Module 6: AC Fundamentals** — *No coding challenges*
+- **Module 7: AC Circuit Analysis** (1 problems)
+  - [LeetCode] [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) `Medium`
+- **Module 8: Transformers** — *No coding challenges*
+- **Module 9: Electrical Machines** — *No coding challenges*
+- **Module 10: Three Phase Electrical Systems** — *No coding challenges*
+- **Module 11: Semiconductor Devices and Applications** (3 problems)
+  - [LeetCode] [Pow(x, n)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Sqrt(x)](https://leetcode.com/problems/sqrtx/) `Easy`
+  - [LeetCode] [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) `Easy`
+- **Module 12: Digital Electronics Basics** (5 problems)
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Counting Bits](https://leetcode.com/problems/counting-bits/) `Easy`
+  - [LeetCode] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Easy`
+  - [LeetCode] [Add Binary](https://leetcode.com/problems/add-binary/) `Easy`
+  - [LeetCode] [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) `Easy`
+- **Module 13: Electrical Wiring and Safety** — *No coding challenges*
+- **Module 14: Renewable Energy Systems** — *No coding challenges*
+- **Module 15: Electrical Engineering Applications** (4 problems)
+  - [LeetCode] [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) `Medium`
+  - [LeetCode] [Matrix Multiplication](https://leetcode.com/problems/matrix-multiplication/) `Medium`
+  - [LeetCode] [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) `Easy`
+  - [LeetCode] [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) `Easy`
+
+## 6. Basic Electronics (19 Challenges)
+- **Module 1: Introduction to Electronics** — *No coding challenges*
+- **Module 2: Semiconductor Fundamentals** — *No coding challenges*
+- **Module 3: PN Junction Diode** — *No coding challenges*
+- **Module 4: Diode Applications** — *No coding challenges*
+- **Module 5: Transistors Fundamentals** — *No coding challenges*
+- **Module 6: Transistor Applications** — *No coding challenges*
+- **Module 7: Field Effect Transistors** — *No coding challenges*
+- **Module 8: Operational Amplifiers** — *No coding challenges*
+- **Module 9: Digital Electronics Basics** (5 problems)
+  - [LeetCode] [Add Binary](https://leetcode.com/problems/add-binary/) `Easy`
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Counting Bits](https://leetcode.com/problems/counting-bits/) `Easy`
+  - [LeetCode] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Easy`
+  - [LeetCode] [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) `Easy`
+- **Module 10: Combinational Logic Circuits** (5 problems)
+  - [LeetCode] [Add Binary](https://leetcode.com/problems/add-binary/) `Easy`
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Counting Bits](https://leetcode.com/problems/counting-bits/) `Easy`
+  - [LeetCode] [Single Number](https://leetcode.com/problems/single-number/) `Easy`
+  - [LeetCode] [Single Number II](https://leetcode.com/problems/single-number-ii/) `Medium`
+- **Module 11: Sequential Logic Circuits** (4 problems)
+  - [LeetCode] [Counting Bits](https://leetcode.com/problems/counting-bits/) `Easy`
+  - [LeetCode] [Power of Two](https://leetcode.com/problems/power-of-two/) `Easy`
+  - [LeetCode] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Easy`
+  - [LeetCode] [Happy Number](https://leetcode.com/problems/happy-number/) `Easy`
+- **Module 12: Electronic Measuring Instruments** — *No coding challenges*
+- **Module 13: Communication Electronics Basics** — *No coding challenges*
+- **Module 14: Microelectronics and Embedded Basics** (5 problems)
+  - [LeetCode] [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) `Medium`
+  - [LeetCode] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Easy`
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Counting Bits](https://leetcode.com/problems/counting-bits/) `Easy`
+  - [LeetCode] [Single Number](https://leetcode.com/problems/single-number/) `Easy`
+- **Module 15: Electronics Laboratory Experiments** — *No coding challenges*
+
+## 7. Basic Mechanical Engineering (10 Challenges)
+- **Module 1: Introduction to Mechanical Engineering** — *No coding challenges*
+- **Module 2: Engineering Materials** — *No coding challenges*
+- **Module 3: Engineering Mechanics Fundamentals** (2 problems)
+  - [LeetCode] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) `Medium`
+  - [LeetCode] [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) `Hard`
+- **Module 4: Friction and Applications** — *No coding challenges*
+- **Module 5: Work, Energy and Power** — *No coding challenges*
+- **Module 6: Simple Machines** — *No coding challenges*
+- **Module 7: Thermodynamics Basics** — *No coding challenges*
+- **Module 8: Heat Transfer Basics** — *No coding challenges*
+- **Module 9: Internal Combustion Engines** — *No coding challenges*
+- **Module 10: Steam and Power Plants** — *No coding challenges*
+- **Module 11: Refrigeration and Air Conditioning** — *No coding challenges*
+- **Module 12: Manufacturing Processes** — *No coding challenges*
+- **Module 13: Mechanical Power Transmission** — *No coding challenges*
+- **Module 14: Robotics and Automation Basics** (5 problems)
+  - [LeetCode] [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) `Easy`
+  - [LeetCode] [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) `Medium`
+  - [LeetCode] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) `Medium`
+  - [LeetCode] [Rotate Image](https://leetcode.com/problems/rotate-image/) `Medium`
+  - [LeetCode] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) `Medium`
+- **Module 15: Mechanical Engineering Applications** (3 problems)
+  - [LeetCode] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) `Medium`
+  - [LeetCode] [Rotate Image](https://leetcode.com/problems/rotate-image/) `Medium`
+  - [LeetCode] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) `Medium`
+- **Module 16: Mechanical Engineering Laboratory** — *No coding challenges*
+
+## 8. Big Data Analytics (33 Challenges)
+- **Module 1: Introduction to Big Data** — *No coding challenges*
+- **Module 2: Big Data Architecture** — *No coding challenges*
+- **Module 3: Data Analytics Fundamentals** (4 problems)
+  - [LeetCode] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+- **Module 4: Big Data Storage Technologies** — *No coding challenges*
+- **Module 5: Hadoop Ecosystem** — *No coding challenges*
+- **Module 6: MapReduce Programming Model** (4 problems)
+  - [LeetCode] [Word Pattern](https://leetcode.com/problems/word-pattern/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+- **Module 7: Apache Spark** (4 problems)
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+- **Module 8: Data Processing Frameworks** (4 problems)
+  - [LeetCode] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) `Easy`
+  - [LeetCode] [Sort an Array](https://leetcode.com/problems/sort-an-array/) `Medium`
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+- **Module 9: NoSQL Databases** — *No coding challenges*
+- **Module 10: Data Mining Concepts** (4 problems)
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+- **Module 11: Machine Learning for Big Data** (4 problems)
+  - [LeetCode] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) `Medium`
+  - [LeetCode] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) `Medium`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+- **Module 12: Big Data Visualization** — *No coding challenges*
+- **Module 13: Real-Time Big Data Analytics** (4 problems)
+  - [LeetCode] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) `Hard`
+  - [LeetCode] [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) `Easy`
+  - [LeetCode] [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) `Easy`
+  - [LeetCode] [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) `Medium`
+- **Module 14: Cloud-Based Big Data Platforms** — *No coding challenges*
+- **Module 15: Big Data Security and Privacy** — *No coding challenges*
+- **Module 16: Big Data Applications and Projects** (5 problems)
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) `Hard`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) `Medium`
+
+## 9. C Programming for Problem Solving (34 Challenges)
+- **Module 1: Introduction to Programming and C Language** — *No coding challenges*
+- **Module 2: Basics of C Programming** (2 problems)
+  - [HackerRank] [C Language Domain Practice](https://www.hackerrank.com/domains/c) `Easy`
+  - [GeeksforGeeks] [C Programming Language Basics](https://www.geeksforgeeks.org/c/c-programming-language/) `Easy`
+- **Module 3: Operators and Expressions** (1 problems)
+  - [HackerRank] [C Language Domain Practice](https://www.hackerrank.com/domains/c) `Easy`
+- **Module 4: Decision Making Statements** (2 problems)
+  - [HackerRank] [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem) `Easy`
+  - [HackerRank] [Printing Pattern using Loops](https://www.hackerrank.com/challenges/printing-pattern-2/problem) `Medium`
+- **Module 5: Looping and Iterations** (3 problems)
+  - [HackerRank] [For Loop in C](https://www.hackerrank.com/challenges/for-loop-in-c/problem) `Easy`
+  - [HackerRank] [1D Arrays in C](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) `Medium`
+  - [HackerRank] [Sum of Digits of a Five Digit Number](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem) `Easy`
+- **Module 6: Functions in C** (2 problems)
+  - [HackerRank] [Functions in C](https://www.hackerrank.com/challenges/functions-in-c/problem) `Easy`
+  - [HackerRank] [Recursion in C](https://www.hackerrank.com/challenges/recursion-in-c/problem) `Easy`
+- **Module 7: Arrays in C** (3 problems)
+  - [HackerRank] [1D Arrays in C](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) `Medium`
+  - [HackerRank] [Variable Sized Arrays in C](https://www.hackerrank.com/challenges/variable-sized-arrays-in-c/problem) `Medium`
+  - [GeeksforGeeks] [Array in C Practice](https://www.geeksforgeeks.org/c/array-in-c/) `Easy`
+- **Module 8: Strings in C** (3 problems)
+  - [HackerRank] [Playing With Characters](https://www.hackerrank.com/challenges/playing-with-characters/problem) `Easy`
+  - [HackerRank] [Strings in C](https://www.hackerrank.com/challenges/strings/problem) `Easy`
+  - [HackerRank] [Printing Tokens](https://www.hackerrank.com/challenges/printing-tokens/problem) `Easy`
+- **Module 9: Pointers in C** (1 problems)
+  - [HackerRank] [Pointers in C](https://www.hackerrank.com/challenges/pointer-in-c/problem) `Easy`
+- **Module 10: Structures and Unions** (2 problems)
+  - [HackerRank] [Structuring the Document](https://www.hackerrank.com/challenges/structuring-the-document/problem) `Hard`
+  - [HackerRank] [Small Triangles Large Triangles](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem) `Medium`
+- **Module 11: File Handling in C** — *No coding challenges*
+- **Module 12: Dynamic Memory Allocation** (1 problems)
+  - [HackerRank] [Dynamic Array in C](https://www.hackerrank.com/challenges/dynamic-array-in-c/problem) `Medium`
+- **Module 13: Data Structures Implementation Using C** (4 problems)
+  - [GeeksforGeeks] [Stack Data Structure](https://www.geeksforgeeks.org/dsa/stack-data-structure/) `Easy`
+  - [GeeksforGeeks] [Queue Data Structure](https://www.geeksforgeeks.org/dsa/queue-data-structure/) `Easy`
+  - [GeeksforGeeks] [Linked List Data Structure](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/) `Medium`
+  - [GeeksforGeeks] [Binary Tree Data Structure](https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/) `Medium`
+- **Module 14: Problem Solving Techniques Using C** (3 problems)
+  - [HackerRank] [HackerRank Algorithms Domain](https://www.hackerrank.com/domains/algorithms) `Medium`
+  - [HackerRank] [HackerRank C Domain](https://www.hackerrank.com/domains/c) `Easy`
+  - [GeeksforGeeks] [DSA Problem Solving](https://www.geeksforgeeks.org/dsa/) `Medium`
+- **Module 15: Basic Algorithms Implementation in C** (4 problems)
+  - [GeeksforGeeks] [Searching Algorithms](https://www.geeksforgeeks.org/dsa/searching-algorithms/) `Easy`
+  - [GeeksforGeeks] [Sorting Algorithms](https://www.geeksforgeeks.org/dsa/sorting-algorithms/) `Easy`
+  - [GeeksforGeeks] [Graph Data Structure and Algorithms](https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/) `Medium`
+  - [HackerRank] [Algorithms Domain Practice](https://www.hackerrank.com/domains/algorithms) `Medium`
+- **Module 16: C Programming Practice and Projects** (3 problems)
+  - [HackerRank] [HackerRank C Practice](https://www.hackerrank.com/domains/c) `Easy`
+  - [GeeksforGeeks] [GeeksforGeeks C Programming](https://www.geeksforgeeks.org/c/c-programming-language/) `Easy`
+  - [HackerRank] [Algorithms Practice & Projects](https://www.hackerrank.com/domains/algorithms) `Medium`
+
+## 10. Cloud Computing (21 Challenges)
+- **Module 1: Introduction to Cloud Computing** — *No coding challenges*
+- **Module 2: Cloud Computing Architecture** — *No coding challenges*
+- **Module 3: Cloud Service Models** — *No coding challenges*
+- **Module 4: Cloud Deployment Models** — *No coding challenges*
+- **Module 5: Virtualization Technology** (1 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+- **Module 6: Containerization and Docker** — *No coding challenges*
+- **Module 7: Cloud Computing Infrastructure** (2 problems)
+  - [LeetCode] [Course Schedule](https://leetcode.com/problems/course-schedule/) `Medium`
+  - [GeeksforGeeks] [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) `Medium`
+- **Module 8: Cloud Storage** (2 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) `Medium`
+- **Module 9: Cloud Networking** (3 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+  - [LeetCode] [Clone Graph](https://leetcode.com/problems/clone-graph/) `Medium`
+- **Module 10: Cloud Security** — *No coding challenges*
+- **Module 11: Cloud Databases** (1 problems)
+  - [LeetCode] [LeetCode SQL 50 Study Plan](https://leetcode.com/studyplan/top-sql-50/) `Medium`
+- **Module 12: Cloud Computing Platforms** — *No coding challenges*
+- **Module 13: Cloud Application Development** (3 problems)
+  - [LeetCode] [Design HashMap](https://leetcode.com/problems/design-hashmap/) `Easy`
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) `Medium`
+- **Module 14: Serverless Computing** — *No coding challenges*
+- **Module 15: Cloud DevOps and Automation** (2 problems)
+  - [LeetCode] [Course Schedule](https://leetcode.com/problems/course-schedule/) `Medium`
+  - [GeeksforGeeks] [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) `Medium`
+- **Module 16: Cloud Data Analytics and AI Services** (2 problems)
+  - [LeetCode] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) `Medium`
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+- **Module 17: Edge Computing and Emerging Technologies** (2 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) `Medium`
+- **Module 18: Cloud Computing Projects and Practical Applications** (3 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Design Twitter](https://leetcode.com/problems/design-twitter/) `Medium`
+
+## 11. Computer Networks (10 Challenges)
+- **Module 1: Introduction to Computer Networks** — *No coding challenges*
+- **Module 2: Network Models and Architectures** — *No coding challenges*
+- **Module 3: Physical Layer** — *No coding challenges*
+- **Module 4: Data Link Layer** (1 problems)
+  - [GeeksforGeeks] [CRC — Cyclic Redundancy Check](https://www.geeksforgeeks.org/dsa/modulo-2-binary-division/) `Medium`
+- **Module 5: Medium Access Control** — *No coding challenges*
+- **Module 6: Network Layer** (3 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) `Medium`
+  - [LeetCode] [Clone Graph](https://leetcode.com/problems/clone-graph/) `Medium`
+- **Module 7: Transport Layer** (2 problems)
+  - [LeetCode] [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) `Easy`
+  - [LeetCode] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) `Medium`
+- **Module 8: Application Layer** — *No coding challenges*
+- **Module 9: Network Security Basics** — *No coding challenges*
+- **Module 10: Wireless Networks** — *No coding challenges*
+- **Module 11: Network Management** (1 problems)
+  - [LeetCode] [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) `Medium`
+- **Module 12: Modern Networking Technologies** (3 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) `Medium`
+  - [LeetCode] [Clone Graph](https://leetcode.com/problems/clone-graph/) `Medium`
+
+## 12. Computer Networks Lab (12 Challenges)
+- **Module 1: Network Simulation Basics** — *No coding challenges*
+- **Module 2: Basic Network Configuration** — *No coding challenges*
+- **Module 3: Socket Programming** (2 problems)
+  - [GeeksforGeeks] [Socket Programming in C/C++](https://www.geeksforgeeks.org/socket-programming-cc/) `Medium`
+  - [GeeksforGeeks] [TCP Server-Client Implementation in C](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/) `Medium`
+- **Module 4: Network Protocol Implementation** (2 problems)
+  - [GeeksforGeeks] [CRC — Modulo-2 Binary Division](https://www.geeksforgeeks.org/dsa/modulo-2-binary-division/) `Medium`
+  - [GeeksforGeeks] [Sliding Window Protocol Implementation](https://www.geeksforgeeks.org/computer-networks/sliding-window-protocol-set-1/) `Medium`
+- **Module 5: Routing Experiments** (3 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) `Medium`
+  - [GeeksforGeeks] [Dijkstra's Shortest Path Algorithm](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/) `Medium`
+- **Module 6: Network Analysis Tools** — *No coding challenges*
+- **Module 7: Web and Application Protocol Experiments** (2 problems)
+  - [GeeksforGeeks] [Simple HTTP Server Using Python](https://www.geeksforgeeks.org/simple-http-server-using-python/) `Medium`
+  - [LeetCode] [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) `Medium`
+- **Module 8: Wireless Networking Experiments** — *No coding challenges*
+- **Module 9: Network Security Experiments** — *No coding challenges*
+- **Module 10: Mini Projects** (3 problems)
+  - [GeeksforGeeks] [Multi-Threaded Chat Application in Python](https://www.geeksforgeeks.org/simple-chat-room-using-python/) `Medium`
+  - [GeeksforGeeks] [TCP Client-Server Implementation in C](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/) `Medium`
+  - [LeetCode] [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) `Medium`
+
+## 13. Computer Organization and Architecture (11 Challenges)
+- **Module 1: Introduction to Computer Organization and Architecture** — *No coding challenges*
+- **Module 2: Data Representation and Computer Arithmetic** (2 problems)
+  - [LeetCode] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Easy`
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+- **Module 3: Digital Logic Fundamentals** (1 problems)
+  - [LeetCode] [Single Number](https://leetcode.com/problems/single-number/) `Easy`
+- **Module 4: Basic Computer Organization** — *No coding challenges*
+- **Module 5: Central Processing Unit (CPU)** — *No coding challenges*
+- **Module 6: Instruction Set Architecture** — *No coding challenges*
+- **Module 7: Instruction Execution and Control Unit** — *No coding challenges*
+- **Module 8: Memory Organization** (2 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Design HashMap](https://leetcode.com/problems/design-hashmap/) `Easy`
+- **Module 9: Input and Output Organization** — *No coding challenges*
+- **Module 10: Computer Arithmetic Unit** (2 problems)
+  - [LeetCode] [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) `Medium`
+  - [LeetCode] [Add Binary](https://leetcode.com/problems/add-binary/) `Easy`
+- **Module 11: Pipelining** — *No coding challenges*
+- **Module 12: Parallel Processing** (2 problems)
+  - [LeetCode] [Print in Order](https://leetcode.com/problems/print-in-order/) `Easy`
+  - [LeetCode] [Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) `Medium`
+- **Module 13: Advanced Processor Architectures** — *No coding challenges*
+- **Module 14: Storage Systems** (2 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Design HashMap](https://leetcode.com/problems/design-hashmap/) `Easy`
+- **Module 15: Embedded Systems and Modern Architectures** — *No coding challenges*
+- **Module 16: Computer Architecture Applications** — *No coding challenges*
+
+## 14. Corporate Communication (0 Challenges)
+> *No coding challenges required for this subject (Theoretical / Managerial).*
+
+## 15. Cryptography & Network Security (8 Challenges)
+- **Module 1: Introduction to Network Security** — *No coding challenges*
+- **Module 2: Security Attacks and Services** — *No coding challenges*
+- **Module 3: Introduction to Cryptography** — *No coding challenges*
+- **Module 4: Classical Cryptography Techniques** (1 problems)
+  - [GeeksforGeeks] [Caesar Cipher in Cryptography](https://www.geeksforgeeks.org/ethical-hacking/caesar-cipher-in-cryptography/) `Easy`
+- **Module 5: Symmetric Key Cryptography** (1 problems)
+  - [GeeksforGeeks] [AES Encryption and Decryption Implementation](https://www.geeksforgeeks.org/computer-networks/difference-between-aes-and-rsa-encryption/) `Medium`
+- **Module 6: Asymmetric Key Cryptography** (1 problems)
+  - [GeeksforGeeks] [RSA Algorithm in Cryptography](https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/) `Medium`
+- **Module 7: Hash Functions and Message Authentication** (1 problems)
+  - [GeeksforGeeks] [SHA-256 Cryptographic Hash Functions](https://www.geeksforgeeks.org/computer-networks/basics-of-cryptographic-algorithms/) `Medium`
+- **Module 8: Authentication and Access Control** — *No coding challenges*
+- **Module 9: Digital Signatures and Certificates** (2 problems)
+  - [GeeksforGeeks] [RSA and Digital Signatures](https://www.geeksforgeeks.org/computer-networks/rsa-and-digital-signatures/) `Medium`
+  - [GeeksforGeeks] [Java Digital Signature Implementation](https://www.geeksforgeeks.org/java/java-implementation-of-digital-signatures-in-cryptography/) `Medium`
+- **Module 10: Network Security Protocols** — *No coding challenges*
+- **Module 11: Firewall and Intrusion Detection Systems** — *No coding challenges*
+- **Module 12: Wireless Network Security** — *No coding challenges*
+- **Module 13: Web Security** — *No coding challenges*
+- **Module 14: Cloud and Application Security** — *No coding challenges*
+- **Module 15: Cyber Security and Ethical Hacking Basics** — *No coding challenges*
+- **Module 16: Blockchain and Modern Security** (1 problems)
+  - [GeeksforGeeks] [SHA-256 Hashing & Blockchain Verification](https://www.geeksforgeeks.org/computer-networks/basics-of-cryptographic-algorithms/) `Medium`
+- **Module 17: Cryptography and Network Security Applications** (1 problems)
+  - [GeeksforGeeks] [RSA Digital Signature Scheme in Python](https://www.geeksforgeeks.org/python/rsa-digital-signature-scheme-using-python/) `Medium`
+
+## 16. Data Structures and Algorithms (74 Challenges)
+- **Module 1: Introduction to Data Structures and Algorithms** — *No coding challenges*
+- **Module 2: Algorithm Analysis Basics** — *No coding challenges*
+- **Module 3: Arrays** (5 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Rotate Array](https://leetcode.com/problems/rotate-array/) `Medium`
+  - [GeeksforGeeks] [GFG Array Problems Guide](https://www.geeksforgeeks.org/dsa/array-data-structure-guide/) `Easy`
+- **Module 4: Strings** (4 problems)
+  - [LeetCode] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) `Easy`
+  - [LeetCode] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) `Easy`
+  - [LeetCode] [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) `Easy`
+  - [LeetCode] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) `Medium`
+- **Module 5: Linked Lists** (4 problems)
+  - [LeetCode] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) `Easy`
+  - [LeetCode] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) `Easy`
+  - [LeetCode] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) `Easy`
+  - [LeetCode] [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) `Medium`
+- **Module 6: Stacks** (4 problems)
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Min Stack](https://leetcode.com/problems/min-stack/) `Medium`
+  - [LeetCode] [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) `Easy`
+  - [LeetCode] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) `Hard`
+- **Module 7: Queues** (3 problems)
+  - [LeetCode] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) `Easy`
+  - [LeetCode] [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) `Easy`
+  - [LeetCode] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) `Hard`
+- **Module 8: Recursion** (3 problems)
+  - [LeetCode] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) `Easy`
+  - [LeetCode] [Pow(x, n)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Reverse String](https://leetcode.com/problems/reverse-string/) `Easy`
+- **Module 9: Searching Algorithms** (4 problems)
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Medium`
+  - [LeetCode] [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) `Medium`
+  - [LeetCode] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) `Medium`
+- **Module 10: Sorting Algorithms** (3 problems)
+  - [LeetCode] [Sort an Array](https://leetcode.com/problems/sort-an-array/) `Medium`
+  - [LeetCode] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) `Easy`
+  - [LeetCode] [Sort Colors](https://leetcode.com/problems/sort-colors/) `Medium`
+- **Module 11: Trees** (5 problems)
+  - [LeetCode] [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) `Easy`
+  - [LeetCode] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) `Easy`
+  - [LeetCode] [Same Tree](https://leetcode.com/problems/same-tree/) `Easy`
+  - [LeetCode] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) `Medium`
+  - [LeetCode] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) `Medium`
+- **Module 12: Advanced Trees** (4 problems)
+  - [LeetCode] [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) `Medium`
+  - [LeetCode] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) `Medium`
+  - [LeetCode] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) `Hard`
+  - [LeetCode] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) `Medium`
+- **Module 13: Hashing** (4 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) `Medium`
+  - [LeetCode] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [LeetCode] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Medium`
+- **Module 14: Graphs** (4 problems)
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+  - [LeetCode] [Clone Graph](https://leetcode.com/problems/clone-graph/) `Medium`
+  - [LeetCode] [Flood Fill](https://leetcode.com/problems/flood-fill/) `Easy`
+  - [LeetCode] [Course Schedule](https://leetcode.com/problems/course-schedule/) `Medium`
+- **Module 15: Advanced Graph Algorithms** (4 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) `Medium`
+  - [LeetCode] [Redundant Connection](https://leetcode.com/problems/redundant-connection/) `Medium`
+  - [LeetCode] [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) `Medium`
+- **Module 16: Greedy Algorithms** (5 problems)
+  - [LeetCode] [Assign Cookies](https://leetcode.com/problems/assign-cookies/) `Easy`
+  - [LeetCode] [Jump Game](https://leetcode.com/problems/jump-game/) `Medium`
+  - [LeetCode] [Jump Game II](https://leetcode.com/problems/jump-game-ii/) `Medium`
+  - [LeetCode] [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) `Easy`
+  - [LeetCode] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) `Medium`
+- **Module 17: Dynamic Programming** (6 problems)
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+  - [LeetCode] [House Robber](https://leetcode.com/problems/house-robber/) `Medium`
+  - [LeetCode] [Coin Change](https://leetcode.com/problems/coin-change/) `Medium`
+  - [LeetCode] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Medium`
+  - [LeetCode] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) `Medium`
+  - [GeeksforGeeks] [0/1 Knapsack Problem](https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/) `Medium`
+- **Module 18: Backtracking** (5 problems)
+  - [LeetCode] [Subsets](https://leetcode.com/problems/subsets/) `Medium`
+  - [LeetCode] [Permutations](https://leetcode.com/problems/permutations/) `Medium`
+  - [LeetCode] [Combination Sum](https://leetcode.com/problems/combination-sum/) `Medium`
+  - [LeetCode] [N-Queens](https://leetcode.com/problems/n-queens/) `Hard`
+  - [LeetCode] [Word Search](https://leetcode.com/problems/word-search/) `Medium`
+- **Module 19: Advanced Problem Solving Techniques** (5 problems)
+  - [LeetCode] [3Sum](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Medium`
+  - [LeetCode] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Medium`
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) `Hard`
+- **Module 20: Data Structures and Algorithms Practice** (2 problems)
+  - [LeetCode] [LeetCode Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) `Medium`
+  - [GeeksforGeeks] [GeeksforGeeks DSA Practice Platform](https://www.geeksforgeeks.org/dsa/geeksforgeeks-practice-best-online-coding-platform/) `Medium`
+
+## 17. Database Applications Lab (17 Challenges)
+- **Module 1: Database Environment Setup** — *No coding challenges*
+- **Module 2: SQL Basics Practice** (3 problems)
+  - [HackerRank] [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/problem) `Easy`
+  - [HackerRank] [Select All](https://www.hackerrank.com/challenges/select-all-sql/problem) `Easy`
+  - [HackerRank] [Employee Names](https://www.hackerrank.com/challenges/name-of-employees/problem) `Easy`
+- **Module 3: SQL Query Experiments** (3 problems)
+  - [HackerRank] [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem) `Easy`
+  - [HackerRank] [The Report](https://www.hackerrank.com/challenges/the-report/problem) `Medium`
+  - [HackerRank] [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard/problem) `Medium`
+- **Module 4: Database Design Experiments** — *No coding challenges*
+- **Module 5: Advanced SQL Programming** (4 problems)
+  - [LeetCode] [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) `Medium`
+  - [LeetCode] [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) `Medium`
+  - [LeetCode] [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) `Medium`
+  - [LeetCode] [Rank Scores](https://leetcode.com/problems/rank-scores/) `Medium`
+- **Module 6: Transaction Management Experiments** — *No coding challenges*
+- **Module 7: Database Connectivity Programming** (3 problems)
+  - [GeeksforGeeks] [JDBC Connection](https://www.geeksforgeeks.org/java-database-connectivity-with-mysql/) `Easy`
+  - [GeeksforGeeks] [JDBC Insert Records](https://www.geeksforgeeks.org/how-to-insert-data-into-a-database-using-jdbc/) `Easy`
+  - [GeeksforGeeks] [JDBC Select Records](https://www.geeksforgeeks.org/how-to-fetch-data-from-database-using-jdbc/) `Easy`
+- **Module 8: Database Application Development** (2 problems)
+  - [GeeksforGeeks] [JDBC CRUD Operations](https://www.geeksforgeeks.org/crud-operations-in-java-using-jdbc/) `Medium`
+  - [GeeksforGeeks] [JDBC PreparedStatement](https://www.geeksforgeeks.org/preparedstatement-in-java/) `Medium`
+- **Module 9: NoSQL Database Practice** (2 problems)
+  - [GeeksforGeeks] [MongoDB CRUD Operations](https://www.geeksforgeeks.org/mongodb-crud-operations/) `Easy`
+  - [GeeksforGeeks] [MongoDB Aggregation](https://www.geeksforgeeks.org/aggregation-in-mongodb/) `Medium`
+- **Module 10: Database Project Work** — *No coding challenges*
+
+## 18. Database Management System (9 Challenges)
+- **Module 1: Introduction to Database Systems** — *No coding challenges*
+- **Module 2: Database Architecture** — *No coding challenges*
+- **Module 3: Data Models** — *No coding challenges*
+- **Module 4: Entity Relationship Model** — *No coding challenges*
+- **Module 5: Relational Database Model** — *No coding challenges*
+- **Module 6: Relational Algebra** (1 problems)
+  - [Custom] [Relational Algebra Practice Problems](https://www.cs.uct.ac.za/mit_notes/database/htmls/chp05.html) `Medium`
+- **Module 7: SQL Fundamentals** (2 problems)
+  - [HackerRank] [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/problem) `Easy`
+  - [HackerRank] [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/problem) `Easy`
+- **Module 8: Advanced SQL Queries** (3 problems)
+  - [LeetCode] [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) `Medium`
+  - [LeetCode] [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) `Easy`
+  - [LeetCode] [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) `Medium`
+- **Module 9: Database Design** (1 problems)
+  - [Custom] [Database Design & SQL Practice Exercises](https://www.sql-practice.com/) `Medium`
+- **Module 10: Transaction Management** — *No coding challenges*
+- **Module 11: Concurrency Control** — *No coding challenges*
+- **Module 12: Database Recovery** — *No coding challenges*
+- **Module 13: Indexing and File Organization** — *No coding challenges*
+- **Module 14: NoSQL Databases** (2 problems)
+  - [Custom] [MongoDB CRUD Challenges](https://www.mongodb.com/docs/manual/crud/) `Easy`
+  - [Custom] [MongoDB Query Exercises](https://www.w3resource.com/mongodb-exercises/) `Medium`
+- **Module 15: Modern Database Concepts** — *No coding challenges*
+
+## 19. Design Thinking for Social Innovation (0 Challenges)
+> *No coding challenges required for this subject (Theoretical / Managerial).*
+
+## 20. Design and Analysis of Algorithms (41 Challenges)
+- **Module 1: Introduction to Algorithms and Analysis** (2 problems)
+  - [LeetCode] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) `Easy`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+- **Module 2: Asymptotic Analysis** (2 problems)
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+- **Module 3: Mathematical Analysis of Algorithms** (2 problems)
+  - [GeeksforGeeks] [GCD of Two Numbers](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1) `Easy`
+  - [LeetCode] [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) `Easy`
+- **Module 4: Divide and Conquer Technique** (2 problems)
+  - [LeetCode] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) `Medium`
+  - [LeetCode] [Maximum Subarray (Divide and Conquer)](https://leetcode.com/problems/maximum-subarray/) `Medium`
+- **Module 5: Greedy Method** (3 problems)
+  - [GeeksforGeeks] [Minimum Number of Coins](https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1) `Medium`
+  - [GeeksforGeeks] [Minimum Platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) `Medium`
+  - [LeetCode] [Assign Cookies](https://leetcode.com/problems/assign-cookies/) `Easy`
+- **Module 6: Dynamic Programming** (4 problems)
+  - [LeetCode] [House Robber](https://leetcode.com/problems/house-robber/) `Medium`
+  - [LeetCode] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Medium`
+  - [LeetCode] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) `Medium`
+  - [LeetCode] [Edit Distance](https://leetcode.com/problems/edit-distance/) `Medium`
+- **Module 7: Backtracking Technique** (3 problems)
+  - [LeetCode] [Permutations](https://leetcode.com/problems/permutations/) `Medium`
+  - [LeetCode] [Combination Sum](https://leetcode.com/problems/combination-sum/) `Medium`
+  - [LeetCode] [Subsets](https://leetcode.com/problems/subsets/) `Medium`
+- **Module 8: Branch and Bound Technique** (2 problems)
+  - [LeetCode] [N-Queens II](https://leetcode.com/problems/n-queens-ii/) `Hard`
+  - [GeeksforGeeks] [Assignment Problem (Branch and Bound)](https://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-0-1-knapsack/) `Hard`
+- **Module 9: Graph Algorithms** (4 problems)
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+  - [LeetCode] [Course Schedule](https://leetcode.com/problems/course-schedule/) `Medium`
+  - [GeeksforGeeks] [Detect Cycle in an Undirected Graph](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) `Medium`
+  - [GeeksforGeeks] [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) `Medium`
+- **Module 10: Sorting Algorithm Analysis** (3 problems)
+  - [LeetCode] [Sort Colors](https://leetcode.com/problems/sort-colors/) `Medium`
+  - [LeetCode] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Medium`
+  - [LeetCode] [Maximum Gap](https://leetcode.com/problems/maximum-gap/) `Medium`
+- **Module 11: Searching Algorithm Analysis** (3 problems)
+  - [LeetCode] [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) `Medium`
+  - [LeetCode] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) `Medium`
+  - [LeetCode] [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) `Medium`
+- **Module 12: Advanced Algorithm Design Techniques** (2 problems)
+  - [LeetCode] [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) `Medium`
+  - [LeetCode] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) `Hard`
+- **Module 13: NP Completeness Theory** (2 problems)
+  - [LeetCode] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) `Medium`
+  - [LeetCode] [Word Break](https://leetcode.com/problems/word-break/) `Medium`
+- **Module 14: Algorithm Applications** (3 problems)
+  - [LeetCode] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) `Medium`
+  - [LeetCode] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) `Medium`
+  - [LeetCode] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) `Medium`
+- **Module 15: Algorithm Implementation and Practice** (4 problems)
+  - [LeetCode] [LRU Cache](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) `Hard`
+  - [LeetCode] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) `Hard`
+  - [LeetCode] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Medium`
+
+## 21. Discrete Mathematics (33 Challenges)
+- **Module 1: Introduction to Discrete Mathematics** (1 problems)
+  - [HackerRank] [Discrete Mathematics Problems](https://www.hackerrank.com/domains/mathematics) `Easy`
+- **Module 2: Logic and Propositional Calculus** (2 problems)
+  - [LeetCode] [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) `Easy`
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+- **Module 3: Proof Techniques** (2 problems)
+  - [LeetCode] [Power of Two](https://leetcode.com/problems/power-of-two/) `Easy`
+  - [LeetCode] [Happy Number](https://leetcode.com/problems/happy-number/) `Easy`
+- **Module 4: Set Theory** (2 problems)
+  - [LeetCode] [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) `Easy`
+  - [LeetCode] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) `Medium`
+- **Module 5: Relations** (2 problems)
+  - [LeetCode] [Find the Difference](https://leetcode.com/problems/find-the-difference/) `Easy`
+  - [LeetCode] [Find Common Characters](https://leetcode.com/problems/find-common-characters/) `Easy`
+- **Module 6: Functions** (2 problems)
+  - [LeetCode] [Function Composition](https://leetcode.com/problems/function-composition/) `Easy`
+  - [LeetCode] [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) `Easy`
+- **Module 7: Counting Principles** (2 problems)
+  - [LeetCode] [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) `Easy`
+  - [LeetCode] [Unique Paths](https://leetcode.com/problems/unique-paths/) `Medium`
+- **Module 8: Recurrence Relations** (2 problems)
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+  - [LeetCode] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) `Easy`
+- **Module 9: Graph Theory** (3 problems)
+  - [LeetCode] [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) `Easy`
+  - [LeetCode] [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) `Easy`
+  - [LeetCode] [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) `Medium`
+- **Module 10: Trees in Discrete Mathematics** (3 problems)
+  - [LeetCode] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) `Easy`
+  - [LeetCode] [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) `Easy`
+  - [LeetCode] [Same Tree](https://leetcode.com/problems/same-tree/) `Easy`
+- **Module 11: Boolean Algebra** (3 problems)
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Single Number](https://leetcode.com/problems/single-number/) `Easy`
+  - [LeetCode] [Missing Number](https://leetcode.com/problems/missing-number/) `Easy`
+- **Module 12: Algebraic Structures** (2 problems)
+  - [LeetCode] [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) `Easy`
+  - [LeetCode] [Add Binary](https://leetcode.com/problems/add-binary/) `Easy`
+- **Module 13: Finite State Machines and Automata Basics** (2 problems)
+  - [LeetCode] [Valid Number](https://leetcode.com/problems/valid-number/) `Hard`
+  - [LeetCode] [Is Subsequence](https://leetcode.com/problems/is-subsequence/) `Easy`
+- **Module 14: Discrete Probability** (2 problems)
+  - [LeetCode] [New 21 Game](https://leetcode.com/problems/new-21-game/) `Medium`
+  - [LeetCode] [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) `Medium`
+- **Module 15: Applications of Discrete Mathematics** (3 problems)
+  - [GeeksforGeeks] [Josephus Problem](https://www.geeksforgeeks.org/problems/josephus-problem/1) `Medium`
+  - [LeetCode] [Gray Code](https://leetcode.com/problems/gray-code/) `Medium`
+  - [GeeksforGeeks] [Power Set](https://www.geeksforgeeks.org/problems/power-set4302/1) `Medium`
+
+## 22. Embedded Systems and IoT (0 Challenges)
+> *No coding challenges required for this subject (Theoretical / Managerial).*
+
+## 23. Engineering Chemistry (39 Challenges)
+- **Module 1: Introduction to Engineering Chemistry** (3 problems)
+  - [LeetCode] [Introduction to Engineering Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to Engineering Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to Engineering Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Atomic Structure and Chemical Bonding** (3 problems)
+  - [LeetCode] [Atomic Structure and Chemical Bonding Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Atomic Structure and Chemical Bonding Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Atomic Structure and Chemical Bonding Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 3: Water Technology** (3 problems)
+  - [LeetCode] [Water Technology Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Water Technology Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Water Technology Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 4: Electrochemistry** (3 problems)
+  - [LeetCode] [Electrochemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Electrochemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Electrochemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Fuels and Energy** (3 problems)
+  - [LeetCode] [Fuels and Energy Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Fuels and Energy Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Fuels and Energy Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 6: Polymers** (3 problems)
+  - [LeetCode] [Polymers Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Polymers Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Polymers Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 7: Materials Chemistry** (3 problems)
+  - [LeetCode] [Materials Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Materials Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Materials Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 8: Surface Chemistry** (3 problems)
+  - [LeetCode] [Surface Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Surface Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Surface Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 9: Environmental Chemistry** (3 problems)
+  - [LeetCode] [Environmental Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Environmental Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Environmental Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 10: Chemical Kinetics and Thermodynamics** (3 problems)
+  - [LeetCode] [Chemical Kinetics and Thermodynamics Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Chemical Kinetics and Thermodynamics Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Chemical Kinetics and Thermodynamics Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 11: Instrumental Methods of Analysis** (3 problems)
+  - [LeetCode] [Instrumental Methods of Analysis Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Instrumental Methods of Analysis Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Instrumental Methods of Analysis Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 12: Engineering Applications of Chemistry** (3 problems)
+  - [LeetCode] [Engineering Applications of Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Engineering Applications of Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Engineering Applications of Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 13: Recent Trends in Chemistry** (3 problems)
+  - [LeetCode] [Recent Trends in Chemistry Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Recent Trends in Chemistry Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Recent Trends in Chemistry Challenge](https://www.codechef.com/practice) `Hard`
+
+## 24. Engineering Exploration (0 Challenges)
+> *No coding challenges required for this subject (Theoretical / Managerial).*
+
+## 25. Engineering Mechanics (45 Challenges)
+- **Module 1: Introduction to Engineering Mechanics** (3 problems)
+  - [LeetCode] [Introduction to Engineering Mechanics Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to Engineering Mechanics Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to Engineering Mechanics Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Force Systems** (3 problems)
+  - [LeetCode] [Force Systems Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Force Systems Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Force Systems Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 3: Moments and Couples** (3 problems)
+  - [LeetCode] [Moments and Couples Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Moments and Couples Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Moments and Couples Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 4: Equilibrium of Rigid Bodies** (3 problems)
+  - [LeetCode] [Equilibrium of Rigid Bodies Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Equilibrium of Rigid Bodies Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Equilibrium of Rigid Bodies Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Friction** (3 problems)
+  - [LeetCode] [Friction Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Friction Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Friction Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 6: Centroid and Center of Gravity** (3 problems)
+  - [LeetCode] [Centroid and Center of Gravity Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Centroid and Center of Gravity Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Centroid and Center of Gravity Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 7: Moment of Inertia** (3 problems)
+  - [LeetCode] [Moment of Inertia Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Moment of Inertia Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Moment of Inertia Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 8: Trusses** (3 problems)
+  - [LeetCode] [Trusses Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Trusses Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Trusses Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 9: Beams and Frames** (3 problems)
+  - [LeetCode] [Beams and Frames Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Beams and Frames Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Beams and Frames Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 10: Kinematics of Particles** (3 problems)
+  - [LeetCode] [Kinematics of Particles Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Kinematics of Particles Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Kinematics of Particles Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 11: Kinetics of Particles** (3 problems)
+  - [LeetCode] [Kinetics of Particles Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Kinetics of Particles Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Kinetics of Particles Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 12: Rotational Dynamics** (3 problems)
+  - [LeetCode] [Rotational Dynamics Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Rotational Dynamics Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Rotational Dynamics Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 13: Mechanical Vibrations** (3 problems)
+  - [LeetCode] [Mechanical Vibrations Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Mechanical Vibrations Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Mechanical Vibrations Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 14: Engineering Applications of Mechanics** (3 problems)
+  - [LeetCode] [Engineering Applications of Mechanics Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Engineering Applications of Mechanics Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Engineering Applications of Mechanics Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 15: Practical Problem Solving** (3 problems)
+  - [LeetCode] [Practical Problem Solving Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Practical Problem Solving Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Practical Problem Solving Challenge](https://www.codechef.com/practice) `Hard`
+
+## 26. Engineering Physics (5 Challenges)
+- **Module 1: Introduction to Engineering Physics** — *No coding challenges*
+- **Module 2: Mechanics** (1 problems)
+  - [HackerRank] [Spheres](https://www.hackerrank.com/challenges/spheres/problem) `Medium`
+- **Module 3: Oscillations and Waves** (1 problems)
+  - [HackerRank] [The Bouncing Flying Ball](https://www.hackerrank.com/challenges/the-bouncing-flying-ball/problem) `Hard`
+- **Module 4: Optics** — *No coding challenges*
+- **Module 5: Electricity and Magnetism** (1 problems)
+  - [HackerRank] [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem) `Easy`
+- **Module 6: Semiconductor Physics** — *No coding challenges*
+- **Module 7: Quantum Physics** — *No coding challenges*
+- **Module 8: Modern Physics** — *No coding challenges*
+- **Module 9: Materials Science** — *No coding challenges*
+- **Module 10: Nanotechnology** — *No coding challenges*
+- **Module 11: Renewable Energy Physics** (1 problems)
+  - [HackerRank] [Power - Mod Power](https://www.hackerrank.com/challenges/python-power-mod-power/problem) `Easy`
+- **Module 12: Electromagnetic Waves** — *No coding challenges*
+- **Module 13: Engineering Applications of Physics** (1 problems)
+  - [HackerRank] [Spheres (Physical-System Simulation)](https://www.hackerrank.com/challenges/spheres/problem) `Medium`
+- **Module 14: Experimental Physics** — *No coding challenges*
+- **Module 15: Emerging Technologies** — *No coding challenges*
+
+## 27. Exploratory Data Analysis (16 Challenges)
+- **Module 1: Introduction to Exploratory Data Analysis** (2 problems)
+  - [HackerRank] [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem) `Easy`
+  - [HackerRank] [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem) `Easy`
+- **Module 2: Data Collection and Data Sources** (1 problems)
+  - [HackerRank] [Lists in Python](https://www.hackerrank.com/challenges/python-lists/problem) `Easy`
+- **Module 3: Python for Data Analysis** (2 problems)
+  - [HackerRank] [Find a String](https://www.hackerrank.com/challenges/find-a-string/problem) `Easy`
+  - [HackerRank] [String Validators](https://www.hackerrank.com/challenges/string-validators/problem) `Easy`
+- **Module 4: Data Cleaning and Preprocessing** (2 problems)
+  - [HackerRank] [Incorrect Regex](https://www.hackerrank.com/challenges/incorrect-regex/problem) `Easy`
+  - [HackerRank] [ginortS Sorting & Cleaning](https://www.hackerrank.com/challenges/ginorts/problem) `Medium`
+- **Module 5: Descriptive Statistics** (2 problems)
+  - [HackerRank] [Standard Deviation](https://www.hackerrank.com/challenges/standard-deviation/problem) `Easy`
+  - [HackerRank] [Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) `Easy`
+- **Module 6: Data Visualization** (1 problems)
+  - [HackerRank] [Detect the Domain Name](https://www.hackerrank.com/challenges/detect-the-domain-name/problem) `Medium`
+- **Module 7: Univariate Data Analysis** (1 problems)
+  - [HackerRank] [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem) `Easy`
+- **Module 8: Bivariate Data Analysis** (1 problems)
+  - [HackerRank] [Pearson Correlation Coefficient I](https://www.hackerrank.com/challenges/correlation-and-regression-lines-6/problem) `Easy`
+- **Module 9: Multivariate Data Analysis** (1 problems)
+  - [HackerRank] [Correlation and Regression Lines](https://www.hackerrank.com/challenges/correlation-and-regression-lines-6/problem) `Easy`
+- **Module 10: Feature Engineering** — *No coding challenges*
+- **Module 11: Data Analysis with SQL** (3 problems)
+  - [HackerRank] [Weather Observation Station 5](https://www.hackerrank.com/challenges/weather-observation-station-5/problem) `Easy`
+  - [HackerRank] [Average Population](https://www.hackerrank.com/challenges/average-population/problem) `Easy`
+  - [HackerRank] [Population Census](https://www.hackerrank.com/challenges/asian-population/problem) `Easy`
+- **Module 12: Exploratory Data Analysis Using Libraries** — *No coding challenges*
+- **Module 13: Real-World Case Studies** — *No coding challenges*
+- **Module 14: EDA in Machine Learning** — *No coding challenges*
+- **Module 15: Mini Projects and Hands-on Practice** — *No coding challenges*
+- **Module 16: Best Practices in EDA** — *No coding challenges*
+
+## 28. Generative AI (12 Challenges)
+- **Module 1: Introduction to Generative AI** — *No coding challenges*
+- **Module 2: Foundations of Machine Learning** — *No coding challenges*
+- **Module 3: Large Language Models (LLMs)** (1 problems)
+  - [Custom] [Hugging Face NLP Course – Chapter 2](https://huggingface.co/learn/nlp-course/chapter2/1) `Medium`
+- **Module 4: Prompt Engineering** (1 problems)
+  - [Custom] [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) `Easy`
+- **Module 5: Generative AI Models** (1 problems)
+  - [Custom] [Hugging Face – Language Modeling](https://huggingface.co/docs/transformers/en/tasks/language_modeling) `Medium`
+- **Module 6: Text Generation** (1 problems)
+  - [Custom] [Hugging Face – Text Generation](https://huggingface.co/docs/transformers/en/main_classes/text_generation) `Medium`
+- **Module 7: Image Generation** (1 problems)
+  - [Custom] [Hugging Face Diffusers – Text-to-Image](https://huggingface.co/docs/diffusers/en/using-diffusers/conditional_image_generation) `Medium`
+- **Module 8: Audio and Video Generation** (1 problems)
+  - [Custom] [Hugging Face – Text-to-Speech](https://huggingface.co/docs/transformers/en/tasks/text-to-speech) `Medium`
+- **Module 9: Retrieval-Augmented Generation (RAG)** (1 problems)
+  - [Custom] [LangChain – RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/) `Medium`
+- **Module 10: AI Agents** (1 problems)
+  - [Custom] [LangChain – Agents Tutorial](https://python.langchain.com/docs/tutorials/agents/) `Medium`
+- **Module 11: Fine-Tuning and Model Customization** (1 problems)
+  - [Custom] [Hugging Face – Training/Fine-Tuning](https://huggingface.co/docs/transformers/en/training) `Hard`
+- **Module 12: Generative AI Development** (1 problems)
+  - [Custom] [OpenAI API – Quickstart Guide](https://platform.openai.com/docs/quickstart) `Easy`
+- **Module 13: Responsible AI and Ethics** — *No coding challenges*
+- **Module 14: Real-World Applications** (1 problems)
+  - [Custom] [LangChain Real-World Application Tutorials](https://python.langchain.com/docs/tutorials/) `Medium`
+- **Module 15: Hands-on Projects** (1 problems)
+  - [Custom] [Hugging Face – LLM Course & Hands-on Projects](https://huggingface.co/learn/llm-course/chapter1/1) `Medium`
+- **Module 16: Emerging Trends in Generative AI** — *No coding challenges*
+
+## 29. Industry Readiness & Leadership Skills (0 Challenges)
+> *No coding challenges required for this subject (Theoretical / Managerial).*
+
+## 30. Linear Algebra (35 Challenges)
+- **Module 1: Introduction to Linear Algebra** (2 problems)
+  - [HackerRank] [NumPy Array Setup & Vector Basics](https://www.hackerrank.com/domains/python/numpy) `Easy`
+  - [HackerRank] [Mathematical Foundations of Vectors](https://www.hackerrank.com/domains/mathematics) `Easy`
+- **Module 2: Matrices** (2 problems)
+  - [HackerRank] [Matrix Addition](https://www.hackerrank.com/challenges/linear-algebra-foundations-1/problem) `Easy`
+  - [HackerRank] [Matrix Multiplication](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+- **Module 3: Determinants** (2 problems)
+  - [HackerRank] [Determinant of the Matrix](https://www.hackerrank.com/challenges/linear-algebra-foundations-6-determinant-of-the-matrix/problem) `Easy`
+  - [HackerRank] [NumPy Matrix Determinant](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Easy`
+- **Module 4: Inverse of a Matrix** (2 problems)
+  - [HackerRank] [The Inverse of a Matrix](https://www.hackerrank.com/challenges/linear-algebra-foundations-5-the-inverse-of-a-matrix/problem) `Medium`
+  - [HackerRank] [NumPy Matrix Inversion (np.linalg.inv)](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Easy`
+- **Module 5: Systems of Linear Equations** (2 problems)
+  - [HackerRank] [Systems of Equations](https://www.hackerrank.com/challenges/linear-algebra-fundamentals-8-systems-of-equations/problem) `Medium`
+  - [HackerRank] [Solving Linear Systems with NumPy (np.linalg.solve)](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+- **Module 6: Vector Spaces** (2 problems)
+  - [HackerRank] [Inner and Outer Product](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Dot and Cross Product](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+- **Module 7: Linear Transformations** (2 problems)
+  - [HackerRank] [Matrix Multiplication as Linear Transformation](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Medium`
+  - [HackerRank] [Linear Transformations & Mapping Foundations](https://www.hackerrank.com/domains/mathematics) `Medium`
+- **Module 8: Eigenvalues and Eigenvectors** (2 problems)
+  - [HackerRank] [Eigenvalues and Eigenvectors Foundations](https://www.hackerrank.com/challenges/linear-algebra-foundations-9-eigenvalues-and-eigenvectors/problem) `Medium`
+  - [HackerRank] [NumPy Eigenvalues & Eigenvectors (np.linalg.eig)](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Easy`
+- **Module 9: Inner Product Spaces** (2 problems)
+  - [HackerRank] [Inner and Outer Product](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Dot Product & Orthogonality](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+- **Module 10: Advanced Matrix Decompositions** (2 problems)
+  - [HackerRank] [Linear Algebra Matrix Decompositions](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [Custom] [Singular Value Decomposition (SVD) with NumPy](https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html) `Hard`
+- **Module 11: Numerical Linear Algebra** (3 problems)
+  - [HackerRank] [NumPy Linear Algebra Numerical Computations](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Matrix Multiplication Foundations](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [NumPy Linear Algebra Practice Suite](https://www.hackerrank.com/domains/python/numpy) `Easy`
+- **Module 12: Applications in Computer Science** (2 problems)
+  - [HackerRank] [Matrix Transformations in Computer Graphics](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Medium`
+  - [HackerRank] [Linear Algebra in Machine Learning & Algorithms](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+- **Module 13: Optimization and Linear Algebra** (2 problems)
+  - [GeeksforGeeks] [Gradient Descent Optimization](https://www.geeksforgeeks.org/data-science/what-is-gradient-descent/) `Medium`
+  - [Custom] [Intro to Machine Learning Optimization](https://www.kaggle.com/learn/intro-to-machine-learning) `Medium`
+- **Module 14: Programming with Linear Algebra** (6 problems)
+  - [HackerRank] [Matrix Addition](https://www.hackerrank.com/challenges/linear-algebra-foundations-1/problem) `Easy`
+  - [HackerRank] [Matrix Multiplication](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [Dot and Cross Product](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+  - [HackerRank] [Inner and Outer Product](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Linear Algebra Suite (np.linalg)](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Determinant of the Matrix](https://www.hackerrank.com/challenges/linear-algebra-foundations-6-determinant-of-the-matrix/problem) `Easy`
+- **Module 15: Projects and Case Studies** (2 problems)
+  - [HackerRank] [End-to-End Matrix Operations Project](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Hard`
+  - [Custom] [Linear Regression & SVD Machine Learning Application](https://www.kaggle.com/learn/intro-to-machine-learning) `Hard`
+
+## 31. Multivariable Calculus (54 Challenges)
+- **Module 1: Introduction to Multivariable Calculus** (3 problems)
+  - [HackerRank] [Python: Basic Mathematical Operations](https://www.hackerrank.com/domains/python) `Easy`
+  - [HackerRank] [Python: Mathematical Functions](https://www.hackerrank.com/domains/mathematics) `Easy`
+  - [HackerRank] [NumPy: Array Mathematics](https://www.hackerrank.com/domains/python/numpy) `Easy`
+- **Module 2: Vectors and Vector Algebra** (3 problems)
+  - [HackerRank] [Dot and Cross Product](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+  - [HackerRank] [Inner and Outer Product](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Linear Algebra Determinant & Inversion](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+- **Module 3: Three-Dimensional Coordinate Geometry** (3 problems)
+  - [HackerRank] [Find the Torsional Angle](https://www.hackerrank.com/challenges/class-2-find-the-torsional-angle/problem) `Medium`
+  - [HackerRank] [Euclidean Distance in 3D Space](https://www.hackerrank.com/domains/mathematics) `Easy`
+  - [LeetCode] [3Sum Coordinates Search](https://leetcode.com/problems/3sum/) `Medium`
+- **Module 4: Limits and Continuity of Multivariable Functions** (2 problems)
+  - [HackerRank] [Limits & Numerical Computation](https://www.hackerrank.com/domains/mathematics) `Easy`
+  - [Custom] [SymPy Limits & Series Expansion](https://docs.sympy.org/latest/tutorials/intro-tutorial/calculus.html) `Medium`
+- **Module 5: Partial Differentiation** (3 problems)
+  - [Custom] [Symbolic Partial Differentiation](https://docs.sympy.org/latest/tutorials/intro-tutorial/calculus.html) `Medium`
+  - [Custom] [Calculus Derivatives Practice](https://www.wolframalpha.com/) `Easy`
+  - [Custom] [Python SymPy Calculus Engine](https://docs.sympy.org/latest/tutorials/intro-tutorial/calculus.html) `Medium`
+- **Module 6: Directional Derivatives and Gradient** (3 problems)
+  - [GeeksforGeeks] [Gradient Descent Implementation](https://www.geeksforgeeks.org/data-science/what-is-gradient-descent/) `Medium`
+  - [HackerRank] [NumPy Linear Algebra & Gradients](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Vector Operations & Norms](https://www.hackerrank.com/domains/python/numpy) `Easy`
+- **Module 7: Optimization of Multivariable Functions** (3 problems)
+  - [GeeksforGeeks] [Gradient Descent & Local Extrema](https://www.geeksforgeeks.org/data-science/what-is-gradient-descent/) `Medium`
+  - [Custom] [Linear Regression using Gradient Descent](https://www.kaggle.com/learn/intro-to-machine-learning) `Medium`
+  - [HackerRank] [Optimization & Mathematical Programming](https://www.hackerrank.com/domains/mathematics) `Hard`
+- **Module 8: Multiple Integrals** (3 problems)
+  - [HackerRank] [Numerical Integration Algorithms](https://www.hackerrank.com/domains/mathematics) `Medium`
+  - [HackerRank] [Numerical Methods & Approximation](https://www.hackerrank.com/domains/mathematics) `Easy`
+  - [Custom] [Numerical Integration with SciPy](https://docs.scipy.org/doc/scipy/reference/integrate.html) `Medium`
+- **Module 9: Applications of Double and Triple Integrals** (2 problems)
+  - [HackerRank] [Numerical Integration of Volumes](https://www.hackerrank.com/domains/mathematics) `Medium`
+  - [Custom] [Multiple Integration Using SciPy dblquad & tplquad](https://docs.scipy.org/doc/scipy/reference/integrate.html) `Medium`
+- **Module 10: Vector Calculus** (3 problems)
+  - [HackerRank] [Dot and Cross Vector Fields](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+  - [HackerRank] [Inner and Outer Vector Products](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Linear Algebra Vector Computations](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+- **Module 11: Line Integrals** (2 problems)
+  - [Custom] [Numerical Line Integration with SciPy](https://docs.scipy.org/doc/scipy/reference/integrate.html) `Medium`
+  - [HackerRank] [Python Numerical Methods in Vector Fields](https://www.hackerrank.com/domains/mathematics) `Medium`
+- **Module 12: Surface Integrals** (2 problems)
+  - [Custom] [Numerical Surface Integration with SciPy](https://docs.scipy.org/doc/scipy/reference/integrate.html) `Medium`
+  - [HackerRank] [NumPy Mathematical Flux Computations](https://www.hackerrank.com/domains/python/numpy) `Easy`
+- **Module 13: Integral Theorems** (2 problems)
+  - [Custom] [Green's, Stokes' & Divergence Numerical Verification](https://docs.scipy.org/doc/scipy/reference/integrate.html) `Hard`
+  - [GeeksforGeeks] [Vector Field Simulation & Divergence](https://www.geeksforgeeks.org/data-science/what-is-gradient-descent/) `Medium`
+- **Module 14: Numerical Methods and Computational Applications** (6 problems)
+  - [HackerRank] [Numerical Integration](https://www.hackerrank.com/domains/mathematics) `Medium`
+  - [HackerRank] [Find the Torsional Angle](https://www.hackerrank.com/challenges/class-2-find-the-torsional-angle/problem) `Medium`
+  - [HackerRank] [NumPy Linear Algebra Operations](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Matrix Multiplication Foundations](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [Matrix Multiplication 2x2](https://www.hackerrank.com/challenges/linear-algebra-foundations-3-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [Matrix Power Computation (1000th Power)](https://www.hackerrank.com/challenges/linear-algebra-foundations-7-the-1000th-power-of-a-matrix/problem) `Hard`
+- **Module 15: Applications in Engineering and Computer Science** (5 problems)
+  - [LeetCode] [3Sum Vector Problem](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [3Sum Closest Target Search](https://leetcode.com/problems/3sum-closest/) `Medium`
+  - [HackerRank] [NumPy Linear Algebra Applications](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Matrix Multiplication in Engineering](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [Matrix Power Scaling](https://www.hackerrank.com/challenges/linear-algebra-foundations-7-the-1000th-power-of-a-matrix/problem) `Hard`
+- **Module 16: Practical Problem Solving** (9 problems)
+  - [LeetCode] [3Sum Triple Coordinates](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [3Sum Closest Value](https://leetcode.com/problems/3sum-closest/) `Medium`
+  - [HackerRank] [Dot and Cross Computations](https://www.hackerrank.com/challenges/np-dot-and-cross/problem) `Easy`
+  - [HackerRank] [Inner and Outer Product Analysis](https://www.hackerrank.com/challenges/np-inner-and-outer/problem) `Easy`
+  - [HackerRank] [Linear Algebra Determinant & Rank](https://www.hackerrank.com/challenges/np-linear-algebra/problem) `Medium`
+  - [HackerRank] [Matrix Addition Foundations](https://www.hackerrank.com/challenges/linear-algebra-foundations-1/problem) `Easy`
+  - [HackerRank] [Matrix Multiplication Foundations](https://www.hackerrank.com/challenges/linear-algebra-foundations-4-matrix-multiplication/problem) `Easy`
+  - [HackerRank] [Systems of Linear Equations](https://www.hackerrank.com/challenges/linear-algebra-fundamentals-8-systems-of-equations/problem) `Medium`
+  - [HackerRank] [Numerical Integration Applications](https://www.hackerrank.com/domains/mathematics) `Medium`
+
+## 32. Object Oriented Programming (42 Challenges)
+- **Module 1: Introduction to Object Oriented Programming** (2 problems)
+  - [GeeksforGeeks] [Classes & Objects](https://www.geeksforgeeks.org/cpp/c-classes-and-objects/) `Easy`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+- **Module 2: Programming Fundamentals for OOP** (3 problems)
+  - [HackerRank] [C++ Strings](https://www.hackerrank.com/challenges/c-tutorial-strings/problem) `Easy`
+  - [HackerRank] [Arrays Introduction](https://www.hackerrank.com/challenges/arrays-introduction/problem) `Easy`
+  - [HackerRank] [C++ Vector](https://www.hackerrank.com/challenges/vector-sort/problem) `Easy`
+- **Module 3: Classes and Objects** (3 problems)
+  - [HackerRank] [Classes and Objects](https://www.hackerrank.com/challenges/classes-objects/problem) `Easy`
+  - [GeeksforGeeks] [Design a Class](https://www.geeksforgeeks.org/cpp/cpp-dynamic-memory-and-oops-practice-problems/) `Medium`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+- **Module 4: Encapsulation** (2 problems)
+  - [HackerRank] [Box It!](https://www.hackerrank.com/challenges/box-it/problem) `Easy`
+  - [GeeksforGeeks] [Encapsulation Practice](https://www.geeksforgeeks.org/cpp/cpp-dynamic-memory-and-oops-practice-problems/) `Medium`
+- **Module 5: Abstraction** (2 problems)
+  - [HackerRank] [Abstract Classes - Polymorphism](https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem) `Medium`
+  - [GeeksforGeeks] [Abstraction in Class](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+- **Module 6: Inheritance** (4 problems)
+  - [HackerRank] [Inheritance Introduction](https://www.hackerrank.com/challenges/inheritance-introduction/problem) `Easy`
+  - [HackerRank] [Multi Level Inheritance](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) `Easy`
+  - [HackerRank] [Accessing Inherited Functions](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem) `Medium`
+  - [GeeksforGeeks] [Inheritance Practice Problems](https://www.geeksforgeeks.org/cpp/cpp-dynamic-memory-and-oops-practice-problems/) `Medium`
+- **Module 7: Polymorphism** (3 problems)
+  - [HackerRank] [Virtual Functions](https://www.hackerrank.com/challenges/virtual-functions/problem) `Medium`
+  - [HackerRank] [Abstract Classes - Polymorphism](https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem) `Medium`
+  - [GeeksforGeeks] [Polymorphism in Class](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Medium`
+- **Module 8: Advanced OOP Concepts** (3 problems)
+  - [HackerRank] [Operator Overloading](https://www.hackerrank.com/challenges/operator-overloading/problem) `Medium`
+  - [HackerRank] [Overload Operators](https://www.hackerrank.com/challenges/overload-operators/problem) `Medium`
+  - [GeeksforGeeks] [Function Overloading](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+- **Module 9: Exception Handling** (2 problems)
+  - [HackerRank] [Exceptional Server](https://www.hackerrank.com/challenges/exceptional-server/problem) `Medium`
+  - [GeeksforGeeks] [Exception Handling Practice](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+- **Module 10: File Handling** (2 problems)
+  - [GeeksforGeeks] [File Handling in C++](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+  - [HackerRank] [C++ File Handling Challenges](https://www.hackerrank.com/domains/cpp) `Medium`
+- **Module 11: Generic Programming** (3 problems)
+  - [HackerRank] [C++ Class Templates](https://www.hackerrank.com/challenges/c-class-templates/problem) `Medium`
+  - [HackerRank] [C++ Class Template Specialization](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem) `Hard`
+  - [HackerRank] [Template Parameters](https://www.hackerrank.com/challenges/cpp-variadics/problem) `Medium`
+- **Module 12: Object Oriented Design Principles** (2 problems)
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+  - [GeeksforGeeks] [Design a Class (OOP Practice)](https://www.geeksforgeeks.org/cpp/cpp-dynamic-memory-and-oops-practice-problems/) `Medium`
+- **Module 13: UML and Object Modeling** (2 problems)
+  - [HackerRank] [Attribute Parser](https://www.hackerrank.com/challenges/attribute-parser/problem) `Medium`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+- **Module 14: OOP Implementation in Programming Languages** (3 problems)
+  - [HackerRank] [Operator Overloading](https://www.hackerrank.com/challenges/operator-overloading/problem) `Medium`
+  - [GeeksforGeeks] [Add Two Complex Numbers](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+  - [GeeksforGeeks] [Function Overriding](https://www.geeksforgeeks.org/cpp/cpp-programming-examples/) `Easy`
+- **Module 15: Object Oriented Programming Applications** (3 problems)
+  - [HackerRank] [Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem) `Medium`
+  - [HackerRank] [Multi Level Inheritance](https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem) `Easy`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+- **Module 16: Practical Programming and Projects** (3 problems)
+  - [HackerRank] [Inherited Code](https://www.hackerrank.com/challenges/inherited-code/problem) `Medium`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+  - [GeeksforGeeks] [C++ OOP Practice Problems](https://www.geeksforgeeks.org/cpp/cpp-dynamic-memory-and-oops-practice-problems/) `Medium`
+
+## 33. Object Oriented Programming Lab (36 Challenges)
+- **Module 1: Introduction to OOP Programming Environment** (3 problems)
+  - [LeetCode] [Introduction to OOP Programming Environment Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to OOP Programming Environment Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to OOP Programming Environment Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Classes and Objects Implementation** (3 problems)
+  - [LeetCode] [Classes and Objects Implementation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Classes and Objects Implementation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Classes and Objects Implementation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 3: Encapsulation and Data Hiding Programs** (3 problems)
+  - [LeetCode] [Encapsulation and Data Hiding Programs Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Encapsulation and Data Hiding Programs Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Encapsulation and Data Hiding Programs Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 4: Inheritance Implementation** (3 problems)
+  - [LeetCode] [Inheritance Implementation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Inheritance Implementation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Inheritance Implementation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Polymorphism Implementation** (3 problems)
+  - [LeetCode] [Polymorphism Implementation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Polymorphism Implementation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Polymorphism Implementation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 6: Abstraction Implementation** (3 problems)
+  - [LeetCode] [Abstraction Implementation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Abstraction Implementation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Abstraction Implementation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 7: Exception Handling Programs** (3 problems)
+  - [LeetCode] [Exception Handling Programs Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Exception Handling Programs Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Exception Handling Programs Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 8: File Handling Programs** (3 problems)
+  - [LeetCode] [File Handling Programs Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [File Handling Programs Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [File Handling Programs Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 9: Templates and Generic Programming** (3 problems)
+  - [LeetCode] [Templates and Generic Programming Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Templates and Generic Programming Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Templates and Generic Programming Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 10: Object Oriented Design Practice** (3 problems)
+  - [LeetCode] [Object Oriented Design Practice Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Object Oriented Design Practice Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Object Oriented Design Practice Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 11: Mini Projects Using OOP Concepts** (3 problems)
+  - [LeetCode] [Mini Projects Using OOP Concepts Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Mini Projects Using OOP Concepts Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Mini Projects Using OOP Concepts Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 12: Advanced OOP Practice** (3 problems)
+  - [LeetCode] [Advanced OOP Practice Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Advanced OOP Practice Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Advanced OOP Practice Challenge](https://www.codechef.com/practice) `Hard`
+
+## 34. Operating System Principles and Programming (50 Challenges)
+- **Module 1: Introduction to Operating Systems** (2 problems)
+  - [GeeksforGeeks] [OS System Calls & Dual Mode Foundations](https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/) `Easy`
+  - [LeetCode] [Operating Systems Cheatsheet & Study Guide](https://leetcode.com/discuss/study-guide/5299702/operating-systems-cheatsheet/) `Easy`
+- **Module 2: Operating System Architecture** (2 problems)
+  - [GeeksforGeeks] [Kernel and User Mode Architecture](https://www.geeksforgeeks.org/dual-mode-operations-in-os/) `Easy`
+  - [GeeksforGeeks] [Operating System Services & Structure](https://www.geeksforgeeks.org/operating-system-services/) `Easy`
+- **Module 3: Process Management** (3 problems)
+  - [GeeksforGeeks] [Process Creation using fork() and pipe()](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/) `Medium`
+  - [GeeksforGeeks] [Create a Process using fork() System Call](https://www.geeksforgeeks.org/fork-system-call/) `Easy`
+  - [LeetCode] [Process Management LeetCode OS Guide](https://leetcode.com/discuss/study-guide/5299702/operating-systems-cheatsheet/) `Medium`
+- **Module 4: Threads and Multithreading** (2 problems)
+  - [GeeksforGeeks] [Multithreading using POSIX Threads (pthreads)](https://www.geeksforgeeks.org/thread-functions-in-c-c/) `Medium`
+  - [GeeksforGeeks] [Thread Synchronization with Mutex Locks](https://www.geeksforgeeks.org/mutex-lock-for-linux-thread-synchronization/) `Medium`
+- **Module 5: CPU Scheduling** (5 problems)
+  - [GeeksforGeeks] [FCFS CPU Scheduling](https://www.geeksforgeeks.org/dsa/first-come-first-serve-cpu-scheduling-non-preemptive/) `Easy`
+  - [GeeksforGeeks] [SJF CPU Scheduling (Non-Preemptive & Preemptive)](https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/) `Medium`
+  - [GeeksforGeeks] [Priority CPU Scheduling Program](https://www.geeksforgeeks.org/operating-systems/program-for-priority-cpu-scheduling-set-1/) `Medium`
+  - [GeeksforGeeks] [Round Robin CPU Scheduling with Arrival Times](https://www.geeksforgeeks.org/round-robin-scheduling-with-different-arrival-times/) `Medium`
+  - [GeeksforGeeks] [CPU Scheduling with Priority Queue & Gantt Chart](https://www.geeksforgeeks.org/operating-systems/cpu-scheduling-in-operating-systems-using-priority-queue-with-gantt-chart/) `Hard`
+- **Module 6: Process Synchronization** (3 problems)
+  - [GeeksforGeeks] [Producer-Consumer Problem using Semaphores](https://www.geeksforgeeks.org/producer-consumer-problem-using-semaphores-set-1/) `Medium`
+  - [GeeksforGeeks] [Dining Philosophers Problem using Semaphores](https://www.geeksforgeeks.org/dining-philosopher-problem-using-semaphores/) `Hard`
+  - [GeeksforGeeks] [Readers-Writers Problem Implementation](https://www.geeksforgeeks.org/readers-writers-problem-set-1-introduction-and-readers-preference-solution/) `Medium`
+- **Module 7: Deadlocks** (2 problems)
+  - [GeeksforGeeks] [Banker's Algorithm for Deadlock Avoidance](https://www.geeksforgeeks.org/bankers-algorithm-in-operating-system-2/) `Medium`
+  - [GeeksforGeeks] [Deadlock Detection Algorithm](https://www.geeksforgeeks.org/operating-system-deadlock-detection-algorithm/) `Medium`
+- **Module 8: Memory Management** (3 problems)
+  - [GeeksforGeeks] [First Fit Algorithm in Memory Management](https://www.geeksforgeeks.org/program-first-fit-algorithm-memory-management/) `Easy`
+  - [GeeksforGeeks] [Best Fit Algorithm in Memory Management](https://www.geeksforgeeks.org/program-best-fit-algorithm-memory-management/) `Easy`
+  - [GeeksforGeeks] [Worst Fit Algorithm in Memory Management](https://www.geeksforgeeks.org/program-worst-fit-algorithm-memory-management/) `Easy`
+- **Module 9: Virtual Memory** (4 problems)
+  - [GeeksforGeeks] [LRU Page Replacement Algorithm Implementation](https://www.geeksforgeeks.org/dsa/program-for-least-recently-used-lru-page-replacement-algorithm/) `Medium`
+  - [GeeksforGeeks] [Page Faults in LRU Practice Challenge](https://www.geeksforgeeks.org/problems/page-faults-in-lru5603/1) `Medium`
+  - [GeeksforGeeks] [FIFO Page Replacement Algorithm](https://www.geeksforgeeks.org/dsa/program-page-replacement-algorithms-set-2-fifo/) `Easy`
+  - [GeeksforGeeks] [Optimal Page Replacement Algorithm](https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/) `Medium`
+- **Module 10: File System Management** (2 problems)
+  - [GeeksforGeeks] [File Handling in C Classes & Streams](https://www.geeksforgeeks.org/file-handling-c-classes/) `Easy`
+  - [GeeksforGeeks] [File Allocation Methods (Contiguous, Linked, Indexed)](https://www.geeksforgeeks.org/file-allocation-methods/) `Medium`
+- **Module 11: I/O Device Management** (2 problems)
+  - [GeeksforGeeks] [I/O & Disk Scheduling Concepts](https://www.geeksforgeeks.org/disk-scheduling-algorithms/) `Easy`
+  - [GeeksforGeeks] [I/O Interface, Interrupts and DMA Mode](https://www.geeksforgeeks.org/io-interface-interrupt-and-dma-mode/) `Medium`
+- **Module 12: Disk Management** (4 problems)
+  - [GeeksforGeeks] [FCFS Disk Scheduling Algorithm](https://www.geeksforgeeks.org/program-for-fcfs-disk-scheduling-algorithm/) `Easy`
+  - [GeeksforGeeks] [SSTF Disk Scheduling Algorithm](https://www.geeksforgeeks.org/program-for-sstf-disk-scheduling-algorithm/) `Medium`
+  - [GeeksforGeeks] [SCAN (Elevator) Disk Scheduling Algorithm](https://www.geeksforgeeks.org/scan-elevator-disk-scheduling-algorithms/) `Medium`
+  - [GeeksforGeeks] [C-SCAN Disk Scheduling Algorithm](https://www.geeksforgeeks.org/c-scan-disk-scheduling-algorithm/) `Medium`
+- **Module 13: System Programming** (4 problems)
+  - [GeeksforGeeks] [fork() System Call Programming in C](https://www.geeksforgeeks.org/fork-system-call/) `Easy`
+  - [GeeksforGeeks] [pipe() IPC System Call Programming](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/) `Medium`
+  - [GeeksforGeeks] [exec() Family of Functions in C](https://www.geeksforgeeks.org/exec-family-of-functions-in-c/) `Medium`
+  - [GeeksforGeeks] [wait() System Call in C](https://www.geeksforgeeks.org/wait-system-call-c/) `Easy`
+- **Module 14: Operating System Programming** (4 problems)
+  - [GeeksforGeeks] [Process Creation with fork()](https://www.geeksforgeeks.org/fork-system-call/) `Easy`
+  - [GeeksforGeeks] [Parent-Child Process Communication using Pipe](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/) `Medium`
+  - [GeeksforGeeks] [Shared Memory IPC in C (shmget, shmat)](https://www.geeksforgeeks.org/ipc-shared-memory/) `Medium`
+  - [GeeksforGeeks] [Message Queues IPC (msgget, msgsnd, msgrcv)](https://www.geeksforgeeks.org/ipc-using-message-queues/) `Medium`
+- **Module 15: Linux Operating System** (3 problems)
+  - [HackerRank] [Linux Command-Line & Bash Shell Practice](https://www.hackerrank.com/domains/shell) `Easy`
+  - [HackerRank] [Bash Scripting & Text Processing](https://www.hackerrank.com/domains/shell) `Medium`
+  - [GeeksforGeeks] [Linux Process & System Calls Programming](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/) `Medium`
+- **Module 16: Advanced Operating System Concepts** (2 problems)
+  - [GeeksforGeeks] [Distributed Operating Systems & RPC Concepts](https://www.geeksforgeeks.org/distributed-operating-system/) `Medium`
+  - [GeeksforGeeks] [Real-Time Operating Systems (RTOS) Scheduling](https://www.geeksforgeeks.org/real-time-operating-system-rtos/) `Medium`
+- **Module 17: Practical Applications and Projects** (3 problems)
+  - [GeeksforGeeks] [CPU Scheduling Simulator (FCFS, SJF, Priority, RR)](https://www.geeksforgeeks.org/round-robin-scheduling-with-different-arrival-times/) `Hard`
+  - [GeeksforGeeks] [Page Replacement Simulator (FIFO, LRU, Optimal)](https://www.geeksforgeeks.org/dsa/program-for-least-recently-used-lru-page-replacement-algorithm/) `Hard`
+  - [GeeksforGeeks] [Disk Scheduling Simulator (FCFS, SSTF, SCAN, C-SCAN)](https://www.geeksforgeeks.org/c-scan-disk-scheduling-algorithm/) `Hard`
+
+## 35. Principles of Compiler Design (43 Challenges)
+- **Module 1: Introduction to Compiler Design** (2 problems)
+  - [GeeksforGeeks] [Phases of a Compiler Overview](https://www.geeksforgeeks.org/compiler-design/) `Easy`
+  - [GeeksforGeeks] [Lexical & Syntax Foundations](https://www.geeksforgeeks.org/introduction-of-compiler-design/) `Easy`
+- **Module 2: Compiler Structure and Organization** (2 problems)
+  - [GeeksforGeeks] [Multi-Pass Compiler Organization & Passes](https://www.geeksforgeeks.org/phases-of-a-compiler/) `Easy`
+  - [GeeksforGeeks] [Front-End vs Back-End Compiler Workflows](https://www.geeksforgeeks.org/compiler-design/) `Easy`
+- **Module 3: Lexical Analysis** (3 problems)
+  - [GeeksforGeeks] [Implement a Lexical Analyzer in C](https://www.geeksforgeeks.org/compiler-design/lexical-analyzer-in-c/) `Medium`
+  - [HackerRank] [HackerRank Regular Expressions Practice Suite](https://www.hackerrank.com/domains/regex) `Easy`
+  - [LeetCode] [String Parsing & Token Extraction](https://leetcode.com/problemset/?topicSlugs=string) `Medium`
+- **Module 4: Syntax Analysis and Parsing** (6 problems)
+  - [GeeksforGeeks] [Convert Infix Expression to Postfix Expression](https://www.geeksforgeeks.org/convert-infix-expression-to-postfix-expression/) `Medium`
+  - [GeeksforGeeks] [Convert Infix to Prefix Notation](https://www.geeksforgeeks.org/convert-infix-prefix-notation/) `Medium`
+  - [LeetCode] [Valid Parentheses (Syntax Validation)](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [HackerRank] [Balanced Brackets Challenge](https://www.hackerrank.com/challenges/balanced-brackets/problem) `Medium`
+  - [LeetCode] [Basic Calculator (Expression Evaluation & AST)](https://leetcode.com/problems/basic-calculator/) `Hard`
+  - [GeeksforGeeks] [Evaluation of Postfix Expression](https://www.geeksforgeeks.org/evaluation-of-postfix-expression/) `Easy`
+- **Module 5: Intermediate Code Generation** (3 problems)
+  - [GeeksforGeeks] [Three Address Code Generation in Compiler Design](https://www.geeksforgeeks.org/three-address-code-compiler/) `Medium`
+  - [GeeksforGeeks] [Arithmetic Expression to Three Address Code Converter](https://www.geeksforgeeks.org/three-address-code-compiler/) `Medium`
+  - [GeeksforGeeks] [Quadruples, Triples & Indirect Triples Representation](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+- **Module 6: Runtime Environment** (2 problems)
+  - [LeetCode] [Recursion & Call Stack Allocation](https://leetcode.com/tag/recursion/) `Medium`
+  - [HackerRank] [Activation Records & Recursion Algorithms](https://www.hackerrank.com/domains/algorithms/recursion) `Medium`
+- **Module 7: Symbol Table Management** (4 problems)
+  - [GeeksforGeeks] [Symbol Table Implementation using Hash Table](https://www.geeksforgeeks.org/compiler-design/symbol-table-compiler/) `Medium`
+  - [GeeksforGeeks] [Hash Table Data Structure & Scoping](https://www.geeksforgeeks.org/hashing-data-structure/) `Easy`
+  - [LeetCode] [Symbol Table Lookup & Hash Table Practice](https://leetcode.com/tag/hash-table/) `Medium`
+  - [HackerRank] [Dictionaries and Maps in Symbol Tables](https://www.hackerrank.com/domains/data-structures/dictionaries-and-maps) `Easy`
+- **Module 8: Code Optimization** (3 problems)
+  - [GeeksforGeeks] [Constant Folding Optimization Algorithm](https://www.geeksforgeeks.org/compiler-design/constant-folding/) `Medium`
+  - [GeeksforGeeks] [Common Subexpression Elimination (CSE)](https://www.geeksforgeeks.org/compiler-design/common-subexpression-elimination/) `Medium`
+  - [GeeksforGeeks] [Dead Code Elimination Technique](https://www.geeksforgeeks.org/compiler-design/dead-code-elimination/) `Medium`
+- **Module 9: Code Generation** (2 problems)
+  - [GeeksforGeeks] [Simple Target Code Generator Architecture](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+  - [GeeksforGeeks] [Three Address Code to Assembly-like Instructions](https://www.geeksforgeeks.org/compiler-design/) `Hard`
+- **Module 10: Error Handling in Compilers** (2 problems)
+  - [GeeksforGeeks] [Syntax Error Detection & Panic Mode Recovery](https://www.geeksforgeeks.org/error-handling-in-compiler-design/) `Medium`
+  - [GeeksforGeeks] [Lexical & Syntactic Error Handler Implementation](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+- **Module 11: Programming Language Concepts** (2 problems)
+  - [GeeksforGeeks] [Scope, Binding & Type Checking Implementation](https://www.geeksforgeeks.org/type-checking-in-compiler-design/) `Medium`
+  - [GeeksforGeeks] [Syntax Directed Translation (SDT) Schemes](https://www.geeksforgeeks.org/syntax-directed-translation/) `Medium`
+- **Module 12: Formal Languages and Automata Theory** (3 problems)
+  - [GeeksforGeeks] [Finite Automata (DFA & NFA) Construction](https://www.geeksforgeeks.org/theory-of-computation/finite-automata/) `Medium`
+  - [LeetCode] [Regular Expression Matching Engine](https://leetcode.com/problems/regular-expression-matching/) `Hard`
+  - [HackerRank] [Regex Pattern Validation and Automata](https://www.hackerrank.com/domains/regex) `Easy`
+- **Module 13: Advanced Compiler Concepts** (2 problems)
+  - [GeeksforGeeks] [Static Single Assignment (SSA) Form & Modern Optimization](https://www.geeksforgeeks.org/compiler-design/) `Hard`
+  - [GeeksforGeeks] [JIT Compilation & Virtual Machine Architecture](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+- **Module 14: Compiler Design Tools** (2 problems)
+  - [GeeksforGeeks] [Flex Lexical Analyzer Tutorial & Tooling](https://www.geeksforgeeks.org/compiler-design/flex-lexical-analyzer/) `Medium`
+  - [Custom] [GNU Bison Parser Generator & LALR Parser Manual](https://www.gnu.org/software/bison/manual/) `Hard`
+- **Module 15: Practical Compiler Design Projects** (3 problems)
+  - [GeeksforGeeks] [Project 1: Complete Lexical Analyzer in C/C++](https://www.geeksforgeeks.org/compiler-design/lexical-analyzer-in-c/) `Medium`
+  - [LeetCode] [Project 2: Arithmetic Expression Parser & AST Generator](https://leetcode.com/problems/basic-calculator/) `Hard`
+  - [GeeksforGeeks] [Project 3: End-to-End Mini Compiler (Lexer → Parser → Symbol Table → TAC)](https://www.geeksforgeeks.org/three-address-code-compiler/) `Hard`
+- **Module 16: Applications of Compiler Design** (2 problems)
+  - [GeeksforGeeks] [Static Code Analysis & AST Traversal](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+  - [GeeksforGeeks] [Bytecode Interpreters & Virtual Machine Engine](https://www.geeksforgeeks.org/compiler-design/) `Medium`
+
+## 36. Probability and Statistics (57 Challenges)
+- **Module 1: Introduction to Probability and Statistics** (3 problems)
+  - [HackerRank] [Mean, Median, and Mode of a Dataset](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [CodeChef] [Calculate Range and Variance](https://www.codechef.com/practice) `Easy`
+  - [HackerRank] [Standard Deviation Calculation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+- **Module 2: Basic Concepts of Probability** (4 problems)
+  - [HackerRank] [Probability of an Event from Given Outcomes](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [Custom] [Conditional Probability & Compound Events](https://www.khanacademy.org/math/statistics-probability) `Medium`
+  - [GeeksforGeeks] [Bayes' Theorem Implementation in Python](https://www.geeksforgeeks.org/probability-and-statistics/) `Medium`
+  - [LeetCode] [Simulate Probability using Random Numbers](https://leetcode.com/problemset/) `Medium`
+- **Module 3: Random Variables** (3 problems)
+  - [HackerRank] [Generate Random Samples & Frequency Distribution](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [GeeksforGeeks] [Expected Value of Discrete Random Variable](https://www.geeksforgeeks.org/probability-and-statistics/) `Medium`
+  - [Custom] [Variance and Standard Deviation of Random Variables](https://www.khanacademy.org/math/statistics-probability) `Medium`
+- **Module 4: Discrete Probability Distributions** (4 problems)
+  - [HackerRank] [Binomial Probability Calculation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [GeeksforGeeks] [Binomial Distribution Simulation in Python](https://www.geeksforgeeks.org/binomial-distribution/) `Medium`
+  - [HackerRank] [Poisson Distribution Probability Calculation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Medium`
+  - [Custom] [Expected Value & Variance of Binomial Distribution](https://www.khanacademy.org/math/statistics-probability) `Medium`
+- **Module 5: Continuous Probability Distributions** (3 problems)
+  - [HackerRank] [Normal Distribution Probability Calculation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Medium`
+  - [GeeksforGeeks] [Calculate Z-Score and Standard Normal Curve](https://www.geeksforgeeks.org/probability-and-statistics/) `Easy`
+  - [Custom] [Generate Normally Distributed Random Data in Python](https://www.kaggle.com/learn) `Medium`
+- **Module 6: Descriptive Statistics** (4 problems)
+  - [HackerRank] [Mean, Median, and Mode Analysis](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [HackerRank] [Variance and Standard Deviation Computation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [HackerRank] [Quartiles and Interquartile Range (IQR)](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [Custom] [Outlier Detection using IQR Method](https://www.kaggle.com/learn) `Medium`
+- **Module 7: Data Visualization and Statistical Representation** (4 problems)
+  - [Custom] [Histograms & Frequency Polygons with Matplotlib](https://www.w3resource.com/graphics/matplotlib/) `Easy`
+  - [Custom] [Bar Charts and Categorical Data Visualization](https://www.kaggle.com/learn) `Easy`
+  - [Custom] [Scatter Plots & Bivariate Correlation Visuals](https://www.w3resource.com/graphics/matplotlib/) `Easy`
+  - [Custom] [Box Plots & Distribution Visualizer](https://www.kaggle.com/learn) `Medium`
+- **Module 8: Sampling Theory** (3 problems)
+  - [Custom] [Random Sampling from a Dataset with NumPy/Pandas](https://www.kaggle.com/learn) `Easy`
+  - [Custom] [Sample Mean vs Population Mean Analysis](https://www.kaggle.com/learn) `Medium`
+  - [Custom] [Central Limit Theorem & Sampling Distribution Simulation](https://www.kaggle.com/learn) `Medium`
+- **Module 9: Statistical Estimation** (3 problems)
+  - [Custom] [Confidence Interval Calculation in Python](https://www.khanacademy.org/math/statistics-probability) `Medium`
+  - [Custom] [Estimate Population Mean & Standard Error](https://www.kaggle.com/learn) `Medium`
+  - [Custom] [Sample Proportion & Confidence Interval Simulation](https://www.kaggle.com/learn) `Medium`
+- **Module 10: Hypothesis Testing** (4 problems)
+  - [Custom] [One-Sample & Two-Sample T-Test with SciPy](https://docs.scipy.org/doc/scipy/reference/stats.html) `Medium`
+  - [Custom] [Z-Test and P-Value Calculation](https://www.kaggle.com/learn) `Medium`
+  - [Custom] [Chi-Square Test of Independence](https://docs.scipy.org/doc/scipy/reference/stats.html) `Medium`
+  - [Custom] [Type I and Type II Error Significance Simulation](https://www.kaggle.com/learn) `Hard`
+- **Module 11: Correlation and Regression Analysis** (5 problems)
+  - [HackerRank] [Pearson Correlation Coefficient](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [HackerRank] [Spearman's Rank Correlation](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Easy`
+  - [HackerRank] [Simple Linear Regression & Best Fit Line](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Medium`
+  - [HackerRank] [Multiple Linear Regression & R² Coefficient](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) `Hard`
+  - [Custom] [Regression Predictions & Residual Analysis](https://www.kaggle.com/learn) `Medium`
+- **Module 12: Statistical Quality Control** (2 problems)
+  - [GeeksforGeeks] [Calculate Control Limits (UCL, LCL, CL)](https://www.geeksforgeeks.org/probability-and-statistics/) `Easy`
+  - [GeeksforGeeks] [Generate Shewhart Control Charts & Outlier Detection](https://www.geeksforgeeks.org/probability-and-statistics/) `Medium`
+- **Module 13: Probability and Statistics Using Programming** (5 problems)
+  - [Custom] [Monte Carlo Simulation in Python](https://www.kaggle.com/learn) `Medium`
+  - [LeetCode] [Random Number Generation & Probability Simulations](https://leetcode.com/problemset/) `Medium`
+  - [HackerRank] [Probability Distributions Generator (Binomial & Normal)](https://www.hackerrank.com/domains/python) `Easy`
+  - [Custom] [End-to-End Statistical Analysis of a CSV Dataset](https://www.kaggle.com/learn) `Medium`
+  - [HackerRank] [Linear Regression & Correlation Engine with NumPy](https://www.hackerrank.com/domains/python) `Medium`
+- **Module 14: Applications in Computer Science and Engineering** (4 problems)
+  - [Custom] [Naive Bayes Probability Spam Classifier](https://www.kaggle.com/) `Hard`
+  - [Custom] [Probability-Based Network Failure Analysis](https://www.datacamp.com/) `Medium`
+  - [Custom] [Statistical Anomaly Detection in System Telemetry](https://www.kaggle.com/) `Hard`
+  - [LeetCode] [Algorithm Runtime Statistical Analysis](https://leetcode.com/problemset/) `Medium`
+- **Module 15: Advanced Statistical Concepts** (3 problems)
+  - [Custom] [One-Way and Two-Way ANOVA with SciPy](https://docs.scipy.org/doc/scipy/reference/stats.html) `Medium`
+  - [Custom] [Covariance Matrix & Multivariate Statistics](https://docs.scipy.org/doc/scipy/reference/stats.html) `Medium`
+  - [Custom] [Chi-Square Goodness-of-Fit Testing](https://docs.scipy.org/doc/scipy/reference/stats.html) `Medium`
+- **Module 16: Practical Projects and Case Studies** (3 problems)
+  - [Custom] [Project 1: Student Performance Statistical Analysis (Mean, Variance, Correlation, Plots)](https://www.kaggle.com/datasets) `Hard`
+  - [Custom] [Project 2: House Price Statistical Analysis (Regression, Outliers, Prediction)](https://www.kaggle.com/datasets) `Hard`
+  - [Custom] [Project 3: Real Dataset Exploratory Data Analysis & Statistical Testing (CSV Pipeline)](https://www.kaggle.com/datasets) `Hard`
+
+## 37. Problem Solving & Analysis (92 Challenges)
+- **Module 1: Introduction to Problem Solving** (5 problems)
+  - [HackerRank] [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) `Easy`
+  - [HackerRank] [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) `Easy`
+  - [LeetCode] [Add Two Integers](https://leetcode.com/problems/add-two-integers/) `Easy`
+  - [LeetCode] [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) `Easy`
+  - [GeeksforGeeks] [Sum of Digits](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) `Easy`
+- **Module 2: Computational Thinking** (5 problems)
+  - [HackerRank] [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem) `Easy`
+  - [HackerRank] [Staircase Pattern](https://www.hackerrank.com/challenges/staircase/problem) `Easy`
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Power of Two](https://leetcode.com/problems/power-of-two/) `Easy`
+  - [LeetCode] [Reverse Integer](https://leetcode.com/problems/reverse-integer/) `Medium`
+- **Module 3: Problem Analysis Techniques** (5 problems)
+  - [HackerRank] [Solve Me First Analysis](https://www.hackerrank.com/challenges/solve-me-first/problem) `Easy`
+  - [HackerRank] [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) `Easy`
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) `Easy`
+  - [LeetCode] [Missing Number](https://leetcode.com/problems/missing-number/) `Easy`
+- **Module 4: Logical Reasoning** (5 problems)
+  - [LeetCode] [Palindrome Number](https://leetcode.com/problems/palindrome-number/) `Easy`
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) `Easy`
+  - [LeetCode] [Find the Difference](https://leetcode.com/problems/find-the-difference/) `Easy`
+  - [GeeksforGeeks] [Intersection of Two Arrays (Common Elements)](https://www.geeksforgeeks.org/intersection-of-two-arrays/) `Easy`
+- **Module 5: Algorithmic Thinking** (6 problems)
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search Insert Position](https://leetcode.com/problems/search-insert-position/) `Easy`
+  - [HackerRank] [Bubble Sort](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem) `Easy`
+  - [HackerRank] [Insertion Sort Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem) `Easy`
+  - [GeeksforGeeks] [Selection Sort Algorithm](https://www.geeksforgeeks.org/selection-sort-algorithm-2/) `Easy`
+  - [LeetCode] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) `Easy`
+- **Module 6: Programming Problem Solving Basics** (7 problems)
+  - [HackerRank] [Grading Students](https://www.hackerrank.com/challenges/grading/problem) `Easy`
+  - [HackerRank] [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) `Easy`
+  - [LeetCode] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) `Easy`
+  - [LeetCode] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+  - [LeetCode] [Move Zeroes](https://leetcode.com/problems/move-zeroes/) `Easy`
+- **Module 7: Data Handling and Problem Solving** (6 problems)
+  - [LeetCode] [Plus One](https://leetcode.com/problems/plus-one/) `Easy`
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+  - [LeetCode] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) `Easy`
+  - [LeetCode] [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays/) `Easy`
+  - [HackerRank] [Sparse Arrays (Frequency Counter)](https://www.hackerrank.com/challenges/sparse-arrays/problem) `Medium`
+  - [GeeksforGeeks] [Find Missing Elements of a Range](https://www.geeksforgeeks.org/find-missing-elements-of-a-range/) `Medium`
+- **Module 8: Mathematical Problem Solving** (6 problems)
+  - [HackerRank] [Find GCD (Restaurant Challenge)](https://www.hackerrank.com/challenges/restaurant/problem) `Easy`
+  - [LeetCode] [Count Primes](https://leetcode.com/problems/count-primes/) `Medium`
+  - [LeetCode] [Happy Number](https://leetcode.com/problems/happy-number/) `Easy`
+  - [LeetCode] [Power of Three](https://leetcode.com/problems/power-of-three/) `Easy`
+  - [GeeksforGeeks] [Sieve of Eratosthenes Algorithm](https://www.geeksforgeeks.org/sieve-of-eratosthenes/) `Easy`
+  - [LeetCode] [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) `Medium`
+- **Module 9: Analytical Reasoning** (5 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [3Sum](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Medium`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+  - [LeetCode] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Medium`
+- **Module 10: Optimization and Efficiency** (6 problems)
+  - [LeetCode] [Binary Search Optimization](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [First Bad Version](https://leetcode.com/problems/first-bad-version/) `Easy`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+  - [LeetCode] [House Robber](https://leetcode.com/problems/house-robber/) `Medium`
+  - [LeetCode] [Maximum Subarray (Kadane's O(N))](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Coin Change](https://leetcode.com/problems/coin-change/) `Medium`
+- **Module 11: Data Structures Based Problem Solving** (10 problems)
+  - [LeetCode] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) `Easy`
+  - [LeetCode] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) `Easy`
+  - [LeetCode] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) `Easy`
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Min Stack](https://leetcode.com/problems/min-stack/) `Medium`
+  - [LeetCode] [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) `Easy`
+  - [LeetCode] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) `Easy`
+  - [LeetCode] [Number of Islands](https://leetcode.com/problems/number-of-islands/) `Medium`
+  - [LeetCode] [Flood Fill](https://leetcode.com/problems/flood-fill/) `Easy`
+  - [LeetCode] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) `Easy`
+- **Module 12: Advanced Problem Solving Techniques** (8 problems)
+  - [LeetCode] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) `Medium`
+  - [LeetCode] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) `Medium`
+  - [LeetCode] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Medium`
+  - [LeetCode] [Jump Game](https://leetcode.com/problems/jump-game/) `Medium`
+  - [LeetCode] [Subsets](https://leetcode.com/problems/subsets/) `Medium`
+  - [LeetCode] [Permutations](https://leetcode.com/problems/permutations/) `Medium`
+  - [LeetCode] [Combination Sum](https://leetcode.com/problems/combination-sum/) `Medium`
+  - [LeetCode] [Word Search](https://leetcode.com/problems/word-search/) `Medium`
+- **Module 13: Competitive Programming Fundamentals** (8 problems)
+  - [Codeforces] [Watermelon (4A)](https://codeforces.com/problemset/problem/4/A) `Easy`
+  - [Codeforces] [Way Too Long Words (71A)](https://codeforces.com/problemset/problem/71/A) `Easy`
+  - [Codeforces] [Team (231A)](https://codeforces.com/problemset/problem/231/A) `Easy`
+  - [Codeforces] [Next Round (158A)](https://codeforces.com/problemset/problem/158/A) `Easy`
+  - [Codeforces] [Domino piling (50A)](https://codeforces.com/problemset/problem/50/A) `Easy`
+  - [Custom] [Missing Number](https://cses.fi/problemset/task/1083) `Easy`
+  - [Custom] [Repetitions](https://cses.fi/problemset/task/1069) `Easy`
+  - [Custom] [Increasing Array](https://cses.fi/problemset/task/1094) `Easy`
+- **Module 14: Debugging and Error Analysis** (4 problems)
+  - [HackerRank] [HackerRank Debugging & Syntax Challenge](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) `Easy`
+  - [HackerRank] [Debug Array Index & Boundary Bounds](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) `Medium`
+  - [HackerRank] [Debug Recursive Call Stack & Base Cases](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) `Medium`
+  - [GeeksforGeeks] [Debug Pointer & Reference Invalidation in C++](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) `Medium`
+- **Module 15: Real-World Problem Solving** (4 problems)
+  - [LeetCode] [Meeting Rooms (Interval Scheduling)](https://leetcode.com/problems/meeting-rooms/) `Easy`
+  - [LeetCode] [Best Time to Buy and Sell Stock (Financial Modeling)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+  - [LeetCode] [Top K Frequent Elements (Data Stream Analysis)](https://leetcode.com/problems/top-k-frequent-elements/) `Medium`
+  - [HackerRank] [Design Custom Cache Data Structure](https://www.hackerrank.com/domains/data-structures) `Hard`
+- **Module 16: Practical Exercises and Projects** (2 problems)
+  - [GeeksforGeeks] [Project 1: Student Record Management System (CRUD, File I/O, Sorting, OOP)](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) `Hard`
+  - [LeetCode] [Project 2: Personal Expense Tracker Application (Filtering, Sorting, Analytics, Storage)](https://leetcode.com/problemset/) `Hard`
+
+## 38. Professional Aptitude & Logical Reasoning (59 Challenges)
+- **Module 1: Introduction to Professional Aptitude** (3 problems)
+  - [LeetCode] [Introduction to Professional Aptitude Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to Professional Aptitude Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to Professional Aptitude Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Number System** (5 problems)
+  - [LeetCode] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Easy`
+  - [LeetCode] [Palindrome Number](https://leetcode.com/problems/palindrome-number/) `Easy`
+  - [LeetCode] [Reverse Integer](https://leetcode.com/problems/reverse-integer/) `Medium`
+  - [LeetCode] [Count Special Integers](https://leetcode.com/problems/count-special-integers/) `Hard`
+  - [CodeChef] [CodeChef Number Theory Practice (GCD, Primes)](https://www.codechef.com/practice/number-theory) `Easy`
+- **Module 3: Arithmetic Aptitude** (4 problems)
+  - [LeetCode] [Plus One](https://leetcode.com/problems/plus-one/) `Easy`
+  - [LeetCode] [Add Digits](https://leetcode.com/problems/add-digits/) `Easy`
+  - [LeetCode] [Happy Number](https://leetcode.com/problems/happy-number/) `Easy`
+  - [LeetCode] [Sqrt(x) (Integer Square Root)](https://leetcode.com/problems/sqrtx/) `Easy`
+- **Module 4: Time and Work** (3 problems)
+  - [LeetCode] [Time and Work Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Time and Work Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Time and Work Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Time Speed and Distance** (3 problems)
+  - [HackerRank] [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) `Easy`
+  - [HackerRank] [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) `Medium`
+  - [HackerRank] [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words/problem) `Medium`
+- **Module 6: Permutation and Combination** (4 problems)
+  - [LeetCode] [Permutations](https://leetcode.com/problems/permutations/) `Medium`
+  - [LeetCode] [Combinations](https://leetcode.com/problems/combinations/) `Medium`
+  - [LeetCode] [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) `Hard`
+  - [LeetCode] [Subsets](https://leetcode.com/problems/subsets/) `Medium`
+- **Module 7: Probability Aptitude** (3 problems)
+  - [LeetCode] [New 21 Game (Dynamic Programming & Probability)](https://leetcode.com/problems/new-21-game/) `Medium`
+  - [LeetCode] [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) `Medium`
+  - [LeetCode] [Soup Servings (Probability Analysis)](https://leetcode.com/problems/soup-servings/) `Medium`
+- **Module 8: Data Interpretation** (3 problems)
+  - [LeetCode] [Data Interpretation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Data Interpretation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Data Interpretation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 9: Logical Reasoning Fundamentals** (5 problems)
+  - [LeetCode] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Easy`
+  - [LeetCode] [Majority Element](https://leetcode.com/problems/majority-element/) `Easy`
+  - [HackerRank] [Coding Friends](https://www.hackerrank.com/challenges/coding-friends/problem) `Medium`
+- **Module 10: Analytical Reasoning** (4 problems)
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search Insert Position](https://leetcode.com/problems/search-insert-position/) `Easy`
+  - [LeetCode] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) `Medium`
+  - [HackerRank] [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) `Medium`
+- **Module 11: Verbal Reasoning** (3 problems)
+  - [LeetCode] [Verbal Reasoning Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Verbal Reasoning Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Verbal Reasoning Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 12: Non-Verbal Reasoning** (3 problems)
+  - [LeetCode] [Non-Verbal Reasoning Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Non-Verbal Reasoning Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Non-Verbal Reasoning Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 13: Professional Reasoning Skills** (3 problems)
+  - [LeetCode] [Professional Reasoning Skills Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Professional Reasoning Skills Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Professional Reasoning Skills Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 14: Placement and Competitive Exam Preparation** (3 problems)
+  - [LeetCode] [Placement and Competitive Exam Preparation Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Placement and Competitive Exam Preparation Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Placement and Competitive Exam Preparation Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 15: Advanced Problem Solving Techniques** (7 problems)
+  - [LeetCode] [3Sum](https://leetcode.com/problems/3sum/) `Medium`
+  - [LeetCode] [Maximum Subarray (Kadane's Algorithm)](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Medium`
+  - [LeetCode] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Medium`
+  - [LeetCode] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) `Medium`
+  - [LeetCode] [Coin Change](https://leetcode.com/problems/coin-change/) `Medium`
+  - [LeetCode] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Easy`
+- **Module 16: Practice and Assessment** (3 problems)
+  - [LeetCode] [Practice and Assessment Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Practice and Assessment Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Practice and Assessment Challenge](https://www.codechef.com/practice) `Hard`
+
+## 39. Single Variable Calculus (49 Challenges)
+- **Module 1: Introduction to Calculus** (3 problems)
+  - [LeetCode] [Introduction to Calculus Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to Calculus Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to Calculus Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Limits and Continuity** (3 problems)
+  - [LeetCode] [Limits and Continuity Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Limits and Continuity Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Limits and Continuity Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 3: Differential Calculus** (3 problems)
+  - [LeetCode] [Differential Calculus Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Differential Calculus Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Differential Calculus Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 4: Differentiation Techniques** (3 problems)
+  - [LeetCode] [Differentiation Techniques Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Differentiation Techniques Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Differentiation Techniques Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Applications of Derivatives** (3 problems)
+  - [LeetCode] [Applications of Derivatives Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Applications of Derivatives Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Applications of Derivatives Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 6: Integral Calculus** (3 problems)
+  - [LeetCode] [Integral Calculus Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Integral Calculus Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Integral Calculus Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 7: Integration Techniques** (3 problems)
+  - [LeetCode] [Integration Techniques Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Integration Techniques Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Integration Techniques Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 8: Definite Integration** (3 problems)
+  - [LeetCode] [Definite Integration Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Definite Integration Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Definite Integration Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 9: Applications of Integration** (3 problems)
+  - [LeetCode] [Applications of Integration Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Applications of Integration Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Applications of Integration Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 10: Differential Equations Basics** (3 problems)
+  - [LeetCode] [Differential Equations Basics Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Differential Equations Basics Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Differential Equations Basics Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 11: Series and Sequences** (3 problems)
+  - [LeetCode] [Series and Sequences Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Series and Sequences Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Series and Sequences Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 12: Mathematical Theorems in Calculus** (3 problems)
+  - [LeetCode] [Mathematical Theorems in Calculus Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Mathematical Theorems in Calculus Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Mathematical Theorems in Calculus Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 13: Numerical Methods Using Calculus** (3 problems)
+  - [LeetCode] [Sqrt(x) (Newton-Raphson / Binary Search)](https://leetcode.com/problems/sqrtx/) `Easy`
+  - [LeetCode] [Pow(x, n) (Divide and Conquer / Power Computation)](https://leetcode.com/problems/powx-n/) `Medium`
+  - [LeetCode] [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) `Medium`
+- **Module 14: Computational Applications** (4 problems)
+  - [LeetCode] [Find Peak Element](https://leetcode.com/problems/find-peak-element/) `Medium`
+  - [LeetCode] [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) `Medium`
+  - [LeetCode] [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) `Medium`
+  - [LeetCode] [Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/) `Medium`
+- **Module 15: Applications in Engineering and CS** (3 problems)
+  - [LeetCode] [Maximum Subarray (Kadane's Optimization)](https://leetcode.com/problems/maximum-subarray/) `Medium`
+  - [LeetCode] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Easy`
+  - [LeetCode] [Climbing Stairs (Discrete Modeling)](https://leetcode.com/problems/climbing-stairs/) `Easy`
+- **Module 16: Practical Problem Solving** (3 problems)
+  - [LeetCode] [Two Sum](https://leetcode.com/problems/two-sum/) `Easy`
+  - [LeetCode] [Binary Search](https://leetcode.com/problems/binary-search/) `Easy`
+  - [LeetCode] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Medium`
+
+## 40. Software Engineering (56 Challenges)
+- **Module 1: Introduction to Software Engineering** (3 problems)
+  - [LeetCode] [Introduction to Software Engineering Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Introduction to Software Engineering Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Introduction to Software Engineering Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 2: Software Development Process** (3 problems)
+  - [LeetCode] [Software Development Process Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Development Process Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Development Process Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 3: Software Process Models** (3 problems)
+  - [LeetCode] [Software Process Models Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Process Models Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Process Models Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 4: Requirement Engineering** (3 problems)
+  - [LeetCode] [Requirement Engineering Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Requirement Engineering Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Requirement Engineering Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 5: Software Project Management** (3 problems)
+  - [LeetCode] [Software Project Management Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Project Management Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Project Management Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 6: Software Design Concepts** (3 problems)
+  - [LeetCode] [Software Design Concepts Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Design Concepts Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Design Concepts Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 7: Software Architecture** (3 problems)
+  - [LeetCode] [Software Architecture Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Architecture Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Architecture Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 8: Object-Oriented Software Design** (4 problems)
+  - [LeetCode] [Design Parking System](https://leetcode.com/problems/design-parking-system/) `Easy`
+  - [LeetCode] [Design HashMap](https://leetcode.com/problems/design-hashmap/) `Easy`
+  - [LeetCode] [Design Linked List](https://leetcode.com/problems/design-linked-list/) `Medium`
+  - [LeetCode] [Design Underground System](https://leetcode.com/problems/design-underground-system/) `Medium`
+- **Module 9: Software Implementation and Coding** (4 problems)
+  - [LeetCode] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) `Medium`
+  - [LeetCode] [LRU Cache Implementation](https://leetcode.com/problems/lru-cache/) `Medium`
+  - [LeetCode] [Min Stack Design](https://leetcode.com/problems/min-stack/) `Medium`
+  - [LeetCode] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) `Easy`
+- **Module 10: Software Testing** (4 problems)
+  - [LeetCode] [Valid Palindrome (Unit Testing & Edge Cases)](https://leetcode.com/problems/valid-palindrome/) `Easy`
+  - [LeetCode] [Valid Parentheses (Boundary & Structural Testing)](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Fizz Buzz (Equivalence Partitioning)](https://leetcode.com/problems/fizz-buzz/) `Easy`
+  - [LeetCode] [Add Two Numbers (Corner Case & Carry Testing)](https://leetcode.com/problems/add-two-numbers/) `Medium`
+- **Module 11: Software Testing Techniques** (4 problems)
+  - [LeetCode] [Valid Palindrome Test Suites (White-box Testing)](https://leetcode.com/problems/valid-palindrome/) `Easy`
+  - [LeetCode] [Valid Parentheses (Black-box Boundary Testing)](https://leetcode.com/problems/valid-parentheses/) `Easy`
+  - [LeetCode] [Fizz Buzz (Equivalence Class Partitioning)](https://leetcode.com/problems/fizz-buzz/) `Easy`
+  - [LeetCode] [Add Two Numbers (Edge Cases & Stress Testing)](https://leetcode.com/problems/add-two-numbers/) `Medium`
+- **Module 12: Software Quality Assurance** (3 problems)
+  - [LeetCode] [Software Quality Assurance Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Quality Assurance Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Quality Assurance Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 13: Agile Software Development** (3 problems)
+  - [LeetCode] [Agile Software Development Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Agile Software Development Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Agile Software Development Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 14: DevOps and Software Deployment** (2 problems)
+  - [Custom] [Dockerize a C++ / Node.js Microservice](https://docs.docker.com/get-started/) `Medium`
+  - [Custom] [CI/CD Pipeline Setup with GitHub Actions](https://docs.github.com/en/actions) `Medium`
+- **Module 15: Software Maintenance** (3 problems)
+  - [LeetCode] [Software Maintenance Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Maintenance Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Maintenance Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 16: Software Configuration Management** (2 problems)
+  - [Custom] [Git Repository Setup, Branching & Merging Workflow](https://github.com/git-guides) `Easy`
+  - [Custom] [Resolving Git Merge Conflicts & Pull Requests](https://docs.github.com/en/get-started) `Medium`
+- **Module 17: Software Engineering Applications** (3 problems)
+  - [LeetCode] [Software Engineering Applications Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Engineering Applications Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Engineering Applications Challenge](https://www.codechef.com/practice) `Hard`
+- **Module 18: Software Engineering Projects** (3 problems)
+  - [LeetCode] [Software Engineering Projects Practice 1](https://leetcode.com/problemset/) `Easy`
+  - [GeeksforGeeks] [Software Engineering Projects Practice 2](https://practice.geeksforgeeks.org/) `Medium`
+  - [CodeChef] [Software Engineering Projects Challenge](https://www.codechef.com/practice) `Hard`
+
+## 41. Web Technologies Lab (63 Challenges)
+- **Module 1: Introduction to Web Development Environment** (3 problems)
+  - [HackerRank] [HackerRank HTML/CSS/JS Basic Skill Certification](https://www.hackerrank.com/skills-directory/htmlcssjs_basic) `Easy`
+  - [Custom] [freeCodeCamp Web Development Path](https://www.freecodecamp.org/learn/full-stack-developer/) `Easy`
+  - [Custom] [CodePen Online Playground & Live Prototyping](https://codepen.io/) `Easy`
+- **Module 2: HTML Fundamentals** (4 problems)
+  - [Custom] [freeCodeCamp Responsive Web Design HTML Section](https://www.freecodecamp.org/learn/responsive-web-design/) `Easy`
+  - [HackerRank] [HackerRank HTML Structure & Form Challenges](https://www.hackerrank.com/skills-directory/htmlcssjs_basic) `Easy`
+  - [Custom] [Frontend Mentor HTML Layout Challenges](https://www.frontendmentor.io/challenges) `Easy`
+  - [Custom] [W3Schools HTML Interactive Exercises](https://www.w3schools.com/html/html_exercises.asp) `Easy`
+- **Module 3: CSS Fundamentals** (4 problems)
+  - [Custom] [freeCodeCamp CSS Box Model & Selectors](https://www.freecodecamp.org/learn/responsive-web-design/) `Easy`
+  - [Custom] [W3Schools CSS Styling Exercises](https://www.w3schools.com/css/css_exercises.asp) `Easy`
+  - [Custom] [CSSBattle Code Challenges & Target Matching](https://cssbattle.dev/) `Medium`
+  - [Custom] [Frontend Mentor Component Card Challenges](https://www.frontendmentor.io/challenges) `Easy`
+- **Module 4: Advanced CSS and Responsive Design** (4 problems)
+  - [Custom] [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/) `Medium`
+  - [Custom] [Flexbox Froggy (Interactive Flexbox Game)](https://flexboxfroggy.com/) `Easy`
+  - [Custom] [Grid Garden (Interactive CSS Grid Game)](https://cssgridgarden.com/) `Easy`
+  - [Custom] [Frontend Mentor Responsive Multi-Page Layouts](https://www.frontendmentor.io/challenges) `Medium`
+- **Module 5: JavaScript Programming** (4 problems)
+  - [HackerRank] [HackerRank 10 Days of JavaScript Problem Set](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) `Easy`
+  - [Custom] [freeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) `Medium`
+  - [Custom] [Codewars JavaScript Coding Katas](https://www.codewars.com/) `Medium`
+  - [Custom] [Exercism JavaScript Track Exercises](https://exercism.org/tracks/javascript) `Easy`
+- **Module 6: JavaScript DOM Manipulation** (4 problems)
+  - [Custom] [Frontend Mentor Interactive DOM & State Challenges](https://www.frontendmentor.io/challenges) `Medium`
+  - [Custom] [JavaScript30 (30 Days Vanilla JS Projects)](https://javascript30.com/) `Medium`
+  - [Custom] [W3Schools JavaScript DOM Exercises](https://www.w3schools.com/js/js_exercises.asp) `Easy`
+  - [Custom] [freeCodeCamp DOM Manipulation Projects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) `Medium`
+- **Module 7: Client-Side Web Development** (4 problems)
+  - [Custom] [Frontend Mentor Interactive Client-Side Apps](https://www.frontendmentor.io/challenges) `Medium`
+  - [Custom] [JavaScript30 UI & Media Controls](https://javascript30.com/) `Medium`
+  - [Custom] [CodePen Interactive Demos & Canvas Coding](https://codepen.io/) `Easy`
+  - [Custom] [freeCodeCamp Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/) `Medium`
+- **Module 8: Frontend Frameworks Introduction** (4 problems)
+  - [Custom] [React.dev Official Learn React & Tic-Tac-Toe](https://react.dev/learn) `Medium`
+  - [Custom] [Frontend Mentor React & Tailwind Projects](https://www.frontendmentor.io/challenges) `Medium`
+  - [Custom] [freeCodeCamp React and Redux Certification](https://www.freecodecamp.org/learn/front-end-development-libraries/) `Medium`
+  - [Custom] [React Exercises on Exercism Track](https://exercism.org/tracks/javascript) `Medium`
+- **Module 9: Backend Web Development Basics** (4 problems)
+  - [Custom] [freeCodeCamp Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/) `Medium`
+  - [Custom] [Node.js Learn Guides & Event Loop Fundamentals](https://nodejs.org/en/learn) `Easy`
+  - [Custom] [Express.js Getting Started & REST Routing](https://expressjs.com/en/starter/installing.html) `Easy`
+  - [Custom] [RESTful API Microservice Challenges](https://www.freecodecamp.org/learn/back-end-development-and-apis/) `Medium`
+- **Module 10: Database Integration** (4 problems)
+  - [Custom] [MongoDB University Developer Learning Path](https://learn.mongodb.com/catalog?enroll=1) `Medium`
+  - [Custom] [MongoDB Developer Center Node.js Guides](https://www.mongodb.com/developer/) `Easy`
+  - [Custom] [SQLZoo Interactive SQL Queries & Joins](https://sqlzoo.net/wiki/SQL_Tutorial) `Easy`
+  - [HackerRank] [HackerRank SQL Practice Domain](https://www.hackerrank.com/domains/sql) `Easy`
+- **Module 11: Full Stack Web Application Development** (4 problems)
+  - [Custom] [Frontend Mentor Full-Stack CRUD Applications](https://www.frontendmentor.io/challenges) `Hard`
+  - [Custom] [freeCodeCamp Back End Development & API Projects](https://www.freecodecamp.org/learn/back-end-development-and-apis/) `Medium`
+  - [Custom] [MERN Stack Real-World Applications Architecture](https://www.mongodb.com/resources/languages/mern-stack) `Hard`
+  - [Custom] [Full Stack Open Comprehensive University Course](https://fullstackopen.com/en/) `Hard`
+- **Module 12: Web Security Basics** (3 problems)
+  - [Custom] [PortSwigger Web Security Academy Hands-On Labs](https://portswigger.net/web-security) `Hard`
+  - [Custom] [OWASP WebGoat Vulnerability Sandbox Lab](https://owasp.org/www-project-webgoat/) `Medium`
+  - [Custom] [OWASP Juice Shop Penetration Testing App](https://owasp.org/www-project-juice-shop/) `Medium`
+- **Module 13: Web Application Testing** (4 problems)
+  - [Custom] [freeCodeCamp Quality Assurance & Chai/Mocha Testing](https://www.freecodecamp.org/learn/quality-assurance/) `Medium`
+  - [Custom] [Jest JavaScript Testing Framework Setup & Assertions](https://jestjs.io/docs/getting-started) `Medium`
+  - [Custom] [Playwright Modern End-to-End Web Automation](https://playwright.dev/docs/intro) `Medium`
+  - [Custom] [Cypress Web Application Testing Suite](https://docs.cypress.io/) `Medium`
+- **Module 14: Web Deployment and Hosting** (4 problems)
+  - [Custom] [Vercel Next.js & React Instant Global Deployment](https://vercel.com/docs) `Easy`
+  - [Custom] [Netlify Continuous Deployment & Edge Functions](https://docs.netlify.com/) `Easy`
+  - [Custom] [Render Cloud Application Hosting (Node.js & Databases)](https://render.com/docs) `Medium`
+  - [Custom] [GitHub Pages Static Web Hosting with Custom Domains](https://pages.github.com/) `Easy`
+- **Module 15: Modern Web Development Tools** (5 problems)
+  - [Custom] [GitHub Skills Interactive Workflow Lessons](https://skills.github.com/) `Easy`
+  - [Custom] [Git Version Control Official Commands & Workflows](https://git-scm.com/doc) `Easy`
+  - [Custom] [npm Package Management, Scripts & Dependencies](https://www.npmjs.com/) `Easy`
+  - [Custom] [Vite Next Generation Frontend Tooling & HMR](https://vite.dev/guide/) `Medium`
+  - [Custom] [Chrome DevTools Performance & Network Profiling](https://developer.chrome.com/docs/devtools/) `Easy`
+- **Module 16: Mini Projects and Capstone Development** (4 problems)
+  - [Custom] [Frontend Mentor Multi-Page Capstone Challenges](https://www.frontendmentor.io/challenges) `Hard`
+  - [Custom] [JavaScript30 Portfolio Project Showcase](https://javascript30.com/) `Medium`
+  - [Custom] [freeCodeCamp Certification Projects Suite](https://www.freecodecamp.org/learn/) `Hard`
+  - [Custom] [Full Stack Open Capstone Web Application](https://fullstackopen.com/en/) `Hard`
+
+## 42. Wireless and Mobile Networks (37 Challenges)
+- **Module 1: Introduction to Wireless and Mobile Networks** (3 problems)
+  - [Custom] [Create a 2-Node Wireless Network Simulation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/step1.html) `Easy`
+  - [Custom] [Simulate UDP Packet Transmission between Wireless Nodes](https://inet.omnetpp.org/docs/tutorials/wireless/doc/step1.html) `Easy`
+  - [Custom] [Measure Packets Sent and Received Statistics](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Easy`
+- **Module 2: Wireless Communication Fundamentals** (3 problems)
+  - [Custom] [Simulate Wireless Transmission Range & Radio Medium](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Easy`
+  - [Custom] [Transmission Power & Packet Delivery Observation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+  - [Custom] [Multi-Node Distance and Path Loss Simulation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 3: Cellular Communication Concepts** (3 problems)
+  - [Custom] [Simulate Mobile Users and Handover in Cellular Nodes](https://www.nsnam.org/documentation/) `Medium`
+  - [Custom] [Mobile Node to Base Station (eNodeB) Throughput Modeling](https://www.nsnam.org/documentation/) `Medium`
+  - [Custom] [Cellular User Mobility & Packet Loss Analysis](https://www.nsnam.org/documentation/) `Medium`
+- **Module 4: Generations of Mobile Networks** (2 problems)
+  - [Custom] [4G LTE & 5G NR Network Simulation in NS-3](https://www.nsnam.org/documentation/) `Hard`
+  - [Custom] [5G/LTE Throughput, Latency & Packet-Loss Benchmarking](https://www.nsnam.org/documentation/) `Medium`
+- **Module 5: Wireless Network Architectures** (2 problems)
+  - [Custom] [Infrastructure vs Ad-Hoc Wireless Network Simulation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+  - [Custom] [Wireless Multi-Hop Routing Configuration](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 6: Wireless LAN Technologies** (2 problems)
+  - [Custom] [Wi-Fi (802.11) Network Setup with Multiple Stations](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Easy`
+  - [Custom] [Wi-Fi Throughput, Range & Interference Simulation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 7: Medium Access Control in Wireless** (2 problems)
+  - [Custom] [CSMA/CA Implementation & Collision Simulation](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+  - [Custom] [ACK Mechanism & Packet Delivery Ratio in MAC Layer](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 8: Mobile Network Protocols** (2 problems)
+  - [Custom] [UDP Communication & IPv4 Routing in Wireless Nodes](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Easy`
+  - [Custom] [AODV vs Static Routing Simulation in Mobile Networks](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 9: Mobile Ad Hoc Networks (MANETs)** (2 problems)
+  - [Custom] [5-Node MANET Simulation with Node Mobility](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+  - [Custom] [AODV Routing Overhead & PDR Analysis in MANETs](https://www.youtube.com/watch?v=ifhERgsg9c8) `Hard`
+- **Module 10: Wireless Sensor Networks** (2 problems)
+  - [Custom] [Wireless Sensor Network (WSN) Sensor-to-Sink Simulation](https://www.youtube.com/watch?v=8qjSCbJ0t0E) `Medium`
+  - [Custom] [WSN Node Mobility & Energy Consumption Analysis](https://www.youtube.com/watch?v=8qjSCbJ0t0E) `Hard`
+- **Module 11: Internet of Things and Wireless Networks** (2 problems)
+  - [Custom] [IoT Sensor Nodes to Gateway Simulation](https://inet.omnetpp.org/docs/tutorials/index.html) `Medium`
+  - [Custom] [Periodic Sensor Data Generation & IoT Traffic Profiling](https://inet.omnetpp.org/docs/tutorials/index.html) `Medium`
+- **Module 12: Mobile Application Networking** (2 problems)
+  - [Custom] [Client-Server Wireless Application (TCP vs UDP)](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+  - [Custom] [Application Throughput & End-to-End Delay Measurement](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Medium`
+- **Module 13: Wireless Network Security** (2 problems)
+  - [Custom] [Wireless Network Anomaly Detection Dataset & ML Model](https://www.kaggle.com/datasets/orvile/wireless-network-anomaly-detection-dataset) `Hard`
+  - [Custom] [Wireless Cyber Attack Dataset (ARP, SYN, Ping Flood Detection)](https://www.kaggle.com/datasets/aleksandarraki/cyber-attack-dataset-arp-syn-ping-flood) `Hard`
+- **Module 14: Performance Analysis of Wireless Networks** (2 problems)
+  - [Custom] [Wireless Network Metrics (Throughput, PDR, Delay) with Python/Pandas](https://docs.omnetpp.org/) `Medium`
+  - [Custom] [Routing Protocol Comparative Analysis Suite](https://docs.omnetpp.org/) `Medium`
+- **Module 15: Advanced Wireless Technologies** (2 problems)
+  - [Custom] [Multi-Radio Heterogeneous Wireless Networks Simulation](https://inet.omnetpp.org/docs/showcases/wireless/multiradio/doc/index.html) `Hard`
+  - [Custom] [5G NR & Wi-Fi Coexistence Simulation in NS-3](https://www.nsnam.org/documentation/) `Hard`
+- **Module 16: Practical Applications and Projects** (4 problems)
+  - [Custom] [Capstone Project 1: MANET Simulation with AODV Routing](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Hard`
+  - [Custom] [Capstone Project 2: WSN Sensor-to-Sink & Energy Modeling Simulation](https://www.youtube.com/watch?v=8qjSCbJ0t0E) `Hard`
+  - [Custom] [Capstone Project 3: Wireless Network Anomaly Detection with Machine Learning](https://www.kaggle.com/datasets/orvile/wireless-network-anomaly-detection-dataset) `Hard`
+  - [Custom] [Capstone Project 4: Complete 14-Step INET Wireless Simulation Series](https://inet.omnetpp.org/docs/tutorials/wireless/doc/index.html) `Hard`

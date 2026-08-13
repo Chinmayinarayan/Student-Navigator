@@ -32,7 +32,7 @@ function CodingProblemCard({ problem }) {
       const status = await toggleCodingProblem(problem._id);
       setCompleted(status);
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
 

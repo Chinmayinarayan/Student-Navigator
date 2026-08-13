@@ -31,7 +31,7 @@ function Sidebar({ onClose }) {
     { name: "Achievements", path: "/achievements", icon: Trophy },
     { name: "Recommendations", path: "/recommendations", icon: Sparkles },
     { name: "Placement Tests", path: "/tests", icon: FileText },
-    { name: "Campus Events", path: "/events", icon: Calendar },
+    { name: "Events", path: "/events", icon: Calendar },
     { name: "Profile & Settings", path: "/profile", icon: Sliders }
   ];
 
