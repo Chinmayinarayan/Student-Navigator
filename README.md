@@ -116,6 +116,54 @@ flowchart TD
 
 ---
 
+## Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+*The student dashboard showing curriculum progress, coding problems solved, quiz average, and placement mock test scores — all at a glance.*
+
+### Subjects & Curriculum
+![Subjects](docs/screenshots/subjects.png)
+*The course catalog listing 42 engineering subjects with topic counts, resource counts, and individual subject progress bars.*
+
+### Subject Syllabus Roadmap
+![Subject Roadmap](docs/screenshots/subject-roadmap.png)
+*Interactive prerequisite dependency map built with ReactFlow. Topics are locked until their prerequisites are completed, guiding students along the correct learning path.*
+
+### Topic Details
+![Topic Details](docs/screenshots/topic-details.png)
+*Detailed topic page showing key sub-topics, a dynamically calculated Topic Placement Readiness Score, theory questions, concept quiz, and coding challenges — all in one view.*
+
+### Coding Practice
+![Coding Practice](docs/screenshots/coding-practice.png)
+*Curated placement-focused coding challenges mapped to each topic, with difficulty labels, platform links (LeetCode, HackerRank), language tags, and a "Mark Solved" tracker.*
+
+### Concept Quiz
+![Quiz](docs/screenshots/quiz.png)
+*Timed topic concept quiz with 10 questions, difficulty tagging (Logical / Theoretical), and a live countdown timer to simulate exam conditions.*
+
+### Placement Mock Exams
+![Placement Tests](docs/screenshots/placement-tests.png)
+*Placement mock exam center with career-goal-based recommendations, test metadata (duration, questions, pass mark), and topic-wise subject groupings.*
+
+### Career Recommendations
+![Career Recommendations](docs/screenshots/career-recommendations.png)
+*Heuristic career matcher showing top career matches ranked by skill overlap, interest alignment, and subject progress. Includes matched skills, skill gaps, and a recommended learning next step.*
+
+### Scholarship Finder
+![Scholarships](docs/screenshots/scholarships.png)
+*Verified scholarship discovery hub aggregating opportunities from Buddy4Study, Vidyasaarathi, and Government portals — with urgency indicators, match scores, and direct "Apply Now" links.*
+
+### Learning Analytics & Metrics
+![Analytics](docs/screenshots/analytics.png)
+*Performance analytics dashboard showing curriculum completion, quiz accuracy, test averages, coding activity, streak counters, and a weighted Placement Readiness Score breakdown.*
+
+### AI Study Assistant
+![AI Study Assistant](docs/screenshots/ai-study-assistant.png)
+*Context-restricted AI study assistant scoped to the current subject and topic. Powered by Llama 3.3 70B via the Groq API, with quick-action prompts for revision notes, interview prep, and real-world use explanations.*
+
+---
+
 ## Installation & Setup
 
 ### Prerequisites
