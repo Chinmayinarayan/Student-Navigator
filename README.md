@@ -14,9 +14,14 @@ Rather than leaving students to guess if they are ready for technical interviews
 
 ### AI Boundary & Deterministic Framework
 > [!IMPORTANT]
-> **AI Scope Limitation:** Student Navigator is **not** an AI-driven matching engine. To ensure absolute data accuracy and protect against hallucinations, all critical recommendations, career matching algorithms, roadmap milestones, and career readiness scores are powered by **deterministic, rule-based backend algorithms** running on verified database constraints.
+> **AI Scope Limitation:** Student Navigator is **not** an AI-driven matching engine. To ensure absolute data accuracy and prevent AI hallucinations from misguiding the student's preparation paths, the core features of the platform run on standard software engineering algorithms:
+> - **Core Curriculum Navigation & Prerequisites Graph:** Built using deterministic database routing and parent-child dependency trees.
+> - **Career Matching recommendations:** Determined via heuristic search matching technical skills, interests, and profile logs against standardized career descriptions.
+> - **Career Readiness Score:** Calculated using a precise weighted formula (30% Syllabus, 20% Quizzes, 20% Coding, 10% Assignments, 20% Mock Tests).
+> - **Scholarship explorer matching:** Driven by standard database queries matching age, CGPA, and location eligibility criteria.
+> - **Events discovery & Badge unlocks:** Managed by standard database queries and direct service calls executing criteria checks upon client activities.
 >
-> **The AI Boundary:** Artificial Intelligence is utilized **strictly** for the **Optional AI Study Assistant module**. This tutoring tool integrates the **Llama 3.3 70B** model via the **Groq API** to provide conversational explanations and real-world case studies for specific syllabus topics, restricted by strict system prompt guardrails to prevent off-topic questions (jailbreaking).
+> **The AI Boundary:** Artificial Intelligence is utilized **strictly** as an optional learning enhancement tool via the **AI Study Assistant**. It queries **Llama 3.3 70B** through the **Groq API** to provide context-restricted tutoring on the specific topic the student is studying, guarded by robust system instruction scopes to reject irrelevant or off-topic prompts.
 
 ---
 
