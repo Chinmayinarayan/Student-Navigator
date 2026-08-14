@@ -32,7 +32,7 @@ const careerSchema = new mongoose.Schema(
 
     level: {
       type: String,
-      enum: ["Beginner to Advanced", "Beginner", "Intermediate", "Advanced"],
+      enum: ["Beginner to Advanced", "Beginner", "Intermediate", "Advanced", "Intermediate to Advanced"],
       default: "Beginner to Advanced",
     },
 
