@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Student Navigator — Academic Planning, Career Guidance & Placement Preparation Platform Backend",
   "main": "server.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
